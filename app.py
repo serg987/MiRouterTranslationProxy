@@ -2,12 +2,13 @@ import requests
 import os
 
 from flask import Flask, request, Response
+
 from translation import translation, translation_keys_sorted, timezone_translation_keys_sorted, timezone_translation, \
     available_langs
 from css_to_modify import css_to_modify, css_to_modify_keys
 
 app = Flask(__name__)
-app.debug = True
+app.debug = False
 
 router_ip_from_env = None
 lang_from_env = None
@@ -95,7 +96,7 @@ def translate(text_list, url):
     return text_list
 
 
-# some CSS properties do not allow showing longer texts. Trying to fix it
+# some CSS properties do not allow showing long texts. Trying to fix it
 def modify_css(css_list, url):
     css_file_to_modify = None
     for k in css_to_modify_keys:
