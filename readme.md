@@ -10,18 +10,20 @@ Main features:
 
 * translation to any language by just adding translated strings (currently only English and Russian are implemented)
 * prevents tracking of user actions in WebUI (does not prevent from sending telemetry to Xiaomi)
-* small footprint - Docker image is less than 150 Mb, probably may run on Raspberry or other small computers as a 
+* small footprint - Docker image is less than 150 Mb, may probably run on Raspberry or other small computers as a 
 separate service (not tested yet)
 * ability to check the main language of browser and automatically provide proper translation; the user can change the 
 language 'on the fly' by adding language code to URL
 
 Current status of project:
 
-* English translation >95% (hard to analyze, but most likely ~98%)
-* Russian translation >80%
+* Desktop version: English translation >95% (hard to analyze, but most likely ~98%); Russian translation >80%
+* Mobile version: English translation >80% (most likely >95%); Russian translation >25% (mobile has its own web app, and 
+it is very glitchy and has limited functionality)
 * Most of the screens are checked, but still may be some HTML formatting and CSS issues as well as grammar, spelling, 
 syntax and not proper translations
-* Tested on Xiaomi AC2100 router (firmware v.2.0.23) and Chrome v.97 , Firefox v.96, Edge v.97.
+* Tested on Xiaomi Redmi AC2100 router (firmware v.2.0.23) and Chrome v.97 , Firefox v.96, Edge v.97; 
+Android Chrome and Firefox
 
 ## Warnings and disclaimer
 
@@ -104,11 +106,13 @@ to restore it, add `/resetlang` at the end of any URL
 
 ## Текущее состояние проекта:
 
-* Перевод на английский >95% (сложно оценить, скорее всего ~98%)
-* Перевод на русский >80%
+* Версия для настольных ПК: Перевод на английский >95% (сложно оценить, скорее всего ~98%); на русский >80%
+* Версия для мобильных устройств: Перевод на английский >80% (скорее всего >95%); на русский >25% (мобильная версия 
+ крайне глючная и имеет ограниченный функционал - ей лучше не пользоваться, даже напрямую с роутера)
 * Большинство страниц проверены, но все еще могут быть проблемы с HTML форматированием и CSS, также могут быть 
 грамматические, синтаксические и смысловые ошибки
-* Проверялось на Xiaomi AC2100 роутер (ПО v.2.0.23) и Chrome v.97, Firefox v.96, Edge v.97.
+* Проверялось на Xiaomi Redmi AC2100 роутер (ПО v.2.0.23) и Chrome v.97, Firefox v.96, Edge v.97; Android Chrome и 
+Firefox
 
 ## Предупреждения и отказ от обязательств
 
@@ -173,4 +177,3 @@ ENV MI_ROUTER_IP 192.168.1.1
 * как переменную окружения `MI_ROUTER_TRANSLATION_LANG` до запуска сервереа (`en`, `ru` - строчными буква, см. выше)
 После задания языка этими двуми способами, проверка языка браузера работать не будет. Если по каким-то причинам ее 
 нужно опять включить, добавьте `/resetlang` в конец адресной строки 
-

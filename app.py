@@ -7,7 +7,7 @@ from translation import translation, translation_keys_sorted, timezone_translati
     available_langs
 from css_to_modify import css_to_modify, css_to_modify_keys
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder=None)
 app.debug = False
 
 router_ip_from_env = None
@@ -125,13 +125,14 @@ def consume_request(path):
     else:
         url = f"http://{host}/{path}?{request.query_string.decode()}"
     if request.method == 'POST':
-        response = make_post_request(request, url)
+        response_from_router = make_post_request(request, url)
     if request.method == 'GET':
-        response = make_get_request(request, url)
-    if 'text/html' in response.content_type:
-        response.response = translate(response.response, url)
-        response.content_length = sum(len(s) for s in response.response)
-    if 'text/css' in response.content_type:
-        response.response = modify_css(response.response, url)
-        response.content_length = sum(len(s) for s in response.response)
-    return response
+        response_from_router = make_get_request(request, url)
+    if 'text/html' in response_from_router.content_type \
+            or ('application/javascript' in response_from_router.content_type and 'static/js' in path):
+        response_from_router.response = translate(response_from_router.response, url)
+        response_from_router.content_length = sum(len(s) for s in response_from_router.response)
+    if 'text/css' in response_from_router.content_type:
+        response_from_router.response = modify_css(response_from_router.response, url)
+        response_from_router.content_length = sum(len(s) for s in response_from_router.response)
+    return response_from_router
