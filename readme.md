@@ -53,11 +53,11 @@ Open http://localhost:5000/ in browser
 ### Run as a Docker container
 ```commandline
 docker build -t miproxytranslator .
-docker container run -it --publish 5000:5000 miproxytranslator
+docker container run -d -p 5000:5000 miproxytranslator
 ```
 You can restrict CPU and memory usage of the container if it is needed: 
 ```
-docker container run --cpus="1" --memory="80m" -it --publish 5000:5000 miproxytranslator
+docker container run --cpus="1" --memory="80m" -d -p --publish 5000:5000 miproxytranslator
 ```
 Open http://localhost:5000/ (or connect to the server where this container is running) in browser
 
@@ -143,11 +143,11 @@ flask run
 ### Запуск как контейнер Docker
 ```commandline
 docker build -t miproxytranslator .
-docker container run -it --publish 5000:5000 miproxytranslator
+docker container run -d -p 5000:5000 miproxytranslator
 ```
 Вы можете ограничить использование CPU и памяти контейнером, если необходимо: 
 ```
-docker container run --cpus="1" --memory="80m" -it --publish 5000:5000 miproxytranslator
+docker container run --cpus="1" --memory="80m" -d -p 5000:5000 miproxytranslator
 ```
 Откройте http://localhost:5000/ (или подключитесь к серверу, где контейнер запущен) в браузере
 
