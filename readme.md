@@ -10,8 +10,8 @@ Main features:
 
 * translation to any language by just adding translated strings (currently only English and Russian are implemented)
 * prevents tracking of user actions in WebUI (does not prevent from sending telemetry to Xiaomi)
-* small footprint - Docker image is less than 150 Mb, may probably run on Raspberry or other small computers as a 
-separate service (not tested yet)
+* small footprint - Docker image is less than 75 Mb, idle RAM usage - ~54Mb, may probably run on Raspberry or other 
+small computers as a separate service (not tested yet)
 * ability to check the main language of browser and automatically provide proper translation; the user can change the 
 language 'on the fly' by adding language code to URL
 
@@ -57,7 +57,7 @@ docker container run -d -p 5000:5000 miproxytranslator
 ```
 You can restrict CPU and memory usage of the container if it is needed: 
 ```
-docker container run --cpus="1" --memory="80m" -d -p --publish 5000:5000 miproxytranslator
+docker container run --cpus="1" --memory="64m" -d -p 5000:5000 miproxytranslator
 ```
 Open http://localhost:5000/ (or connect to the server where this container is running) in browser
 
@@ -99,8 +99,8 @@ to restore it, add `/resetlang` at the end of any URL
 * перевод на любой язык посредством добавления переведенных строк (на текущий момент сделаны только английский и русский)
 * предотвражает отслеживание действий пользователя в веб-интерфейсе роутера (но не предотвращает от отсылки телеметрии 
  в Xiaomi)
-* небольшой размер - образ Docker меньше, чем 150 Мб, вероятно, может быть запущен на Raspberry или других небольших 
-компьютерах как отдельный сервис (не проверялось)
+* небольшой размер - образ Docker занимает менее 75 Мб, потребление памяти в простое - ~54Мб. Вероятно, может быть 
+запущен на Raspberry или других небольших компьютерах как отдельный сервис (не проверялось)
 * возможность проверки основного языка браузера и автоматически выдавать нужный язык перевода из имеющихся; пользователь
 может изменить язык перевода "на лету" добавлением кода в адресную строку
 
@@ -147,12 +147,12 @@ docker container run -d -p 5000:5000 miproxytranslator
 ```
 Вы можете ограничить использование CPU и памяти контейнером, если необходимо: 
 ```
-docker container run --cpus="1" --memory="80m" -d -p 5000:5000 miproxytranslator
+docker container run --cpus="1" --memory="64m" -d -p 5000:5000 miproxytranslator
 ```
 Откройте http://localhost:5000/ (или подключитесь к серверу, где контейнер запущен) в браузере
 
 ### Настройка IP адреса роутера
-Обучно, роутеры Xiaomi откликаются на адрес miwifi.com в локальной сети. Проверьте, работает ли это в Вашей сети.
+Обычно, роутеры Xiaomi откликаются на адрес miwifi.com в локальной сети. Проверьте, работает ли это в Вашей сети.
 Это адрес забит по умолчанию в прокси. Если по каким-то причинам он не работает, необходимо принудительно задать
 IP адрес роутера как переменную окружения `MI_ROUTER_IP` до запуска прокси
 
