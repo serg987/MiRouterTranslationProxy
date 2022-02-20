@@ -834,7 +834,7 @@ translation = {
     '没有设置信息': {'en': 'No setup info', 'ru': 'Нет информации о настройке'},
     '移除': {'en': 'Remove', 'ru': 'Удалить'},
     '增加一项': {'en': 'Add', 'ru': 'Добавить'},
-    '一键绑定': {'en': 'Bind', 'ru': 'Привязать'}, # TODO
+    '一键绑定': {'en': 'Bind', 'ru': 'Привязать'},
     '绑定设备': {'en': 'Bind the device', 'ru': 'Привязать устройство'},
     '你确定要解除此项绑定？': {
         'en': 'Are you sure you want to unbind this device?',
