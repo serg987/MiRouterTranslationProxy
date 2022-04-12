@@ -17,6 +17,7 @@ if 'MI_ROUTER_IP' in os.environ:
 if 'MI_ROUTER_TRANSLATION_LANG' in os.environ and os.environ['MI_ROUTER_TRANSLATION_LANG'] in available_langs:
     lang_from_env = os.environ['MI_ROUTER_TRANSLATION_LANG']
 
+lang_zh_str = 'lang="zh"'
 host = 'miwifi.com' if router_ip_from_env is None else router_ip_from_env
 default_lang = 'en'
 lang = default_lang if lang_from_env is None else lang_from_env
@@ -78,22 +79,29 @@ def make_get_request(request_l, url):
 def translate(text_list, url):
     page_name = url.split('/')[-1]
     lang_to_translate = lang if lang_is_explicitly_set else lang_from_header
-    for ind, row in enumerate(text_list):
+    text_lines = [s.decode('UTF8') for s in text_list.splitlines()]
+    for ind, row in enumerate(text_lines):
+        if row.lstrip().startswith('//'):
+            continue
+        if lang_zh_str in row:
+            row = row.replace(lang_zh_str, f'lang="{lang_to_translate}"')
+            text_lines[ind] = row
+        if row.isascii():
+            continue
         if page_name == 'upgrade':
             for w in timezone_translation_keys_sorted:
-                w_encoded = w.encode("UTF8")
-                if w_encoded in row:
+                if w in row:
                     translation_str = timezone_translation[w][lang_to_translate] if \
                         lang_to_translate in timezone_translation[w] else timezone_translation[w][default_lang]
-                    row = row.replace(w_encoded, translation_str.encode("UTF8"))
+                    row = row.replace(w, translation_str)
         for w in translation_keys_sorted:
-            w_encoded = w.encode("UTF8")
-            if w_encoded in row:
+            if w in row:
                 translation_str = translation[w][lang_to_translate] \
                     if lang_to_translate in translation[w] else translation[w][default_lang]
-                row = row.replace(w_encoded, translation_str.encode("UTF8"))
-        text_list[ind] = row
-    return text_list
+                row = row.replace(w, translation_str)
+        text_lines[ind] = row
+    out = '\n'.join(text_lines).encode('UTF-8')
+    return [out]
 
 
 # some CSS properties do not allow showing long texts. Trying to fix it
@@ -103,16 +111,14 @@ def modify_css(css_list, url):
         if k in url:
             css_file_to_modify = k
     if css_file_to_modify is None:
-        return css_list
+        return [css_list]
     css_modify_list = css_to_modify[css_file_to_modify]
-    for ind, row in enumerate(css_list):
-        for i_dict in css_modify_list:
-            for k in i_dict:
-                k_enc = k.encode("UTF8")
-                if k_enc in row:
-                    row = row.replace(k_enc, i_dict[k].encode("UTF8"))
-        css_list[ind] = row
-    return css_list
+    for i_dict in css_modify_list:
+        for k in i_dict:
+            k_enc = k.encode("UTF8")
+            if k_enc in css_list:
+                css_list = css_list.replace(k_enc, i_dict[k].encode("UTF8"))
+    return [css_list]
 
 
 @app.route('/', defaults={'path': ''}, methods=['GET', 'POST'])
@@ -125,14 +131,18 @@ def consume_request(path):
     else:
         url = f"http://{host}/{path}?{request.query_string.decode()}"
     if request.method == 'POST':
-        response_from_router = make_post_request(request, url)
+        response_from_router: Response = make_post_request(request, url)
     if request.method == 'GET':
-        response_from_router = make_get_request(request, url)
-    if 'text/html' in response_from_router.content_type \
-            or ('application/javascript' in response_from_router.content_type and 'static/js' in path):
-        response_from_router.response = translate(response_from_router.response, url)
+        response_from_router: Response = make_get_request(request, url)
+    if 'image' in request.headers['Accept'] and 'text' not in request.headers['Accept']:
+        return response_from_router
+    response_payload = response_from_router.response[0]
+    if not response_payload.isascii() \
+            and ('text/html' in response_from_router.content_type
+                 or ('application/javascript' in response_from_router.content_type and 'static/js' in path)):
+        response_from_router.response = translate(response_payload, url)
         response_from_router.content_length = sum(len(s) for s in response_from_router.response)
     if 'text/css' in response_from_router.content_type:
-        response_from_router.response = modify_css(response_from_router.response, url)
+        response_from_router.response = modify_css(response_payload, url)
         response_from_router.content_length = sum(len(s) for s in response_from_router.response)
     return response_from_router

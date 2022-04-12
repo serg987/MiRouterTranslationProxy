@@ -575,8 +575,14 @@ translation = {
         'en': 'Failed to scan Wi-Fi, please make sure the radio is turned on',
         'ru': 'Не удалось просканировать Wi-Fi. Убедитесь, что оборудование включено.'
     },
-    '如果您已开启访客WiFi，切换为无线中继模式后，访客WiFi将会关闭': {'en': 'If you have turned on the guest Wi-Fi, after switching to wireless repeater mode, the guest Wi-Fi will be turned off'},
-    '如果您已开启访客WiFi，切换为有线中继模式后，访客WiFi将会关闭': {'en': 'If you have turned on the guest Wi-Fi, after switching to wired relay mode, the guest Wi-Fi will be turned off'},
+    '如果您已开启访客WiFi，切换为无线中继模式后，访客WiFi将会关闭': {
+        'en': 'If you have turned on the guest Wi-Fi, after switching to wireless repeater mode, the guest Wi-Fi will be turned off',
+        'ru': 'Если вы включили гостевой Wi-Fi, то после переключения в режим повторителя гостевой Wi-Fi будет выключен'
+    },
+    '如果您已开启访客WiFi，切换为有线中继模式后，访客WiFi将会关闭': {
+        'en': 'If you have turned on the guest Wi-Fi, after switching to wired relay mode, the guest Wi-Fi will be turned off',
+        'ru': 'Если вы включили гостевой Wi-Fi, то после переключения в режим проводного ретранслятора гостевой Wi-Fi будет выключен'
+    },
     '输入': {'en': 'Enter', 'ru': 'Ввод'},
     '选择已有网络': {'en': 'Choose an existing network', 'ru': 'Выберите существующую сеть'},
     '尝试有线中继失败了': {'en': 'Attempt to wire relay failed', 'ru': 'Ошибка включения проводного ретранслятора'},
@@ -1113,7 +1119,39 @@ translation = {
     '东方有线': {'en': 'Oriental Cable'},
     '华数宽带': {'en': 'Wasu Broadband'},
     '仅在宽带账号上网模式下展示账号密码等信息': {'en': 'Only display login, password and other information in ISP account Internet mode'},
-    '运营商通讯录': {'en': 'Carrier address book'}
+    '运营商通讯录': {'en': 'Carrier address book'},
+    '修改 Wi-Fi 设置': {'en': 'Modify Wi-Fi settings', 'ru': 'Изменение настроек Wi-Fi'},
+    '修改Wi-Fi设置': {'en': 'Modify Wi-Fi settings', 'ru': 'Изменение настроек Wi-Fi'},
+    '设置已经生效，等待30秒后 Wi-Fi 重启。': {
+        'en': 'The settings have taken effect, wait for 30 seconds to restart the Wi-Fi.',
+        'ru': 'Настройки изменены, подождите 30 секунд для перезапуска Wi-Fi.'
+    },
+    '你手工选择的当前信道有可能造成部分机型较旧的设备无法连接': {
+        'en': 'The current channel you manually select may cause some older devices to fail to connect',
+        'ru': 'Текущий канал, выбранный вручную, может вызвать ошибку подключения на некоторых старых устройствах'
+    },
+    '访客Wi-Fi': {'en': 'Guest Wi-Fi', 'ru': 'Гостевой Wi-Fi'},
+    '5G Wi-Fi启动失败': {'en': '5G Wi-Fi failed to start', 'ru': 'Ошибка запуска 5G Wi-Fi'},
+    '关闭2.4G Wi-Fi会同时关闭访客Wi-Fi': {
+        'en': 'Turning off 2.4G Wi-Fi will also turn off guest Wi-Fi',
+        'ru': 'Выключение 2.4G Wi-Fi также выключит гостевой Wi-Fi'
+    },
+    '关闭Wi-Fi会同时关闭访客Wi-Fi': {
+        'en': 'Turning off Wi-Fi also turns off guest Wi-Fi',
+        'ru': 'Выключение Wi-Fi также выключит гостевой Wi-Fi'
+    },
+    '未能扫描到Wi-Fi,请确保射频开启': {
+        'en': 'Failed to scan Wi-Fi, please make sure the radio is turned on',
+        'ru': 'Ошибка сканирования Wi-Fi, пожалуйста, убедитесь, что оборудование включено'
+    },
+    '如果您已开启访客wifi，切换为无线中继模式后，访客wifi将会关闭': {
+        'en': 'If you have turned on the guest wifi, after switching to wireless repeater mode, the guest wifi will be turned off',
+        'ru': 'Если вы включили гостевой Wi-Fi, то после переключения в режим повторителя гостевой Wi-Fi будет выключен'
+    },
+    '如果您已开启访客wifi，切换为有线中继模式后，访客wifi将会关闭': {
+        'en': 'If you have turned on the guest wifi, after switching to wired relay mode, the guest wifi will be turned off',
+        'ru': 'Если вы включили гостевой Wi-Fi, то после переключения в режим проводного ретранслятора гостевой Wi-Fi будет выключен'
+    },
 }
 
 timezone_translation = {
