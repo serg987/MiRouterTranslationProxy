@@ -3,8 +3,8 @@ import os
 
 from flask import Flask, request, Response
 
-from translation import translation, translation_keys_sorted, timezone_translation_keys_sorted, timezone_translation, \
-    available_langs
+from translation import translation, translation_keys_sorted, available_langs
+from translation_tz import timezone_translation, timezone_translation_keys_sorted
 from css_to_modify import css_to_modify, css_to_modify_keys
 
 app = Flask(__name__, static_folder=None)

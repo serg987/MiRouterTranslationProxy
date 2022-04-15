@@ -30,25 +30,25 @@ translation = {
     '台': {'en': 'pcs.', 'ru': 'шт.'},
     '本地管理': {'en': 'Managing ', 'ru': 'Управление '},
     '重启路由器': {'en': 'Restart router', 'ru': 'Перезагрузить роутер'},
-    '确定重启路由器，重启将断开和Redmi路由器的连接。': {
-        'en': 'You will be disconnected from Redmi router during restart.',
+    '确定重启路由器，重启将断开和Redmi路由器的连接': {
+        'en': 'You will be disconnected from Redmi router during restart',
         'ru': 'Вы будете отключены от роутера Redmi на время перезагрузки'
     },
-    '是否确定关闭路由器，操作将断开和Redmi路由器的连接。': {'en': 'Are you sure to turn off the router? This operation will disconnect you from the Redmi router.'},
+    '是否确定关闭路由器，操作将断开和Redmi路由器的连接': {'en': 'Are you sure to turn off the router? This operation will disconnect you from the Redmi router'},
     '确定要恢复出厂设置让Redmi路由器回到初始状态？': {
         'en': 'Are you sure you want to reset the Redmi router to factory settings?',
         'ru': 'Вы уверены, что Вы хотите сбросить роутер Redmi до заводских настроек?'
     },
     '路由器名称': {'en': 'Router Name', 'ru': 'Статус'},
     '位置': {'en': 'Location', 'ru': 'Местоположение'},
-    '路由器重启需要等待十几秒或更多时间，重启过程中将会断开网络连接，稍后将自动重新连接网络。': {'en': 'The router needs more than ten seconds to restart. During the restart, the network connection will be disconnected, and will be automatically reconnected later.'},
+    '路由器重启需要等待十几秒或更多时间，重启过程中将会断开网络连接，稍后将自动重新连接网络': {'en': 'The router needs more than ten seconds to restart. During the restart, the network connection will be disconnected, and will be automatically reconnected later'},
     '手机扫描二维码安装客户端': {'en': 'Scan QR code to install App', 'ru': 'Просканируйте QR код чтобы установить приложение'},
-    '重启中': {'en': 'Restarting...', 'ru': 'Перезагрузка...'},
-    '操作生效，等待设备重启...': {'en': 'The operation in process, wait for the device to restart...', 'ru': 'Операция выполняется, подождите, пока устройство перезагрузится'},
+    '重启中': {'en': 'Restarting', 'ru': 'Перезагрузка'},
+    '操作生效，等待设备重启': {'en': 'The operation in process, wait for the device to restart', 'ru': 'Операция выполняется, подождите, пока устройство перезагрузится'},
     '操作生效,重启成功！': {'en': 'The operation is complete, and the restart is successful!', 'ru': 'Операция выполнена, и перезагрузка прошла успешно!'},
     '避让IP冲突': {'en': 'avoid IP conflicts', 'ru': 'избегайте конфликтов IP адресов'},
     '执行此操作，局域网IP将会变更为': {'en': 'LAN IP will be changed to ', 'ru': 'IP адрес будет изменен на '},
-    '该过程无线网络会重启，将出现短暂掉线。': {'en': 'During this process, the wireless network will restart, and there will be a brief disconnection.'},
+    '该过程无线网络会重启，将出现短暂掉线': {'en': 'During this process, the wireless network will restart, and there will be a brief disconnection'},
     '带宽': {'en': 'Bandwidth ', 'ru': 'Скорость '},
     '名称': {'en': ' Name', 'ru': ' Имя'},
     '密码': {'en': ' Password', 'ru': ' Пароль'},
@@ -56,17 +56,17 @@ translation = {
     '路由器型号': {'en': 'Router model', 'ru': 'Модель роутера'},
     '系统ROM版本': {'en': 'System ROM version', 'ru': 'Версия системного ПО'},
     'MAC地址': {'en': 'MAC address', 'ru': 'MAC адрес'},
-    '系统版本': {'en': 'Software version ', 'ru': 'Версия ПО'},
-    '稳定版': {'en': ' Release', 'ru': ' Релиз'},
+    '系统版本': {'en': 'Software version', 'ru': 'Версия ПО'},
+    '稳定版': {'en': ' release'},
     '路由器': {'en': 'Router ', 'ru': 'Роутер'},
     '设置': {'en': ' Setup', 'ru': ' Установка'},
     '上网设置': {'en': 'Internet settings', 'ru': 'Настройки Интернета'},
     '安全中心': {'en': 'Security settings', 'ru': 'Настройки безопасности'},
     '局域网设置': {'en': 'LAN settings', 'ru': 'Настройки сети'},
     '系统状态': {'en': 'System status', 'ru': 'Состояние системы'},
-    '开启后，2.4G和5G会使用同一名称，路由器会自动为终端选择最佳WiFi网络，如离路由器较近，会切换至5G网络，反之会切换至2.4G网络。但由于终端设备存在差异，可能存在：自动切换信号源时网络会短暂中断，甚至频繁掉线等问题。': {
-        'en': 'If turned on, 2.4G and 5G use the same name, and the router will automatically select the best Wi-Fi network for the client. If it is closer to the Router, it will switch to the 5G network, otherwise it will switch to the 2.4G network. However, due to differences in clients, there may be problems such as: the network will be temporarily interrupted or even dropped frequently when the signal source is automatically switched.',
-        'ru': 'Если включено, сети Wi-Fi 2.4G и 5G будут использовать одно и тоже имя, и роутер будет автоматически выбирать наилучшую сеть для устройства. Если оно ближе к роутеру, он переключится на сеть 5G, в противном случае - на сеть 2.4G. Однако, из-за отличий в устройствах, могут возникнуть проблемы, такие как: сеть может быть временно прерваться или даже сбрасываться часто, когда сети автоматически переключаются.'
+    '开启后，2.4G和5G会使用同一名称，路由器会自动为终端选择最佳WiFi网络，如离路由器较近，会切换至5G网络，反之会切换至2.4G网络。但由于终端设备存在差异，可能存在：自动切换信号源时网络会短暂中断，甚至频繁掉线等问题': {
+        'en': 'If turned on, 2.4G and 5G use the same name, and the router will automatically select the best Wi-Fi network for the client. If it is closer to the Router, it will switch to the 5G network, otherwise it will switch to the 2.4G network. However, due to differences in clients, there may be problems such as: the network will be temporarily interrupted or even dropped frequently when the signal source is automatically switched',
+        'ru': 'Если включено, сети Wi-Fi 2.4G и 5G будут использовать одно и тоже имя, и роутер будет автоматически выбирать наилучшую сеть для устройства. Если оно ближе к роутеру, он переключится на сеть 5G, в противном случае - на сеть 2.4G. Однако, из-за отличий в устройствах, могут возникнуть проблемы, такие как: сеть может быть временно прерваться или даже сбрасываться часто, когда сети автоматически переключаются'
     },
     '开关': {'en': 'Switch', 'ru': 'Включить'},
     '开启': {'en': 'On', 'ru': 'Вкл'},
@@ -84,9 +84,9 @@ translation = {
     '标准': {'en': 'Med', 'ru': 'Средняя'},
     '节能': {'en': 'Min', 'ru': 'Минимум'},
     '保存': {'en': 'Save', 'ru': 'Сохранить'},
-    'MU-MIMO“多用户多入多出”技术，与其依赖的Beamforming“波束成形”技术结合，可以让路由器与多台终端同时通信，极大改善无线资源利用效率，提升Wi-Fi体验。该功能生效需要路由器和终端同时支持。开启开关会同时启用MU-MIMO和Beamforming。': {
-        'en': 'The MU-MIMO (multi-user multiple-input multiple-output) technology, combined with the Beamforming technology which relies on, allows the Router to communicate with multiple clients at the same time, greatly improving the efficiency of wireless resource utilization and improving the Wi-Fi experience. For this function to take effect, both the router and the client must support it. Turning on the switch enables both MU-MIMO and Beamforming.',
-        'ru': 'Технология MU-MIMO, объединенная с технологией Beamforming, на которой она основана, позволяет роутеру общаться с несколькими устройствами одновременно, значительно улучшая эффективность использования беспроводных ресурсов и улучшая опыт пользования Wi-Fi. Для того, чтобы данная функция работала, ее должны поддерживать и роутер, и устройство. Данный переключатель включает и MU-MIMO, и Beamforming.'
+    'MU-MIMO“多用户多入多出”技术，与其依赖的Beamforming“波束成形”技术结合，可以让路由器与多台终端同时通信，极大改善无线资源利用效率，提升Wi-Fi体验。该功能生效需要路由器和终端同时支持。开启开关会同时启用MU-MIMO和Beamforming': {
+        'en': 'The MU-MIMO (multi-user multiple-input multiple-output) technology, combined with the Beamforming technology which relies on, allows the Router to communicate with multiple clients at the same time, greatly improving the efficiency of wireless resource utilization and improving the Wi-Fi experience. For this function to take effect, both the router and the client must support it. Turning on the switch enables both MU-MIMO and Beamforming',
+        'ru': 'Технология MU-MIMO, объединенная с технологией Beamforming, на которой она основана, позволяет роутеру общаться с несколькими устройствами одновременно, значительно улучшая эффективность использования беспроводных ресурсов и улучшая опыт пользования Wi-Fi. Для того, чтобы данная функция работала, ее должны поддерживать и роутер, и устройство. Данный переключатель включает и MU-MIMO, и Beamforming'
     },
     '使用小米WiFi APP管理您的路由器': {
         'en': 'Manage your router with Xiaomi Wi-Fi APP',
@@ -127,95 +127,95 @@ translation = {
     '取消': {'en': 'Cancel', 'ru': 'Отменить'},
     '加载中': {'en': 'Loading', 'ru': 'Загружается'},
     '消息框': {'en': 'Message box', 'ru': 'Сообщения'},
-    '请输入一个{$0}位以内正整数。': {
-        'en': 'Please enter a positive integer within {$0} digits.',
+    '请输入一个{$0}位以内正整数': {
+        'en': 'Please enter a positive integer within {$0} digits',
         'ru': 'Пожалуйста введите положительное целое число не более {$0} цифр'
     },
     '关闭路由器': {'en': 'Turn off the router', 'ru': 'Выключить роутер'},
     '关机中，请等待路由器指示灯熄灭后再断开电源': {'en': 'During shutdown, please wait for the router indicator to turn off before disconnecting the power'},
     '恢复出厂设置': {'en': 'Reset to factory settings', 'ru': 'Сбросить до заводских настроек'},
-    '数字输入格式为&#34;{$0}&#34;。': {
-        'en': 'The numeric input format is &#34;{$0}&#34;.',
-        'ru': 'Числовой формат ввода: &#34;{$0}&#34;.'},
-    '输入值太大，最大允许{$0}。': {
-        'en': 'The input value is too large, a maximum of {$0} is allowed.',
-        'ru': 'Введенное значение слишком велико, разрешено не более {$0}.'
+    '数字输入格式为&#34;{$0}&#34;': {
+        'en': 'The numeric input format is &#34;{$0}&#34;',
+        'ru': 'Числовой формат ввода: &#34;{$0}&#34;'},
+    '输入值太大，最大允许{$0}': {
+        'en': 'The input value is too large, a maximum of {$0} is allowed',
+        'ru': 'Введенное значение слишком велико, разрешено не более {$0}'
     },
-    '输入值太小，最小允许{$0}。': {
-        'en': 'The input value is too small, the minimum allowed {$0}.',
-        'ru': 'Введенное значение слишком мало, разрешено минимум {$0}.'
+    '输入值太小，最小允许{$0}': {
+        'en': 'The input value is too small, the minimum allowed {$0}',
+        'ru': 'Введенное значение слишком мало, разрешено минимум {$0}'
     },
-    '请输入一个2位负整数。': {
-        'en': 'Please enter a 2-digit negative integer.',
-        'ru': 'Пожалуйста, введите 2-значное отрицательное целое число.'
+    '请输入一个2位负整数': {
+        'en': 'Please enter a 2-digit negative integer',
+        'ru': 'Пожалуйста, введите 2-значное отрицательное целое число'
     },
-    '您输入的范围不合理。': {
-        'en': 'The range you entered is not reasonable.',
-        'ru': 'Введенный диапазон не является приемлемым.'
+    '您输入的范围不合理': {
+        'en': 'The range you entered is not reasonable',
+        'ru': 'Введенный диапазон не является приемлемым'
     },
-    '数字前面好像有多余的&#34;0&#34;。': {
-        'en': 'There seems to be an extra "0" at the beginning of the number.',
-        'ru': 'Кажется, что в начале числа есть лишний "0".'
+    '数字前面好像有多余的&#34;0&#34;': {
+        'en': 'There seems to be an extra "0" at the beginning of the number',
+        'ru': 'Кажется, что в начале числа есть лишний "0"'
     },
-    '日期输入格式为&#34;YYYY-MM-DD&#34;。': {
-        'en': 'Date input format is &#34;YYYY-MM-DD&#34;.',
-        'ru': 'Формат ввода данных: &#34;YYYY-MM-DD&#34;.'
+    '日期输入格式为&#34;YYYY-MM-DD&#34;': {
+        'en': 'Date input format is &#34;YYYY-MM-DD&#34;',
+        'ru': 'Формат ввода данных: &#34;YYYY-MM-DD&#34;'
     },
-    '日期太晚，最晚允许{$0}。': {
-        'en': 'The date is too late, at the latest {$0} is allowed.',
-        'ru': 'Дата слишком поздняя, разрешено самое позднее {$0}.'
+    '日期太晚，最晚允许{$0}': {
+        'en': 'The date is too late, at the latest {$0} is allowed',
+        'ru': 'Дата слишком поздняя, разрешено самое позднее {$0}'
     },
-    '日期太早，最早允许{$0}。': {
-        'en': 'The date is too early, the earliest {$0} allowed.',
-        'ru': 'Дата слишком ранняя, самая ранняя разрешенная {$0}.'
+    '日期太早，最早允许{$0}': {
+        'en': 'The date is too early, the earliest {$0} allowed',
+        'ru': 'Дата слишком ранняя, самая ранняя разрешенная {$0}'
     },
-    '起始日期不能大于截止日期。': {
-        'en': 'The start date cannot be greater than the end date.',
-        'ru': 'Дата начала не может быть больше даты окончания.'
+    '起始日期不能大于截止日期': {
+        'en': 'The start date cannot be greater than the end date',
+        'ru': 'Дата начала не может быть больше даты окончания'
     },
-    '截止日期不能小于起始日期。': {
-        'en': 'The end date cannot be less than the start date.',
-        'ru': 'Дата окончания не может быть меньше даты начала.'
+    '截止日期不能小于起始日期': {
+        'en': 'The end date cannot be less than the start date',
+        'ru': 'Дата окончания не может быть меньше даты начала'
     },
-    '时间跨度不得超过{$0}天。': {
-        'en': 'The time span cannot exceed {$0} days.',
-        'ru': 'Промежуток времени не может превышать {$0} дней.'
+    '时间跨度不得超过{$0}天': {
+        'en': 'The time span cannot exceed {$0} days',
+        'ru': 'Промежуток времени не может превышать {$0} дней'
     },
-    '最多允许{$0}个字。': {
-        'en': 'A maximum of {$0} characters are allowed.',
-        'ru': 'Допускается не более {$0} символов.'
+    '最多允许{$0}个字': {
+        'en': 'A maximum of {$0} characters are allowed',
+        'ru': 'Допускается не более {$0} символов'
     },
-    '请至少输入{$0}个字。': {
-        'en': 'Please enter at least {$0} characters.',
-        'ru': 'Введите не менее {$0} символов.'
+    '请至少输入{$0}个字': {
+        'en': 'Please enter at least {$0} characters',
+        'ru': 'Введите не менее {$0} символов'
     },
-    '最多允许{$0}个字节。': {
-        'en': 'A maximum of {$0} bytes are allowed.',
-        'ru': 'Допускается не более {$0} байт.'
+    '最多允许{$0}个字节': {
+        'en': 'A maximum of {$0} bytes are allowed',
+        'ru': 'Допускается не более {$0} байт'
     },
-    '请至少输入{$0}个字节。': {
-        'en': 'Please enter at least {$0} bytes.',
-        'ru': 'Введите не менее {$0} байт.'
+    '请至少输入{$0}个字节': {
+        'en': 'Please enter at least {$0} bytes',
+        'ru': 'Введите не менее {$0} байт'
     },
-    '两次输入不一致。': {
-        'en': 'The two entries are inconsistent.',
-        'ru': 'Два введенных значения не совпадают.'
+    '两次输入不一致': {
+        'en': 'The two entries are inconsistent',
+        'ru': 'Два введенных значения не совпадают'
     },
-    '请检查您输入的时间格式。': {'en': 'Please check the time format you entered.'},
-    '请检查您输入的Email格式。': {'en': 'Please check the email format you entered.'},
-    '请检查您输入的手机号码。': {'en': 'Please check the mobile number you entered.'},
-    '请检查您输入的电话区号。': {'en': 'Please check the area code you entered.'},
-    '请检查您输入的电话分机号码。': {'en': 'Please check the phone extension number you entered.'},
-    '请检查您输入的邮政编码。': {'en': 'Please check the zip code you entered.'},
-    '请检查您输入的身份证号码，目前只支持15位或者18位。': {'en': 'Please check the ID number you entered, currently only 15 or 18 digits are supported.'},
-    '请检查您输入的银行账号。': {'en': 'Please check the bank account number you entered.'},
-    '请检查您输入的验证码。': {'en': 'Please check the verification code you entered.'},
-    '请检查您选择的图片文件路径，只支持jpg、jpeg、png、gif、tif、bmp格式。': {'en': 'Please check the image file you selected, only jpg, jpeg, png, gif, tif, bmp formats are supported.'},
-    '请检查您的输入。': {'en': 'Please check your entry.'},
-    '请填写{$0}。': {'en': 'Please fill in {$0}.'},
-    '请选择{$0}。': {'en': 'Please select {$0}.'},
-    '请上传{$0}。': {'en': 'Please upload {$0}.'},
-    '{$0}输入不完整.': {'en': '{$0} input is incomplete.'},
+    '请检查您输入的时间格式': {'en': 'Please check the time format you entered'},
+    '请检查您输入的Email格式': {'en': 'Please check the email format you entered'},
+    '请检查您输入的手机号码': {'en': 'Please check the mobile number you entered'},
+    '请检查您输入的电话区号': {'en': 'Please check the area code you entered'},
+    '请检查您输入的电话分机号码': {'en': 'Please check the phone extension number you entered'},
+    '请检查您输入的邮政编码': {'en': 'Please check the zip code you entered'},
+    '请检查您输入的身份证号码，目前只支持15位或者18位': {'en': 'Please check the ID number you entered, currently only 15 or 18 digits are supported'},
+    '请检查您输入的银行账号': {'en': 'Please check the bank account number you entered'},
+    '请检查您输入的验证码': {'en': 'Please check the verification code you entered'},
+    '请检查您选择的图片文件路径，只支持jpg、jpeg、png、gif、tif、bmp格式': {'en': 'Please check the image file you selected, only jpg, jpeg, png, gif, tif, bmp formats are supported'},
+    '请检查您的输入': {'en': 'Please check your entry'},
+    '请填写{$0}': {'en': 'Please fill in {$0}'},
+    '请选择{$0}': {'en': 'Please select {$0}'},
+    '请上传{$0}': {'en': 'Please upload {$0}'},
+    '{$0}输入不完整': {'en': '{$0} input is incomplete'},
     '输入格式不正确,请输入标准字符': {'en': 'The input format is incorrect, please enter standard characters'},
     'MAC地址格式有误，如': {'en': 'The MAC address format is incorrect, such as', 'ru': 'Неверный формат MAC-адреса, пример'},
     '密码输入有误': {'en': 'Password entered incorrectly', 'ru': 'Пароль введен неправильно'},
@@ -258,7 +258,7 @@ translation = {
         'en': 'Enable the IPv6 Internet access function (please consult the network operator whether IPv6 is supported before use)',
         'ru': 'Включить IPv6 для доступа в интернет (проконсультируйтесь у провайдера, поддерживается ли им IPv6)'
     },
-    '你的浏览器禁止了Javascript功能，会造成无法使用系统进行路由器管理，请开启。': {'en': 'Please turn on Javascript in your browser, it makes it impossible to use the system for router management.'},
+    '你的浏览器禁止了Javascript功能，会造成无法使用系统进行路由器管理，请开启': {'en': 'Please turn on Javascript in your browser, it makes it impossible to use the system for router management'},
     '正在检测上网连接方式，请稍等': {
         'en': 'Detecting internet connection, please wait',
         'ru': 'Обнаружение интернет подключения. Пожалуйста, подождите'
@@ -311,20 +311,20 @@ translation = {
     '找不到要中继的网络': {'en': 'Could not find a network to relay', 'ru': 'Не удалось найти сеть для ретрансляции'},
     '网络密码': {'en': 'Network password', 'ru': 'Пароль сети'},
     '设置WiFi名称和密码': {'en': 'Set Wi-Fi name and password', 'ru': 'Установите имя и пароль Wi-Fi сети'},
-    '请确认主路由器和中继路由器的Wi-Fi均已开启。': {
-        'en': 'Please make sure that the Wi-Fi of both the main router and the relay router are turned on.',
-        'ru': 'Пожалуйста, убедитесь, что Wi-Fi как на основном маршрутизаторе, так и на промежуточном маршрутизаторе включен.'
+    '请确认主路由器和中继路由器的Wi-Fi均已开启': {
+        'en': 'Please make sure that the Wi-Fi of both the main router and the relay router are turned on',
+        'ru': 'Пожалуйста, убедитесь, что Wi-Fi как на основном маршрутизаторе, так и на промежуточном маршрутизаторе включен'
     },
     '无线网络的名称密码与目标路由器一致': {
         'en': 'The name and password of the wireless network are the same as the target router',
-        'ru': 'Имя и пароль беспроводной сети такие же, как у основного роутера.'
+        'ru': 'Имя и пароль беспроводной сети такие же, как у основного роутера'
     },
     '一键无线中继': {'en': 'Wireless repeater in one click', 'ru': 'Беспроводной повторитель в один клик'},
     '上传日志': {'en': 'Upload Log', 'ru': 'Выгрузить журнал'},
-    '请检查您输入的电话号码。': {'en': 'Please check the phone number you entered.'},
-    '请检查您输入的姓名。': {'en': 'Please check the name you entered.'},
+    '请检查您输入的电话号码': {'en': 'Please check the phone number you entered'},
+    '请检查您输入的姓名': {'en': 'Please check the name you entered'},
     '关闭路由器将断开其他设备的数据访问和网络连接，之后便可以安全的断开电源。（再次启动需要手工连接电源）': {'en': 'Turning off the router will disconnect data access and network connections from other devices, after which it is safe to disconnect power. (You need to manually connect the power supply to start again)'},
-    '自动连接路由器失败，请检查无线或者网线是否连接正确。': {'en': 'Failed to connect to the router automatically, please check whether the wireless or network cable is connected correctly.'},
+    '自动连接路由器失败，请检查无线或者网线是否连接正确': {'en': 'Failed to connect to the router automatically, please check whether the wireless or network cable is connected correctly'},
     '等待自动跳转... 用时{$time}秒': {'en': 'Waiting for automatic reboot... in {$time} seconds'},
     '小时': {'en': ' hours ', 'ru': ' час '},
     '分': {'en': ' mins ', 'ru': ' мин '},
@@ -357,12 +357,12 @@ translation = {
     '暂无设备接入': {'en': 'No device access', 'ru': 'Нет доступа для устройств'},
     '网关地址': {'en': 'Gateway address', 'ru': 'Адрес шлюза'},
     '当前未有5G连网设备': {'en': 'There are currently no 5G connected devices', 'ru': 'В настоящее время нет подключенных устройств 5G'},
-    '5G WiFi是运行在5GHz以上的高频段的独立WiFi比较2.4G WiFi速度更快更稳定，适合电视、盒子包括距离路由器较近的设备': {'en': '5G Wi-Fi is an independent Wi-Fi operating in a high frequency band above 5GHz. Compared with 2.4G Wi-Fi, the speed is faster and more stable. It is suitable for TVs and boxes, including devices that are closer to the router.'},
+    '5G WiFi是运行在5GHz以上的高频段的独立WiFi比较2.4G WiFi速度更快更稳定，适合电视、盒子包括距离路由器较近的设备': {'en': '5G Wi-Fi is an independent Wi-Fi operating in a high frequency band above 5GHz. Compared with 2.4G Wi-Fi, the speed is faster and more stable. It is suitable for TVs and boxes, including devices that are closer to the router'},
     '去小米网购买5G智能设备': {'en': 'Go to Xiaomi.com to buy 5G smart devices'},
     '当前未开启访客模式': {'en': 'Guest mode is not enabled', 'ru': 'Гостевая сеть не включена'},
     '开启后会自动生成一个独立的WiFi，这样在亲朋到好友到来时，独立的WiFi账号和家庭网络彼此隔离，也不用担心家庭网络中的任何隐私会泄露出去': {
-        'en': 'If enabled, an independent Wi-Fi is automatically generated, so when relatives and friends arrive, the independent Wi-Fi network and the home network are isolated from each other, and there is no need to worry about privacy in the home network being leaked out.',
-        'ru': 'Если эта функция включена, автоматически создается независимый Wi-Fi, и, когда приходят родственники и друзья, независимая сеть Wi-Fi и домашняя сеть изолированы друг от друга, и не нужно беспокоиться об утечке конфиденциальности в домашней сети.'
+        'en': 'If enabled, an independent Wi-Fi is automatically generated, so when relatives and friends arrive, the independent Wi-Fi network and the home network are isolated from each other, and there is no need to worry about privacy in the home network being leaked out',
+        'ru': 'Если эта функция включена, автоматически создается независимый Wi-Fi, и, когда приходят родственники и друзья, независимая сеть Wi-Fi и домашняя сеть изолированы друг от друга, и не нужно беспокоиться об утечке конфиденциальности в домашней сети'
     },
     '开启访客WiFi': {'en': 'Turn on guest Wi-Fi', 'ru': 'Включить гостевую сеть Wi-Fi'},
     '任务名称': {'en': 'Task name'},
@@ -396,7 +396,7 @@ translation = {
     '手工设置外网带宽': {'en': 'Manually set the Internet speed', 'ru': 'Ручная установка скорости Интернета'},
     '点击测速': {'en': 'Click speed'},
     '网络速度': {'en': 'Internet speed', 'ru': 'Скорость Интернета'},
-    '正在测速，请等待。': {'en': 'Speed measurement, please wait.', 'ru': 'Измерение скорости. Пожалуста, подождите'},
+    '正在测速，请等待': {'en': 'Speed measurement, please wait', 'ru': 'Измерение скорости. Пожалуйста, подождите'},
     '外网带宽检测': {'en': 'External network bandwidth detection', 'ru': 'Обнаружение пропускной способности внешней сети'},
     '点击进行网络检测': {'en': 'Click to perform network detection', 'ru': 'Нажмите, чтобы выполнить обнаружение сети'},
     'Mesh组网设备': {'en': 'Mesh networking equipment'},
@@ -420,7 +420,7 @@ translation = {
     '提示': {'en': 'Hint'},
     '结束任务': {'en': 'kill task'},
     '暂停所有下载': {'en': 'Pause all downloads'},
-    '如果因为下载导致路由器卡慢，建议你点击 “暂停所有下载” 来解决。若使用结束任务，路由下载功能将被停用，下次使用时你需要在当前界面再次开启': {'en': 'If the router is slow due to downloading, it is recommended to click "Pause all downloads" to solve it. If you use the task killing, the route download function will be disabled, and you need to enable it again in the current interface when you use it next time.'},
+    '如果因为下载导致路由器卡慢，建议你点击 “暂停所有下载” 来解决。若使用结束任务，路由下载功能将被停用，下次使用时你需要在当前界面再次开启': {'en': 'If the router is slow due to downloading, it is recommended to click "Pause all downloads" to solve it. If you use the task killing, the route download function will be disabled, and you need to enable it again in the current interface when you use it next time'},
     '访客WiFi': {'en': 'Guest Wi-Fi', 'ru': 'Гостевая Wi-Fi сеть'},
     '选项': {'en': 'Options', 'ru': 'Опции'},
     '仅支持WPA加密方式的设备将无法连接': {
@@ -437,13 +437,13 @@ translation = {
     },
     '关闭2.4G WiFi会同时关闭访客WiFi': {
         'en': 'Turning off 2.4G Wi-Fi will also turn off guest Wi-Fi',
-        'ru': 'Отключение 2.4G Wi-Fi также отключит гостевой Wi-Fi.'
+        'ru': 'Отключение 2.4G Wi-Fi также отключит гостевой Wi-Fi'
     },
     '关闭WiFi会同时关闭访客WiFi': {'en': 'Turning off Wi-Fi also turns off guest Wi-Fi', 'ru': ''},
     '少数设备可能不支持中文或特殊字符': {'en': 'A few devices may not support Chinese or special characters'},
-    'WiFi双频合一关闭，5G会默认使用2.4G相同的网络名称（加后缀_5G）和密码，如需设成不一样，请进行修改。': {
-        'en': 'Wi-Fi dual-band integration is turned off, and 5G will use the same network name (with the suffix _5G) and password as 2.4G by default. If you need to set it differently, please modify it.',
-        'ru': 'Двухдиапазонная сеть Wi-Fi отключена, и по умолчанию сеть 5G будет использовать то же имя сети (с суффиксом _5G) и пароль, что и 2.4G. Если вам нужно установить его отдельно, пожалуйста, измените его.'
+    'WiFi双频合一关闭，5G会默认使用2.4G相同的网络名称（加后缀_5G）和密码，如需设成不一样，请进行修改': {
+        'en': 'Wi-Fi dual-band integration is turned off, and 5G will use the same network name (with the suffix _5G) and password as 2.4G by default. If you need to set it differently, please modify it',
+        'ru': 'Двухдиапазонная сеть Wi-Fi отключена, и по умолчанию сеть 5G будет использовать то же имя сети (с суффиксом _5G) и пароль, что и 2.4G. Если вам нужно установить его отдельно, пожалуйста, измените его'
     },
     '修改 WiFi 设置': {'en': 'Modify Wi-Fi settings', 'ru': 'Изменить настройки Wi-Fi'},
     '设置成功正在重启，需要30秒请等待': {
@@ -456,9 +456,9 @@ translation = {
         'ru': 'Эта операция перезапустит Wi-Fi и приведет к потере соединения со всеми устройствами Wi-Fi. Вы хотите подтвердить изменения?'
     },
     'WiFi 信号强度设置': {'en': 'Wi-Fi signal strength settings', 'ru': 'Настройки мощности сигнала Wi-Fi'},
-    '设置已经生效，等待30秒后 WiFi 重启。': {
-        'en': 'The settings have been applied, wait for 30 seconds to restart the Wi-Fi.',
-        'ru': 'Настройки применены, подождите 30 секунд, чтобы перезапустить Wi-Fi.'
+    '设置已经生效，等待30秒后 WiFi 重启': {
+        'en': 'The settings have been applied, wait for 30 seconds to restart the Wi-Fi',
+        'ru': 'Настройки применены, подождите 30 секунд, чтобы перезапустить Wi-Fi'
     },
     '你什么都没改变，提交什么啊': {
         'en': 'You have not changed anything, are you sure?',
@@ -495,7 +495,7 @@ translation = {
     },
     '用miwifi.com也可以访问路由器管理页面': {
         'en': 'You can also access the router management page on miwifi.com',
-        'ru': 'Вы также можете получить доступ к странице управления маршрутизатором на miwifi.com.'
+        'ru': 'Вы также можете получить доступ к странице управления маршрутизатором на miwifi.com'
     },
     '有线中继工作模式说明': {'en': 'Wired relay working mode description'},
     '请确保Redmi路由器的WAN口与旧路由器通过网线连接': {'en': 'Please make sure that the WAN port of the Redmi router is connected to the old router via a network cable'},
@@ -510,7 +510,7 @@ translation = {
     '地址': {'en': ' address', 'ru': ' адрес'},
     '地址前缀长度默认为128位': {
         'en': 'The address prefix length default is 128 bits',
-        'ru': 'Длина префикса адреса по умолчанию составляет 128 бит.'
+        'ru': 'Длина префикса адреса по умолчанию составляет 128 бит'
     },
     '前缀': {'en': 'prefix', 'ru': 'префикс'},
     '前缀长度': {'en': ' prefix length', 'ru': ' длина префикса'},
@@ -532,16 +532,16 @@ translation = {
         'ru': 'Услуга PPPoE недоступна из-за задолженности '},
     '联系运营商查询宽带是否欠费': {
         'en': 'Contact the operator to check whether the PPPoE is in arrears',
-        'ru': 'Свяжитесь с оператором, чтобы проверить, есть ли задолженность по PPPoE.'
+        'ru': 'Свяжитесь с оператором, чтобы проверить, есть ли задолженность по PPPoE'
     },
     '宽带运营商机房故障': {'en': 'PPPoE server failure', 'ru': 'Сбой сервера PPPoE'},
     '联系运营商了解是否当地有线路故障': {
         'en': 'Contact the operator to find out if there is a local line failure',
-        'ru': 'Свяжитесь с оператором, чтобы узнать, есть ли сбой в линии.'
+        'ru': 'Свяжитесь с оператором, чтобы узнать, есть ли сбой в линии'
     },
     '拨号状态异常': {'en': 'PPPoE status is abnormal', 'ru': 'Состояние PPPoE ненормальное'},
     '办法1:尝试关闭调制解调器(猫)和路由器，几分钟后重新通电再次尝试拨号': {'en': 'Method 1: Try to turn off the modem (cat) and router, then power on again after a few minutes and try to connect again'},
-    '办法2:使用电脑或者旧路由器完成拨号，然后手工选择“结束连接”或“关闭连接”，再尝试使用Redmi路由器拨号。': {'en': 'Method 2: Use a computer or an old router to complete the connect, then manually select "End Connection" or "Close Connection", and then try to use the Redmi router to connect.'},
+    '办法2:使用电脑或者旧路由器完成拨号，然后手工选择“结束连接”或“关闭连接”，再尝试使用Redmi路由器拨号': {'en': 'Method 2: Use a computer or an old router to complete the connect, then manually select "End Connection" or "Close Connection", and then try to use the Redmi router to connect'},
     '办法3:尝试在路由器上网设置中进行mac地址克隆，然后重新拨号': {'en': "Method 3: Try to clone the mac address in the router's Internet settings, and then connect again"},
     '地址克隆设置': {'en': ' address cloning settings', 'ru': ' настрокйи клонирования адреса'},
     '口协商速率设置': {'en': ' port negotiation rate setting', 'ru': ' настройка скорости согласования портов'},
@@ -549,7 +549,7 @@ translation = {
     '更换了接入宽带': {'en': 'Changed access to broadband', 'ru': 'Изменен доступ к широкополосному доступу'},
     '检查WAN口接入的宽带是否已经变更': {
         'en': 'Check whether the broadband connected to the WAN port has changed',
-        'ru': 'Проверьте, не изменился ли широкополосный доступ, подключенный к порту WAN.'
+        'ru': 'Проверьте, не изменился ли широкополосный доступ, подключенный к порту WAN'
     },
     '自动配置': {'en': 'Automatic configuration ', 'ru': 'Автоматическая настройка'},
     '手动配置': {'en': 'Manual configuration', 'ru': 'Ручная настройка'},
@@ -562,7 +562,7 @@ translation = {
     '联网方式设置': {'en': 'Networking method settings', 'ru': 'Настройки метода подключения к сети'},
     '网络方式设置': {'en': ' network mode settings', 'ru': ' настройки режима сети'},
     '网络方式设置中': {'en': ' network settings', 'ru': ' настройки сети'},
-    '开启IPv6后，MTU取值范围为[1280-1492]，如需打开IPv6，请在上网设置中修改MTU值': {'en': 'After enabling IPv6, the MTU value range is [1280-1492]. To enable IPv6, please modify the MTU value in the Internet settings.'},
+    '开启IPv6后，MTU取值范围为[1280-1492]，如需打开IPv6，请在上网设置中修改MTU值': {'en': 'After enabling IPv6, the MTU value range is [1280-1492]. To enable IPv6, please modify the MTU value in the Internet settings'},
     '设置成功': {'en': 'Set successfully', 'ru': 'Установлено успешно'},
     '设置失败': {'en': 'Setup failed', 'ru': 'Ошибка установки'},
     '经过检测，建议使用PPPoE方式(需要输入帐号与密码': {'en': 'After testing, it is recommended to use the PPPoE method (you need to enter the account and password'},
@@ -573,7 +573,7 @@ translation = {
     '保存中': {'en': 'Save', 'ru': 'Сохранить'},
     '未能扫描到WiFi,请确保射频开启': {
         'en': 'Failed to scan Wi-Fi, please make sure the radio is turned on',
-        'ru': 'Не удалось просканировать Wi-Fi. Убедитесь, что оборудование включено.'
+        'ru': 'Не удалось просканировать Wi-Fi. Убедитесь, что оборудование включено'
     },
     '如果您已开启访客WiFi，切换为无线中继模式后，访客WiFi将会关闭': {
         'en': 'If you have turned on the guest Wi-Fi, after switching to wireless repeater mode, the guest Wi-Fi will be turned off',
@@ -610,9 +610,9 @@ translation = {
     '新密码': {'en': 'New password', 'ru': 'Новый пароль'},
     '确认密码': {'en': 'Confirm Password', 'ru': 'Подтвердите пароль'},
     '管理后台访问控制': {'en': 'Admin background access control', 'ru': 'Доступа администратора в фоне'},
-    '开启白名单功能后，将只允许名单中的设备访问管理后台，每次开启会将本机自动添加至白名单。': {
-        'en': 'After the whitelist function is enabled, only the devices in the list will be allowed to access the management background, and the device will be automatically added to the whitelist each time it is enabled.',
-        'ru': 'После включения функции белого списка только устройствам в списке будет разрешен доступ к фоновому управлению, и устройство будет автоматически добавляться в белый список каждый раз при его включении.'
+    '开启白名单功能后，将只允许名单中的设备访问管理后台，每次开启会将本机自动添加至白名单': {
+        'en': 'After the whitelist function is enabled, only the devices in the list will be allowed to access the management background, and the device will be automatically added to the whitelist each time it is enabled',
+        'ru': 'После включения функции белого списка только устройствам в списке будет разрешен доступ к фоновому управлению, и устройство будет автоматически добавляться в белый список каждый раз при его включении'
     },
     '地址白名单': {'en': ' address whitelist', 'ru': ' белый список адресов'},
     '通过MAC地址添加设备': {'en': 'Add device by MAC address', 'ru': 'Добавить устройство по MAC адресу'},
@@ -648,16 +648,16 @@ translation = {
     '立即升级': {'en': 'Immediately', 'ru': 'Немедленно'},
     '更新日志': {'en': 'Changelog'},
     '备份与恢复': {'en': 'Backup and restore', 'ru': 'Резервное копирование и восстановление'},
-    '备份路由器的配置，重新刷机或重置路由器后可以用来恢复。': {
-        'en': 'Backup the configuration of the router, which can be used to restore after reflashing or resetting the router.',
-        'ru': 'Резервное копирование конфигурации роутера, которое можно использовать для восстановления после перепрошивки или сброса.'
+    '备份路由器的配置，重新刷机或重置路由器后可以用来恢复': {
+        'en': 'Backup the configuration of the router, which can be used to restore after reflashing or resetting the router',
+        'ru': 'Резервное копирование конфигурации роутера, которое можно использовать для восстановления после перепрошивки или сброса'
     },
     '新建备份': {'en': 'New backup', 'ru': 'Резервное копирование'},
     '立即恢复': {'en': 'Restore settings', 'ru': 'Восстановление настроек'},
     '时区设置': {'en': 'Time zone settings', 'ru': 'Установка часового пояса'},
     '更改时区': {'en': 'Change time zone', 'ru': 'Изменить часовой пояс'},
     '更改时间': {'en': 'Change time', 'ru': 'Изменить время'},
-    '路由器正常工作情况下建议使用系统升级检测进行升级，在当系统无法升级或需要降级到前一版本时使用手动上传rom包进行升级。': {'en': 'When the router is working normally, it is recommended to use the system upgrade detection to upgrade. When the system cannot be upgraded or needs to be downgraded to the previous version, use the manual upload rom package to upgrade.'},
+    '路由器正常工作情况下建议使用系统升级检测进行升级，在当系统无法升级或需要降级到前一版本时使用手动上传rom包进行升级': {'en': 'When the router is working normally, it is recommended to use the system upgrade detection to upgrade. When the system cannot be upgraded or needs to be downgraded to the previous version, use the manual upload rom package to upgrade'},
     '请选择固件': {'en': 'Please select firmware', 'ru': 'Пожалуйста, выберите файл прошивки'},
     '开始升级': {'en': 'Start the update process', 'ru': 'Начать процесс обновления'},
     '可选备份': {'en': 'Backup options', 'ru': 'Опции резервного копирования'},
@@ -687,9 +687,9 @@ translation = {
         'en': 'The router settings are restored successfully, restart the router to take effect!',
         'ru': 'Настройки маршрутизатора успешно восстановлены, перезагрузите маршрутизатор, чтобы они вступили в силу!'
     },
-    '建议您先进行配置备份再恢复出厂设置。': {
-        'en': 'It is recommended that you perform a configuration backup before restoring the factory settings.',
-        'ru': 'Перед восстановлением заводских настроек рекомендуется выполнить резервное копирование конфигурации.'
+    '建议您先进行配置备份再恢复出厂设置': {
+        'en': 'It is recommended that you perform a configuration backup before restoring the factory settings',
+        'ru': 'Перед восстановлением заводских настроек рекомендуется выполнить резервное копирование конфигурации'
     },
     '备份路由器设置': {'en': 'Backup router settings', 'ru': 'Бэкап настроек роутера'},
     '直接恢复出厂设置': {'en': 'Factory reset directly', 'ru': 'Только сброс настроек'},
@@ -703,9 +703,9 @@ translation = {
     '时': {'en': ' hours ', 'ru': ' час '},
     '当前时间': {'en': 'Current time', 'ru': 'Текущее время'},
     '当前版本': {'en': 'Current version ', 'ru': 'Текущая версия '},
-    '发现新版本,升级包大小为{$size}，请立即升级。': {
-        'en': 'Found a new version, the upgrade package size is {$size}, please update immediately.',
-        'ru': 'Обнаружена новая версия, размер пакета обновления составляет {$size}, немедленно обновитесь.'
+    '发现新版本,升级包大小为{$size}，请立即升级': {
+        'en': 'Found a new version, the upgrade package size is {$size}, please update immediately',
+        'ru': 'Обнаружена новая версия, размер пакета обновления составляет {$size}, немедленно обновитесь'
     },
     '正在检测更新，请稍候': {
         'en': 'checking for updates, please wait',
@@ -720,21 +720,17 @@ translation = {
         'en': 'Found a new version, please update now',
         'ru': 'Найдено новая версия. Пожалуйста, обновитесь'
     },
-    '你的版本是最新的，无需升级。': {
-        'en': 'Your version is up to date, no need to update.',
-        'ru': 'Ваша версия актуальна, обновление не требуется'
-    },
-    '检查失败，网络繁忙请刷新页面重试。': {
-        'en': 'the checking for updates failed, the network is unavailable, please refresh the page and try again.',
-        'ru': 'проверка обновлений не удалась, сеть недоступна, обновите страницу и повторите попытку.'
+    '检查失败，网络繁忙请刷新页面重试': {
+        'en': 'the checking for updates failed, the network is unavailable, please refresh the page and try again',
+        'ru': 'проверка обновлений не удалась, сеть недоступна, обновите страницу и повторите попытку'
     },
     '请注意：升级将会使所有已连接设备的网络中断，升级过程中请勿断开路由器电源或关闭本页面！': {
         'en': 'Please note: The update will interrupt the network connection for all devices, please do not power off the router or close this page during the update process! ',
         'ru': 'Обратите внимание: обновление прервет сетевое соединение для всех устройств. Пожалуйста, не выключайте маршрутизатор и не закрывайте эту страницу во время процесса обновления! '
     },
-    '升级失败，系统错误或路由硬盘已满。': {
-        'en': 'Upgrade failed, system error or router storage is full.',
-        'ru': 'Ошибка обновления, системная ошибка или память маршрутизатора заполнена.'
+    '升级失败，系统错误或路由硬盘已满': {
+        'en': 'Upgrade failed, system error or router storage is full',
+        'ru': 'Ошибка обновления, системная ошибка или память маршрутизатора заполнена'
     },
     '你未选择文件，请重新选择': {
         'en': 'You have not selected a file, please select again',
@@ -750,21 +746,20 @@ translation = {
     },
     '日志上传成功': {'en': 'Log was uploaded successfully', 'ru': 'Журнал успешно загружен'},
     '至少选择1个': {'en': 'Choose at least 1', 'ru': 'Выберите хотя бы 1'},
-    '系统错误，请重试。': {'en': 'System error, please try again.', 'ru': 'Системная ошибка, попробуйте еще раз.'},
-    '设置成功，稍后生效，请等待一会刷新。': {
-        'en': 'The setting is successful, it will take effect later, please wait for a while to refresh.',
-        'ru': 'Настройка выполнена успешно, она вступит в силу позже, подождите некоторое время, чтобы обновить ее.'
+    '设置成功，稍后生效，请等待一会刷新': {
+        'en': 'The setting is successful, it will take effect later, please wait for a while to refresh',
+        'ru': 'Настройка выполнена успешно, она вступит в силу позже, подождите некоторое время, чтобы обновить ее'
     },
     'yyyy年MM月dd日 hh:mm:ss': {'en': 'yyyy-MM-dd hh:mm:ss'},  # leave as it is for all languages
     'QoS智能限速': {'en': 'QoS smart speed limit', 'ru': 'QoS'},
     'DHCP静态IP分配': {'en': 'DHCP static IP assignment', 'ru': 'DHCP'},
     '端口转发': {'en': 'Port forwarding', 'ru': 'Перенаправление портов'},
     '其他': {'en': 'Other (UPnP)', 'ru': 'Другое (UPnP)'},
-    '最高速度设置': {'en': 'Top speed setting', 'ru': 'Настройка максимальной скорости'},
+    '最高速度设置': {'en': 'Top speed settings', 'ru': 'Настройка максимальной скорости'},
     '无限速阈值，请先进行限速设置': {'en': 'Unlimited speed threshold, please set the speed limit first'},
     '当外网下载带宽超过50Mbps时，建议无需开启QoS功能': {
-        'en': 'When the download bandwidth of the external network exceeds 50Mbps, it is recommended to disable the QoS function.',
-        'ru': 'Когда пропускная способность загрузки внешней сети превышает 50 Мбит/с, рекомендуется отключить функцию QoS.'
+        'en': 'When the download bandwidth of the external network exceeds 50Mbps, it is recommended to disable the QoS function',
+        'ru': 'Когда пропускная способность загрузки внешней сети превышает 50 Мбит/с, рекомендуется отключить функцию QoS'
     },
     'QoS智能分配': {'en': 'QoS smart allocation', 'ru': 'Интеллектуальное распределение QoS'},
     '当前QoS服务暂未开启': {'en': 'The current QoS service is not enabled yet', 'ru': 'Текущая служба QoS еще не включена'},
@@ -777,19 +772,19 @@ translation = {
     '视频优先': {'en': 'Video first', 'ru': 'Приоритет видео'},
     '自动模式下路由器会根据当前网络使用情况动态调整带宽分配，保证网络体验流畅': {
         'en': 'In automatic mode, the router will dynamically adjust the bandwidth allocation according to the current network usage to ensure a smooth network experience',
-        'ru': 'В автоматическом режиме маршрутизатор будет динамически регулировать распределение полосы пропускания в соответствии с текущим использованием сети, чтобы обеспечить бесперебойную работу сети.'
+        'ru': 'В автоматическом режиме маршрутизатор будет динамически регулировать распределение полосы пропускания в соответствии с текущим использованием сети, чтобы обеспечить бесперебойную работу сети'
     },
     '优先级模式下路由器会动态调整带宽分配，保证优先级较高的设备网络体验流畅': {
         'en': 'In priority mode, the router will dynamically adjust the bandwidth allocation to ensure a smooth network experience for devices with higher priority',
-        'ru': 'В режиме приоритета маршрутизатор динамически регулирует распределение пропускной способности, чтобы обеспечить бесперебойную работу сети для устройств с более высоким приоритетом.'
+        'ru': 'В режиме приоритета маршрутизатор динамически регулирует распределение пропускной способности, чтобы обеспечить бесперебойную работу сети для устройств с более высоким приоритетом'
     },
     '手工模式下路由器会根据您设置的速度调整带宽分配': {
         'en': 'In manual mode, the router will adjust the bandwidth allocation according to the speed you set',
-        'ru': 'В ручном режиме маршрутизатор регулирует распределение полосы пропускания в соответствии с установленной Вами скоростью.'
+        'ru': 'В ручном режиме маршрутизатор регулирует распределение полосы пропускания в соответствии с установленной Вами скоростью'
     },
     '系统根据设备需要自动调配网速': {
         'en': 'The system automatically adjusts the network speed according to the needs of the device',
-        'ru': 'Система автоматически регулирует скорость сети в соответствии с потребностями устройства.'
+        'ru': 'Система автоматически регулирует скорость сети в соответствии с потребностями устройства'
     },
     '优先保证打游戏的网速，不卡顿不掉线': {
         'en': 'Priority to ensure the network speed for playing games, without lags and disconnection',
@@ -804,7 +799,7 @@ translation = {
         'ru': 'Приоритет для обеспечения скорости просмотра видео, в том числе и в высоком разрешении'
     },
     '家庭WiFi限速': {'en': 'Home Wi-Fi speed limit', 'ru': 'Ограничение домашней Wi-Fi сети'},
-    '当前网速': {'en': 'Current internet speed', 'ru': 'Текущая скорость'},
+    '当前网速': {'en': 'Current speed', 'ru': 'Текущая скорость'},
     '限速模式': {'en': 'Speed limit mode', 'ru': 'Режим ограничения скорости'},
     '最大速度': {'en': 'Maximum speed', 'ru': 'Максимальная скорость'},
     '优先级': {'en': 'Priority', 'ru': 'Приоритет'},
@@ -855,7 +850,7 @@ translation = {
         'ru': 'Произошла ошибка, пожалуйста, перегрузите страницу'
     },
     '确定要删除这项数据吗': {
-        'en': 'Are you sure you want to delete this data',
+        'en': 'Are you sure you want to delete this data?',
         'ru': 'Вы уверены, что хотите удалить эти данные?'
     },
     '你还未选择任何设备': {'en': 'You have not selected any devices', 'ru': 'Вы не выбрали ни одного устройства'},
@@ -864,19 +859,19 @@ translation = {
         'ru': 'Вы уверены, что хотите отменить привязку выбранного элемента?'
     },
     '什么是DDNS？': {'en': 'What is DDNS?'},
-    '是动态域名服务的缩写。': {'en': 'Abbreviation for Dynamic Domain Name Service.'},
-    '目前路由器拨号上网获得的多半都是动态IP，DDNS可以将路由器变化的外网IP和固定的域名绑定，从而用户可以在外网通过该固定域名来访问路由器。': {'en': 'At present, most of the ISP provides access with dynamic IP. DDNS can bind the router\'s changed external network IP to a fixed domain name, so users can access the router on the external network through the fixed domain name.'},
+    '是动态域名服务的缩写': {'en': 'Abbreviation for Dynamic Domain Name Service'},
+    '目前路由器拨号上网获得的多半都是动态IP，DDNS可以将路由器变化的外网IP和固定的域名绑定，从而用户可以在外网通过该固定域名来访问路由器': {'en': 'At present, most of the ISP provides access with dynamic IP. DDNS can bind the router\'s changed external network IP to a fixed domain name, so users can access the router on the external network through the fixed domain name'},
     '如何设置DDNS？': {'en': 'How to set up DDNS?'},
     '通过DDNS服务商获得域名及账号密码信息；': {'en': 'Obtain domain name and account password information through DDNS service provider;'},
-    '开启DDNS服务，添加服务，输入前一步获取的信息，保存并启用该服务。': {'en': 'Enable the DDNS service, add the service, enter the information obtained in the previous step, save and enable the service.'},
+    '开启DDNS服务，添加服务，输入前一步获取的信息，保存并启用该服务': {'en': 'Enable the DDNS service, add the service, enter the information obtained in the previous step, save and enable the service'},
     '注意事项': {'en': 'Instructions'},
     '可以通过内置的DDNS运营商去该运营商官网去注册账号及申请域名；': {'en': 'You can go to the service\'s official website to register an account and apply for a domain name through the built-in DDNS service;'},
     '用户名和密码为注册该运营商的用户名与密码；': {'en': 'The user name and password are the user name and password for the DDNS service;'},
     '主机名称为从运营商申请的域名；': {'en': 'The host name is the domain name applied for from the DDNS service;'},
     '强制检查为WAN口IP的检查时间，如无特殊需求，建议使用默认配置；': {'en': 'The mandatory check is the check time of the WAN port IP. If there is no special requirement, it is recommended to use the default configuration;'},
     '强制更新为域名与IP强制更新的时间，如无特殊需求，建议使用默认配置；': {'en': 'The forced update is the time when the domain name and IP are forced to update. If there is no special requirement, it is recommended to use the default configuration;'},
-    '只能同时开启一个DDNS服务。': {'en': 'Only one DDNS service can be enabled at the same time.'},
-    '服务列表：': {'en': 'List of services:', 'ru': 'Список сервисов'},
+    '只能同时开启一个DDNS服务': {'en': 'Only one DDNS service can be enabled at the same time'},
+    '服务列表': {'en': 'List of services', 'ru': 'Список сервисов'},
     '服务提供商及主机名称': {'en': 'Service provider and host name', 'ru': 'Провайдер и имя хоста'},
     '最近更新': {'en': 'Latest update', 'ru': 'Последнее обновление'},
     '状态': {'en': ' Status', 'ru': ' Состояние'},
@@ -900,10 +895,10 @@ translation = {
     '未启动无法强制更新': {'en': 'Unable to force update', 'ru': 'Не удалось принудительно обновить'},
     '还没有服务添加进来': {'en': 'No services have been added yet', 'ru': 'Сервисы еще не были добавлены'},
     '暂无更新': {'en': 'Not updated yet', 'ru': 'Еще не обновлено'},
-    '端口转发规则列表：': {'en': 'List of port forwarding rules:', 'ru': 'Список правил переадресации портов:'},
-    '范围转发规则列表：': {
-        'en': 'List of port ranges forwarding rules:',
-        'ru': 'Список правил переадресации диапазонов портов:'
+    '端口转发规则列表': {'en': 'List of port forwarding rules', 'ru': 'Список правил переадресации портов'},
+    '范围转发规则列表': {
+        'en': 'List of port ranges forwarding rules',
+        'ru': 'Список правил переадресации диапазонов портов'
     },
     '协议': {'en': 'Protocol', 'ru': 'Протокол'},
     '外部端口': {'en': 'External port', 'ru': 'Внешний порт'},
@@ -912,8 +907,8 @@ translation = {
     '起始端口': {'en': 'Start port', 'ru': 'Начальный порт'},
     '结束端口': {'en': 'End port', 'ru': 'Конечный порт'},
     '目标IP': {'en': 'Target IP', 'ru': 'Целевой IP'},
-    '开启DMZ功能可以将内网某一个设备的IP映射到外网，方便从外网访问到该设备。': {'en': 'Turning on the DMZ function can map the IP of a device on the internal network to the external network, which is convenient for accessing the device from the external network.'},
-    'DMZ状态：': {'en': 'DMZ Status:', 'ru': 'Состояние DMZ:'},
+    '开启DMZ功能可以将内网某一个设备的IP映射到外网，方便从外网访问到该设备': {'en': 'Turning on the DMZ function can map the IP of a device on the internal network to the external network, which is convenient for accessing the device from the external network'},
+    'DMZ状态': {'en': 'DMZ Status:', 'ru': 'Состояние DMZ:'},
     '未生效': {'en': 'Not active', 'ru': 'Не активно'},
     'TCP和UDP': {'en': 'TCP and UDP ', 'ru': 'TCP и UDP'},
     'IP地址最后一位': {'en': 'Last digits of IP address', 'ru': 'Последние цифры IP-адреса'},
@@ -942,15 +937,15 @@ translation = {
         'ru': 'Закрыто успешно, настройки применяются, пожалуйста, подождите'
     },
     '什么是VPN': {'en': 'What is a VPN'},
-    'VPN属于远程访问技术，应用举例：出差员工在外地通过VPN服务访问企业内部网络。': {'en': 'VPN is a remote access technology. As an example - employees of a company travel and access the internal network of the enterprise through VPN services.'},
-    'PPTP（Point to Point Tunneling Protocol）和L2TP（Layer 2 Tunneling Protocol）为两种互联网隧道协议，都属于VPN（Virtual Private Network）虚拟专用网络的不同协议分类方式。': {'en': 'PPTP (Point to Point Tunneling Protocol) and L2TP (Layer 2 Tunneling Protocol) are two Internet tunneling protocols, both of which belong to different protocol classification methods of VPN (Virtual Private Network).'},
+    'VPN属于远程访问技术，应用举例：出差员工在外地通过VPN服务访问企业内部网络': {'en': 'VPN is a remote access technology. As an example - employees of a company travel and access the internal network of the enterprise through VPN services'},
+    'PPTP（Point to Point Tunneling Protocol）和L2TP（Layer 2 Tunneling Protocol）为两种互联网隧道协议，都属于VPN（Virtual Private Network）虚拟专用网络的不同协议分类方式。': {'en': 'PPTP (Point to Point Tunneling Protocol) and L2TP (Layer 2 Tunneling Protocol) are two Internet tunneling protocols, both of which belong to different protocol classification methods of VPN (Virtual Private Network)'},
     '如何设置VPN': {'en': 'How to set up a VPN'},
-    '首先需要在VPN服务商官网上注册账号，获得用户名、密码、服务器地址、协议类型等信息。': {'en': ' First, you need to register an account on the official website of the VPN service provider to obtain information such as username, password, server address, protocol type, etc.'},
+    '首先需要在VPN服务商官网上注册账号，获得用户名、密码、服务器地址、协议类型等信息': {'en': ' First, you need to register an account on the official website of the VPN service provider to obtain information such as username, password, server address, protocol type, etc'},
     '将信息添加到服务中，并启用该VPN服务': {'en': ' Add the information to the service and enable the VPN service'},
-    'VPN用户名、密码、服务器地址、协议类型等信息需要向VPN服务商获取。': {'en': ' VPN username, password, server address, protocol type and other information need to be obtained from the VPN service provider.'},
-    '如果不清楚VPN协议类型，可以选择自动。': {'en': ' If you do not know the VPN protocol type, you can choose Automatic.'},
-    '服务器地址可以是域名或IP地址，具体由服务商提供。': {'en': ' The server address can be a domain name or an IP address, which is provided by the service provider.'},
-    'VPN 服务列表:': {'en': 'List of VPN services:', 'ru': 'Список сервисов VPN'},
+    'VPN用户名、密码、服务器地址、协议类型等信息需要向VPN服务商获取': {'en': ' VPN username, password, server address, protocol type and other information need to be obtained from the VPN service provider'},
+    '如果不清楚VPN协议类型，可以选择自动': {'en': ' If you do not know the VPN protocol type, you can choose Automatic'},
+    '服务器地址可以是域名或IP地址，具体由服务商提供': {'en': ' The server address can be a domain name or an IP address, which is provided by the service provider'},
+    'VPN 服务列表': {'en': 'List of VPN services', 'ru': 'Список сервисов VPN'},
     '协议类型': {'en': 'Protocol type', 'ru': 'Тип протокола'},
     '服务器地址': {'en': 'Server address', 'ru': 'Адрес сервера'},
     '开机自动连接': {'en': 'Auto connect', 'ru': 'Автоподключение'},
@@ -981,8 +976,8 @@ translation = {
         'ru': 'Вы уверены, что хотите удалить этот элемент?'
     },
     '重新连接vpn后该设置将生效，同时&#34;小米服务走vpn功能&#34;将关闭': {
-        'en': 'After reconnecting the vpn, the setting will take effect, and at the same time, the "Xiaomi service using vpn function" will be turned off.',
-        'ru': 'После повторного подключения VPN настройки вступят в силу, и в то же время «Сервис Xiaomi с использованием функции VPN» будет отключен.'
+        'en': 'After reconnecting the vpn, the setting will take effect, and at the same time, the "Xiaomi service using vpn function" will be turned off',
+        'ru': 'После повторного подключения VPN настройки вступят в силу, и в то же время «Сервис Xiaomi с использованием функции VPN» будет отключен'
     },
     '还未添加服务地址': {'en': 'Service address has not been added'},
     '还未添加设备': {'en': 'Not added yet'},
@@ -1000,7 +995,7 @@ translation = {
         'en': 'Add the address of the service to use the VPN',
         'ru': 'Добавьте адрес сервиса для использования VPN'
     },
-    '当前正在连接的VPN将被断开，重新连接后该设置将生效。': {'en': 'The currently connected VPN will be disconnected and the setting will take effect after reconnection.'},
+    '当前正在连接的VPN将被断开，重新连接后该设置将生效': {'en': 'The currently connected VPN will be disconnected and the setting will take effect after reconnection'},
     '客户端IP': {'en': 'Client IP', 'ru': 'IP клиента'},
     '漫游': {'en': 'Roaming'},
     '拒绝阈值': {'en': 'Rejection threshold'},
@@ -1021,8 +1016,8 @@ translation = {
     '忘记密码': {'en': 'Forgot password?', 'ru': 'Забыли пароль?'},
     '重置路由器': {'en': 'Reset the router'},
     '位于路由器背面': {'en': 'On the back of the router'},
-    '路由器管理密码大多与Wi-Fi密码一致，建议您尝试用Wi-Fi密码登录': {'en': 'The router management password is usually the same as the Wi-Fi password. It is recommended that you try to log in with the Wi-Fi password.'},
-    '如果忘记密码，可以将路由器恢复出厂并重新设置：在通电状态下，使用针状物按下复位按钮，并保持3秒钟，待指示灯闪烁后松开，即可恢复出厂设置然后按照说明书重新设置路由器。': {'en': 'If you forget the password, you can restore the router to the factory settings: in the power-on state, use a needle to press the reset button, and hold it for 3 seconds, release it after the LED indicator flashes. After you restore the router to the factory settings follow the instructions to set up the router.'},
+    '路由器管理密码大多与Wi-Fi密码一致，建议您尝试用Wi-Fi密码登录': {'en': 'The router management password is usually the same as the Wi-Fi password. It is recommended that you try to log in with the Wi-Fi password'},
+    '如果忘记密码，可以将路由器恢复出厂并重新设置：在通电状态下，使用针状物按下复位按钮，并保持3秒钟，待指示灯闪烁后松开，即可恢复出厂设置然后按照说明书重新设置路由器': {'en': 'If you forget the password, you can restore the router to the factory settings: in the power-on state, use a needle to press the reset button, and hold it for 3 seconds, release it after the LED indicator flashes. After you restore the router to the factory settings follow the instructions to set up the router'},
     '恢复出厂默认设置意味着您将丢失原有的配置数据，并且登录密码也会初始化未加密状态，所以请不要随意操作复位按钮': {'en': 'Restoring the factory default settings means that you will lose the original configuration data, and the login password will also be initialized in an unencrypted state, so please do not operate the reset button arbitrarily'},
     '立即进行网络诊断': {'en': 'Perform network diagnostics'},
     '查看帮助': {'en': 'Help'},
@@ -1044,12 +1039,12 @@ translation = {
     '访问电脑版': {'en': 'Go to desktop version'},
     '使用更多高级功能': {'en': 'To get advanced features'},
     '确认修改': {'en': 'Confirm the changes', 'ru': 'Подтвердите изменения'},
-    '如果您修改了Wi-Fi配置，确认修改后您当前连接的Wi-Fi会断开30s；需要重新连接您的Wi-Fi。': {'en': 'If you modify the Wi-Fi configuration, you will be disconnected from the current Wi-Fi network for 30s; you will need to reconnect to your Wi-Fi.'},
+    '如果您修改了Wi-Fi配置，确认修改后您当前连接的Wi-Fi会断开30s；需要重新连接您的Wi-Fi': {'en': 'If you modify the Wi-Fi configuration, you will be disconnected from the current Wi-Fi network for 30s; you will need to reconnect to your Wi-Fi'},
     '请先关闭双频合一 并点击保存按钮': {'en': 'Please close the dual frequency integration first and click the save button'},
     '提示：修改Wi-Fi名称或密码后，需重新连接Wi-Fi': {'en': 'Tip: After modifying the Wi-Fi name or password, you need to reconnect to the Wi-Fi'},
-    '开启后，2.4G和5G会使用同一名称，路由器会自动为终端选择最佳Wi-Fi网络，但自动切换信号源时网络会短暂中断，甚至频繁掉线等问题。': {
-        'en': 'If turned on, 2.4G and 5G use the same name, and the router will automatically select the best Wi-Fi network for the client. However, due to differences in clients, there may be problems such as: the network will be temporarily interrupted or even dropped frequently when the signal source is automatically switched.',
-        'ru': 'Если включено, сети Wi-Fi 2.4G и 5G будут использовать одно и тоже имя, и роутер будет автоматически выбирать наилучшую сеть для устройства. Однако, из-за отличий в устройствах, могут возникнуть проблемы, такие как: сеть может быть временно прерваться или даже сбрасываться часто, когда сети автоматически переключаются.'
+    '开启后，2.4G和5G会使用同一名称，路由器会自动为终端选择最佳Wi-Fi网络，但自动切换信号源时网络会短暂中断，甚至频繁掉线等问题': {
+        'en': 'If turned on, 2.4G and 5G use the same name, and the router will automatically select the best Wi-Fi network for the client. However, due to differences in clients, there may be problems such as: the network will be temporarily interrupted or even dropped frequently when the signal source is automatically switched',
+        'ru': 'Если включено, сети Wi-Fi 2.4G и 5G будут использовать одно и тоже имя, и роутер будет автоматически выбирать наилучшую сеть для устройства. Однако, из-за отличий в устройствах, могут возникнуть проблемы, такие как: сеть может быть временно прерваться или даже сбрасываться часто, когда сети автоматически переключаются'
     },
     '密码至少8位': {'en': ' Password must be at least 8 characters'},
     '名称不能为空': {'en': ' Name is required'},
@@ -1060,7 +1055,7 @@ translation = {
     '密码不多于63位': {'en': ' Password must be not more than 63 characters'},
     '请输入数字、英文字母或英文字符': {'en': 'Please enter numbers, English characters'},
     '密码不能包含特殊字符': {'en': ' Password cannot contain special characters'},
-    '正在设置，请耐心等待...': {'en': 'Setting up, please be patient...'},
+    '正在设置，请耐心等待': {'en': 'Setting up, please be patient'},
     '标题': {'en': 'Title'},
     '内容': {'en': 'Content'},
     '好的': {'en': 'OK'},
@@ -1082,9 +1077,9 @@ translation = {
     '自动设置': {'en': 'Auto configuration'},
     '手动设置': {'en': 'Manual setting'},
     'DNS1必须输入': {'en': 'DNS1 required'},
-    '格式错误，DNS服务器地址由4个0-255之间的数字组成，数字之间用点区隔。': {'en': 'The format is incorrect. The DNS server address consists of 4 numbers between 0 and 255, and the numbers are separated by dots.'},
+    '格式错误，DNS服务器地址由4个0-255之间的数字组成，数字之间用点区隔': {'en': 'The format is incorrect. The DNS server address consists of 4 numbers between 0 and 255, and the numbers are separated by dots'},
     '返回主界面': {'en': 'Return to the main page'},
-    '正在设置为DHCP上网模式，请耐心等待...': {'en': 'Setting DHCP Internet access mode, please be patient...'},
+    '正在设置为DHCP上网模式，请耐心等待': {'en': 'Setting DHCP Internet access mode, please be patient'},
     'DHCP配置成功': {'en': 'DHCP configuration is successful'},
     '请设置WiFi密码，至少8位': {'en': 'Please set a WiFi password, at least 8 digits'},
     '管理密码设置': {'en': 'Manage password settings'},
@@ -1099,7 +1094,7 @@ translation = {
     '宽带密码': {'en': 'ISP password'},
     '请输入账号或者密码': {'en': 'Please enter login or password'},
     '跳过': {'en': 'Continue'},
-    '正在拨号，请耐心等待...': {'en': 'Connecting, please be patient'},
+    '正在拨号，请耐心等待': {'en': 'Connecting, please be patient'},
     'PPPOE设置成功': {'en': 'PPPOE set successfully'},
     '错误码': {'en': 'Error code '},
     '网络超时，请返回首页检查网络状': {'en': 'Network time out, please return to the home page to check the network status'},
@@ -1122,9 +1117,9 @@ translation = {
     '运营商通讯录': {'en': 'Carrier address book'},
     '修改 Wi-Fi 设置': {'en': 'Modify Wi-Fi settings', 'ru': 'Изменение настроек Wi-Fi'},
     '修改Wi-Fi设置': {'en': 'Modify Wi-Fi settings', 'ru': 'Изменение настроек Wi-Fi'},
-    '设置已经生效，等待30秒后 Wi-Fi 重启。': {
-        'en': 'The settings have taken effect, wait for 30 seconds to restart the Wi-Fi.',
-        'ru': 'Настройки изменены, подождите 30 секунд для перезапуска Wi-Fi.'
+    '设置已经生效，等待30秒后 Wi-Fi 重启': {
+        'en': 'The settings have taken effect, wait for 30 seconds to restart the Wi-Fi',
+        'ru': 'Настройки изменены, подождите 30 секунд для перезапуска Wi-Fi'
     },
     '你手工选择的当前信道有可能造成部分机型较旧的设备无法连接': {
         'en': 'The current channel you manually select may cause some older devices to fail to connect',
@@ -1152,118 +1147,612 @@ translation = {
         'en': 'If you have turned on the guest wifi, after switching to wired relay mode, the guest wifi will be turned off',
         'ru': 'Если вы включили гостевой Wi-Fi, то после переключения в режим проводного ретранслятора гостевой Wi-Fi будет выключен'
     },
+    '新路由器的Wi-Fi设置': {'en': 'Wi-Fi settings for the new router', 'ru': 'Настройка Wi-Fi для нового роутера'},
+    'Wi-Fi密码': {'en': 'Wi-Fi password', 'ru': 'Пароль Wi-Fi'},
+    'Wi-Fi密码至少8位': {
+        'en': 'Wi-Fi password should be at least 8 symbols',
+        'ru': 'Пароль Wi-Fi должен быть от 8 символов'
+    },
+    'Wi-Fi名称不能为空': {'en': 'Wi-Fi name cannot be empty', 'ru': 'Имя Wi-Fi не может быть пустым'},
+    'Wi-Fi名称最多28字节': {'en': 'Wi-Fi name should be up to 28 symbols', 'ru': 'Имя Wi-Fi должно быть до 28 символов'},
+    'Wi-Fi名称不能包含特殊字符': {
+        'en': 'Wi-Fi name cannot contain special characters',
+        'ru': 'Имя Wi-Fi не может содержать специальные символы'
+    },
+    'Wi-Fi密码不能为空': {'en': 'Wi-Fi password cannot be empty', 'ru': 'Пароль Wi-Fi не может быт пустым'},
+    'Wi-Fi密码不少于8位': {
+        'en': 'Wi-Fi password should be at least 8 symbols',
+        'ru': 'Пароль Wi-Fi должен быть от 8 символов'
+    },
+    'Wi-Fi密码不多于63位': {
+        'en': 'Wi-Fi password should be no more than 63 symbols',
+        'ru': 'Пароль Wi-Fi должен быть не более 63 символов'
+    },
+    'Wi-Fi密码不能包含特殊字符': {
+        'en': 'Wi-Fi password cannot contain special characters',
+        'ru': 'Пароль Wi-Fi не может содержать специальные символы'
+    },
+    '将Wi-Fi密码作为路由器管理密码': {
+        'en': 'Use Wi-Fi password as router admin password',
+        'ru': 'Использовать пароль Wi-Fi как пароль администратора роутера'
+    },
+    '正在配置中，请等待': {'en': 'Configuring, please wait', 'ru': 'Конфигурация, подождите пожалуйста'},
+    '配置完成，Wi-Fi重启中': {
+        'en': 'Configuration completed, Wi-Fi restarting',
+        'ru': 'Конфигурация завершена, Wi-Fi перезапускается'
+    },
+    '再次连接Wi-Fi即可访问互联网': {
+        'en': 'Connect to Wi-Fi to access the internet',
+        'ru': 'Подключитесь к Wi-Fi для доступа в интернет'
+    },
+    '若搜不到以下新Wi-Fi，则表示中继连接失败，请重新配置': {
+        'en': 'If the following new Wi-Fi cannot be found, it means that the relay connection fails, please reconfigure'
+    },
+    '您的Wi-Fi密码如下，建议截图保存': {
+        'en': 'Your Wi-Fi password is as follows, it is recommended to make a screenshot',
+        'ru': 'Ваш Wi-Fi пароль. Рекомендуется сделать снимок экрана, чтобы сохранить'
+    },
+    '管理后台': {'en': 'Lan IP address'},
+    '管理密码': {'en': 'Password', 'ru': 'Пароль'},
+    '推荐安装小米WiFi APP,随时随地管理您的路由': {
+        'en': 'It is recommended to install Xiaomi WiFi APP to manage your router anytime, anywhere'
+    },
+    '至少需要一个url参数!': {
+        'en': 'At least one url parameter is required!',
+        'ru': 'Требуется по крайней мере один параметр url'
+    },
+    '上网向导': {'en': 'Internet guide', 'ru': 'Путеводитель по интернету'},
+    '未检测到入户网线': {'en': 'Home network cable not detected', 'ru': 'Кабель домашней сети не обнаружен'},
+    '请确保WAN或Internet口已用网线连接到因特网（如入户宽带、光猫等）': {
+        'en': 'Please make sure that the WAN or Internet port is connected to the Internet with a network cable (such as home broadband/optical modem, etc.)',
+        'ru': 'Пожалуйста, убедитесь, что WAN или Интернет пор подключен к Интернету сетевым кабелем (к широкополосному или оптическому модему и т.п.)'
+    },
+    '请确认网线是否插紧或损坏': {
+        'en': 'Please make sure the network cable is plugged in tightly or damaged',
+        'ru': 'Пожалуйста, убедитесь, что сетевой кабель вставлен крепко и не поврежден'
+    },
+    '光猫是否连接电源': {
+        'en': 'the optical modem is connected to the power supply',
+        'ru': 'модем подключен к источнику питания'
+    },
+    '若仍然无法上网，请联系您的': {
+        'en': 'If you still cannot access the Internet, please contact your',
+        'ru': 'Если вы все еще не можете подключиться к Интернету, пожалуйста обратитесь к Вашему'
+    },
+
+    '重新检测': {'en': 'Test again', 'ru': 'Протестировать снова'},
+    '您也可以': {'en': 'You can also', 'ru': 'Вы также можете'},
+    '不插网线，继续配置': {
+        'en': 'Do not plug in the network cable, continue to configure',
+        'ru': 'Не подключайте сетевой кабель, продолжайте настройку'
+    },
+    '光猫或入户网口': {'en': 'Internet modem or home network port', 'ru': 'Интернет модем или порт домашней сети'},
+    'IP地址不能为空': {'en': 'IP address cannot be empty', 'ru': 'IP адрес не может быть пустым'},
+    'IP地址格式不正确': {'en': 'IP address format is incorrect', 'ru': 'Неверный формат IP адреса'},
+    '子网掩码地址': {'en': 'Subnet mask', 'ru': 'Маска подсети'},
+    '请输入': {'en': 'Please enter', 'ru': 'Пожалуйста введите'},
+    '子网掩码不能为空': {'en': 'Subnet mask cannot be empty', 'ru': 'Маска подсети не может быть пустой'},
+    '子网掩码格式不正确': {'en': 'Incorrect subnet mask format', 'ru': 'Неверный формат маски подсети'},
+    '网关不能为空': {'en': 'Gateway cannot be empty', 'ru': 'Шлюз не может быть пустым'},
+    '网关格式不正确': {'en': 'Gateway format is incorrect', 'ru': 'Неверный формат шлюза'},
+    '首选DNS服务器': {'en': 'Preferred DNS server', 'ru': 'Предпочтительный DNS сервер'},
+    '首选DNS不能为空': {'en': 'Preferred DNS cannot be empty', 'ru': 'Предпочтительный DNS сервер не может быть пустым'},
+    '首选DNS格式不正确': {'en': 'Incorrect preferred DNS format', 'ru': 'Неверный формат предпочтительного DNS сервера'},
+    '备用DNS服务器（可选）': {'en': 'Alternate DNS server (optional)', 'ru': 'Альтернативный DNS сервер (не обязательно)'},
+    '请设置Wi-Fi密码，至少8位': {
+        'en': 'Please set Wi-Fi password, at least 8 symbols',
+        'ru': 'Пожалуйста, введите пароль Wi-Fi, не менее 8 символов'
+    },
+    '正在配置中，请稍候': {'en': 'Configuring, please wait', 'ru': 'Конфигурация. Пожалуйста, подождите'},
+    '请输入数字、英文字母或英文字符文': {
+        'en': 'Please enter digits or English characters',
+        'ru': 'Пожалуйста, введите цифры или английские символы'
+    },
+    '正在检测你的上网环境，请耐心等待': {
+        'en': 'Detecting your internet connection, please be patient',
+        'ru': 'Обнаружение вашего интернет-соединения, пожалуйста, подождите'
+    },
+    '宽带密码不能为空': {'en': 'Broadband password cannot be empty', 'ru': 'Пароль аккаунта не может быть пустым'},
+    '帐号或密码错误': {'en': 'Incorrect account or password', 'ru': 'Неверный аккаунт или пароль'},
+    '如果忘记账号或密码，您可以': {
+        'en': 'If you forget your account or password, you can',
+        'ru': 'Если Вы забыли Ваш аккаунт или пароль, Вы можете'
+    },
+    '一键从旧路由器获取账号&密码': {
+        'en': 'Get account and password from old router with one click',
+        'ru': 'Получить аккаунт и пароль из старого роутера в один клик'
+    },
+    '一键从旧路由器获取账号密码': {
+        'en': 'Get account password from old router with one click',
+        'ru': 'Получить пароль аккаунта из старого роутера в один клик'
+    },
+    '请确认帐号是否欠费，或联系您的': {
+        'en': 'Please confirm whether the account is in arrears, or contact your',
+        'ru': 'Пожалуйста, подтвердите, что аккаунт не имеет задолженность, или обратитесь к Вашему'
+    },
+    '同一账号重复登录': {'en': 'Repeated login with the same account', 'ru': 'Повторный вход с тем же аккаунтом'},
+    '重新插拔WAN或Internet口连接的网线，并将光猫/家庭网关断电重启，10分钟后重新进行初始化': {
+        'en': 'Re-plug and unplug the network cable connected to the WAN or Internet port, power off and restart the optical modem/home gateway, and re-initialize after 10 minutes',
+        'ru': 'Повторно подключите и отключите сетевой кабель, подключенный к порту WAN или Интернету, выключите и перезапустите оптический модем/домашний шлюз и повторите инициализацию через 10 минут'
+    },
+    '若还是不行，请联系您的': {
+        'en': 'If it still does not work, please contact your',
+        'ru': 'Если по-прежнему не работает, обратитесь к своему'
+    },
+    '确认账号情况': {'en': 'Confirm account status', 'ru': 'Подтвердите статус аккаунта'},
+    '运营商接口返回错误': {'en': 'The provider returns an error', 'ru': 'Провайдер возвращает ошибку'},
+    '忘记账号密码？': {'en': 'Forgot your username or password?', 'ru': 'Забыли ваш логин или пароль?'},
+    '请联系': {'en': 'Please contact', 'ru': 'Пожалуйста свяжитесь'},
+    '无需拨号': {'en': 'No need to dial', 'ru': 'Нет необходимости набирать номер'},
+    '设置中': {'en': 'Setting', 'ru': 'Настройка'},
+    '宽带账户不能为空': {'en': 'Broadband account cannot be empty', 'ru': 'Учетная запись интернета не может быть пустой'},
+    '尝试中继失败了': {'en': 'Attempt to relay failed', 'ru': 'Попытка ретрансляции не удалась'},
+    '可能是Wi-Fi密码出错了': {'en': 'Maybe the Wi-Fi password is wrong', 'ru': 'Возможно, пароль Wi-Fi неверный'},
+    '可用无线网络列表': {'en': 'List of available wireless networks', 'ru': 'Список доступных беспроводных сетей'},
+    '正在扫描可用的Wi-Fi': {'en': 'Scanning for available Wi-Fi', 'ru': 'Сканирование доступных Wi-Fi'},
+    '连接Wi-Fi': {'en': 'Connect to Wi-Fi', 'ru': 'Подключение к Wi-Fi'},
+    'Wi-Fi名称': {'en': 'Wi-Fi name', 'ru': 'Имя Wi-Fi'},
+    '密码长度要求8-63个数字、字母或符号': {
+        'en': 'Password requires 8-63 numbers, letters or symbols',
+        'ru': 'Для пароля требуется от 8 до 63 цифр, букв или символов'
+    },
+    '连接成功后，当前路由器的Wi-Fi名称和密码保持不变': {
+        'en': 'After the connection is successful, the current router Wi-Fi name and password remain unchanged',
+        'ru': 'После успешного подключения текущие имя и пароль Wi-Fi маршрутизатора остаются неизменными'
+    },
+    '上一步': {'en': 'Previous', 'ru': 'Предыдущий'},
+    '恭喜，Redmi路由器一键中继成功': {
+        'en': 'Congratulations, the one-click relay setup of the Redmi router is successful',
+        'ru': 'Поздравляем, настройка ретранслятора маршрутизатора Redmi в один клик выполнена успешно'
+    },
+    '之前的WiFi名称': {'en': 'Previous WiFi name', 'ru': 'Предыдущее имя WiFi'},
+    '未搜索到可用的Wi-Fi': {'en': 'No available Wi-Fi found', 'ru': 'Доступный Wi-Fi не найден'},
+    '请确保路由器网口未插网线，再重新扫描': {
+        'en': 'Please make sure that the no network cables plugged into the router and then scan again',
+        'ru': 'Убедитесь, что к роутеру не подключены сетевые кабели, а затем повторите сканирование'
+    },
+    '用户许可使用协议': {'en': 'User License Agreement', 'ru': 'Пользовательское лицензионное соглашение'},
+    'Redmi路由器系列产品 用户许可使用协议': {
+        'en': 'Redmi router series product user license agreement',
+        'ru': 'Лицензионное соглашение пользователя маршрутизаторов Redmi'
+    },
+    'Redmi路由器系列产品 隐私政策': {
+        'en': 'Redmi router series products Privacy Policy',
+        'ru': 'Политика конфиденциальности маршрутизаторов Redmi'
+    },
+    '用户体验改善计划': {'en': 'User Experience Improvement Program', 'ru': 'Программа улучшения пользовательского опыта'},
+    '帮助页': {'en': 'Help page', 'ru': 'Страница помощи'},
+    '可中继Wi-Fi列表': {'en': 'Relayable Wi-Fi List', 'ru': 'Список ретранслируемых Wi-Fi'},
+    '无线中继模式': {'en': 'Wireless repeater mode', 'ru': 'Режим беспроводного повторителя'},
+    '请输入需中继Wi-Fi的密码': {
+        'en': 'Please enter the password of the Wi-Fi to relay',
+        'ru': 'Пожалуйста, введите пароль Wi-Fi для ретрансляции'
+    },
+    '路请输入数字、英文字母或英文字符': {
+        'en': 'Please enter digits or English characters',
+        'ru': 'Пожалуйста, введите цифры или английские символы'
+    },
+    '正在扫描附近的Wi-Fi列表，请耐心等待': {
+        'en': 'Scanning for a list of nearby Wi-Fi, please wait',
+        'ru': 'Сканирование списка ближайших сетей Wi-Fi, пожалуйста, подождите'
+    },
+    '需中继Wi-Fi的密码错误，无线中继模式配置失败，请重新选择模式': {
+        'en': 'The password of the Wi-Fi to be relayed is incorrect, and the configuration of the wireless relay mode fails, please select the mode again',
+        'ru': 'Пароль Wi-Fi для ретрансляции неверен, конфигурация режима беспроводной ретрансляции не удалась. Выберите режим еще раз'
+    },
+    'dhcp配置失败，请重新选择模式': {
+        'en': 'DHCP configuration failed, please re-select the mode',
+        'ru': 'Не удалось настроить DHCP. Выберите режим повторно'
+    },
+    '有线中继配置失败，请重新选择模式': {'en': 'Wired trunk configuration failed, please re-select the mode'},
+    '静态IP配置失败，请重新选择模式': {
+        'en': 'Static IP configuration failed, please re-select the mode',
+        'ru': 'Не удалось настроить статический IP-адрес. Выберите режим повторно'
+    },
+    '选择配置类型': {'en': 'Select configuration type', 'ru': 'Выберите тип конфигурации'},
+    '您已成功连接互联网': {'en': 'You have successfully connected to the Internet', 'ru': 'Вы успешно подключились к Интернету'},
+    '下载小米WiFi APP, 随时随地管理你的路由器': {
+        'en': 'Download Xiaomi WiFi APP, manage your router anytime, anywhere',
+        'ru': 'Загрузите приложение Xiaomi WiFi, управляйте своим маршрутизатором в любое время и в любом месте'
+    },
+    '小米WiFi APP': {'en': 'Xiaomi WiFi APP'},
+    '一键下载': {'en': 'One-click download', 'ru': 'Загрузка в один клик'},
+    '网络诊断': {'en': 'Network diagnostics', 'ru': 'Диагностика сети'},
+    '建议您按以下步骤排查问题': {
+        'en': 'It is recommended to troubleshoot the problem by following the steps below',
+        'ru': 'Рекомендуется устранить проблему, выполнив следующие действия'
+    },
+    '请检查路由器WAN或Internet口已用网线连接到光猫/上级设备的LAN口，或已接入入户网线': {
+        'en': 'Please check that the WAN or Internet port of the router has been connected to the LAN port of the optical modem/superior device with a network cable, or has been connected to the home network cable'
+    },
+    '请检查网线是否插紧或损坏': {'en': 'Please check whether the network cable is plugged in tightly or damaged'},
+    '请检查光猫/上级设备是否正常工作，可尝试重启光猫/上级设备后再连接Wi-Fi': {
+        'en': 'Please check whether the optical modem/upper device is working normally, you can try to restart the optical modem/upper device and then connect to Wi-Fi'
+    },
+    '已阅读并同意Redmi路由器': {'en': 'Read and agree with Redmi router'},
+    '已加入': {'en': 'joined'},
+    '马上体验': {'en': 'experience it now'},
+    '版权所有 小米移动软件有限公司': {'en': 'Copyright Xiaomi Mobile Software Co., Ltd.'},
+    '光猫或其他上级设备故障': {'en': 'Internet modem or other hardware failure'},
+    '检查光猫或其他上级设备的面板上所有灯是否都是绿灯常亮，如果红灯闪烁请检查线路是否正常': {
+        'en': 'Check whether all the lights on the panel of the Internet modem or other connected equipment are solid green, if the red light is flashing, please check whether the line is normal',
+    },
+    '未获取到上网模式': {'en': 'Internet mode not obtained', 'ru': 'Режим интернета не получен'},
+    '请更换光猫或其他上级设备的插入网线的端口并插牢固': {
+        'en': 'Please replace the port where the optical modem or other connected equipment is inserted into the network cable and insert it firmly'
+    },
+    '请检查是否': {'en': 'Please check if', 'ru': 'Пожалуйста, проверьте, что'},
+    '或尝试重启光猫或其他上级设备': {'en': 'Or try to restart the Internet modem or other superior equipment'},
+    '再试试': {'en': 'Try again', 'ru': 'Попытайтесь снова'},
+    '手动选择上网模式': {'en': 'Manually select the Internet mode'},
+    '路由系统检测中': {'en': 'Routing system checking'},
+    '路由系统状态正常': {'en': 'The routing system status is normal'},
+    '路由器外网检测中': {'en': 'Router external network detection'},
+    'WAN或Internet口状态检测中': {'en': 'WAN or Internet port status detection'},
+    '上网模式检测中': {'en': 'Internet mode detection'},
+    'DNS解析能力检测中': {'en': 'DNS resolution capability testing'},
+    '网络诊断中': {'en': 'Network diagnostics'},
+    '诊断过程预计需要50秒，请耐心等待': {'en': 'The diagnostics process will take 50 seconds, please be patient'},
+    '取消诊断': {'en': 'Cancel diagnostics'},
+    '网络超时，请返回首页检查网络状态': {'en': 'The network timed out, please return to the home page to check the network status'},
+    '小米路由器青春版': {'en': 'Xiaomi Router Youth Edition'},
+    '双核版': {'en': 'Dual core version'},
+    '千兆版': {'en': ' Gigabit Edition'},
+    '网络状态': {'en': 'Network status', 'ru': 'Статус сети'},
+    'DNS服务器': {'en': 'DNS server', 'ru': 'DNS-сервер'},
+    '路由信息': {'en': 'Routing information', 'ru': 'Информация о маршрутизации'},
+    '系统运行时长': {'en': 'System running time', 'ru': 'Время работы системы'},
+    '上网状态': {'en': 'Internet status', 'ru': 'Статус интернета'},
+    '成功连接互联网': {'en': 'Successfully connected to the internet', 'ru': 'Успешно подключен к Интернету'},
+    '选择其他模式，继续配置': {
+        'en': 'Select another mode to continue configuration',
+        'ru': 'Выберите другой режим, чтобы продолжить настройку'
+    },
+    '当前为DHCP模式，您也可以选择其他模式': {
+        'en': 'Currently in DHCP mode, you can also choose other modes',
+        'ru': 'В настоящее время в режиме DHCP, также можете выбрать другие режимы'
+    },
+    '检测到当前模式为自动获取IP（DHCP）': {
+        'en': 'Detected DHCP mode (obtain IP automatically)',
+        'ru': 'Обнаружен режим DHCP (автоматическое получение IP )'
+    },
+    '请点击下一步': {'en': 'Please click next', 'ru': 'Пожалуйста, нажмите \\\'Далее\\\''},
+    '从旧路由器获取': {'en': 'Get it from an old router', 'ru': 'Получите от старого маршрутизатора'},
+    '请将旧路由器连接电源,并等待系统启动完毕': {'en': 'Please connect the old router to the power supply and wait for the system to start up', 'ru': ''},
+    '请将网线的一头插入旧路由器的WAN或Internet口，另一头插入新路由器的LAN口': {'en': 'Please connect the WAN or Internet port of the old router and LAN port of the new router with an network cable', 'ru': ''},
+    '如果您缺少网线，可以先将路由器WAN或Internet口的网线拔下来使用': {'en': 'If you do not have another network cable, you can use the network cable from the router\\\'s WAN or Internet port', 'ru': ''},
+    '开始获取': {'en': 'Get started', 'ru': 'Начать'},
+    '正在获取，请稍候': {'en': 'Detecting, please wait', 'ru': 'Обнаружение. Пожалуйста, подождите'},
+    '已从旧路由器成功获取到网络配置': {'en': 'The network configuration has been successfully obtained from the old router', 'ru': ''},
+    '请拔出上图所示的网线两端，并用网线连接新路由器的WAN或Internet口和光猫/上级网络设备': {
+        'en': 'Please unplug the network cable as shown in the picture above, and use the network cable to connect the WAN or Internet port of the new router and the optical modem/superior network device'
+    },
+    '先不从旧路由器获取，继续配置': {'en': 'Do not get it from the old router, continue to configure', 'ru': ''},
+    '从旧路由器获取宽带账号和密码失败': {'en': 'Failed to obtain Internet account and password from old router', 'ru': ''},
+    '确认两个路由器的网线连接正确（按照上图所示）': {
+        'en': 'Make sure the network cables of the two routers are connected correctly (as shown in the picture above)'
+    },
+    '确认连接两个路由器的网线是良好的': {
+        'en': 'Make sure the network cable connecting the two routers is not damaged'
+    },
+    '重启旧路由器后，重新尝试': {
+        'en': 'Try again after restarting the old router'
+    },
+    '请求发送成功': {'en': 'Request sent successfully'},
+    '诊断结果': {'en': 'Diagnostics result'},
+    '网络通信异常': {'en': 'Abnormal network communication'},
+    '网关不可达': {'en': 'Gateway not reachable'},
+    'DNS解析失败': {'en': 'DNS resolution failed'},
+    '宽带账号异常': {'en': 'Wrong Internet account ', 'ru': 'Неверный аккаунт'},
+    '宽带账号或密码错误': {'en': 'Incorrect Internet account or password', 'ru': 'Неверный логин или пароль'},
+    '无DHCP Sever': {'en': 'No DHCP Server', 'ru': 'Нет DHCP сервера'},
+    'WAN或Internet口链路不通': {'en': 'The WAN or Internet port link fails'},
+    '若仍然无法上网，请联系你的': {'en': 'If you are still unable to access the Internet, please contact your'},
+    '插拔网线后仍无法上网，请重启您的路由器': {
+        'en': 'If you still cannot access the Internet, please replug the network cable and restart your router'
+    },
+    '如果您没有配置VPN，请检查您的网线是否完好，可以尝试插拔网线再次判断状态': {
+        'en': 'If you do not configure VPN, please check whether your network cable is not damaged, to replug the network cable to check the status again'
+    },
+    '如果您配置了VPN，则可能是您的VPN链路不通，请检查您的VPN设置': {
+        'en': 'If you have a VPN configured, your VPN link may be down, please check your VPN settings'
+    },
+    '请检查您是否有配置VPN': {'en': 'Please check if you have configured VPN'},
+    '切换到有线中继模式': {'en': 'Switch to wired relay mode'},
+    '若以上2种方案均无法解决该问题，建议您重启光猫/上级设备3分钟后再重启路由器': {
+        'en': 'If the above two solutions do not solve the problem, it is recommended to restart the optical modem/upper device for 3 minutes and then restart the router'
+    },
+    '请检查是否光猫或其他上级设备故障，或尝试重启光猫或其他上级设备': {
+        'en': 'Please check whether the Internet modem or other equipment is working, or try to restart it'
+    },
+    '请重启路由器，并等待启动完成，蓝灯常亮后再尝试连接': {
+        'en': 'Please restart the router, and wait for the startup to complete till the blue light is always on, and then try to connect'
+    },
+    '请确认您手机的IP地址前三段是否为192.168.31，如果不是请将您的IP设置修改为自动或DHCP': {
+        'en': 'Please confirm whether the first three numbers of your mobile phone\\\'s IP address are 192.168.31, if not - please change your IP settings to automatic or DHCP'
+    },
+    '查看及修改位置：手机设置-无线局域网/WLAN-当前WiFi的详情页-配置IP/IP设置': {
+        'en': 'View and modify the mobile phone settings - wireless LAN/WLAN - current WiFi details page - configure IP/IP settings'
+    },
+    '请检查路由器WAN或Internet口是否有网线连接，是否插牢': {
+        'en': 'Please check whether the router\\\'s WAN or Internet port is connected to a network cable, and whether it is properly plugged in'
+    },
+    '请检查网线另一端是否连接在光猫/上级设备的LAN口': {
+        'en': 'Please check whether the other end of the network cable is connected to the LAN port of the optical modem/superior device'
+    },
+    '请检查网线是否完好': {'en': 'Please check if the network cable is not damaged'},
+    '请更换光猫/上级设备的插入网线端口并插牢固': {
+        'en': 'Please replace the network cable port of the optical modem/superior device and insert it properly'
+    },
+    '请重启光猫': {'en': 'Please restart the optical modem/superior device'},
+    '请重启路由器，并等待启动完成（蓝灯常亮）': {
+        'en': 'Please restart the router and wait for the startup to complete (the blue light is always on)'
+    },
+    '拔掉WAN或Internet口网线，将路由器和光猫/家庭网关断电重启，10分钟后重插网线': {
+        'en': 'Unplug the WAN or Internet port network cable, power off and restart the router and optical modem/home gateway, and replug the network cable after 10 minutes'
+    },
+    '当前DNS服务器地址为': {'en': 'The current DNS server address:'},
+    '与大部分家庭配置不同': {'en': 'Unlike most home configurations'},
+    '空': {'en': 'null'},
+    '请前往修改DNS配置': {'en': 'Go to Modify DNS Configuration'},
+    '上级设备': {'en': 'Superior equipment'},
+    '请重启路由器和光猫': {'en': 'Please restart the router and optical modem'},
+    '请前往修改网关配置': {'en': 'Go to Modify Gateway Configuration'},
+    '您当前IP地址与大部分家庭配置不同': {
+        'en': 'Your current IP address is different from most home configurations, please make sure this configuration is proper'
+    },
+    '确认DNS服务是否正常': {'en': 'Check whether the DNS service is correct'},
+    '请联系您的': {'en': 'Please contact your'},
+    '确认账号密码是否正确，以及是否欠费': {'en': 'Confirm whether the account password is correct and whether it is active'},
+    '当前宽带账号信息如下': {'en': 'The current Internet account information: '},
+    '前往电脑版修改网关配置': {'en': 'Go to the desktop version to modify the gateway configuration'},
+    '若仍然无法上网': {'en': 'If you still can not get online'},
+    '请联系小米客服': {'en': ' please contact Xiaomi customer service'},
+    '若还是不行': {'en': 'If it still does not work'},
+    '请确认此配置没问题': {'en': 'Please make sure this configuration is proper'},
+    '、': {'en': ', '},
+    '《': {'en': '"'},
+    '》': {'en': '"'},
+    '：': {'en': ': '},
+    '（': {'en': '('},
+    '）': {'en': ')'},
+    '；': {'en': '; '},
+    '＄': {'en': '$'},
+    '｝': {'en': '}'},
+    '｛': {'en': '{'},
+    '＼': {'en': '\\\\'},
+    '，': {'en': ', '},
+    '。': {'en': '.'},
+    '超时': {'en': 'time out', 'ru': 'Время истекло'},
+    '服务器超时，请稍后刷新再试': {
+        'en': 'Server timed out, please refresh and try again later',
+        'ru': 'Время ожидания сервера истекло, обновите и повторите попытку позже'
+    },
+    '访客': {'en': 'Visitor ', 'ru': 'Посетитель '},
+    'ios且有cookie = 无需刷新页面': {'en': 'ios with cookies - no page refresh required'},
+    '百度安全为上网保驾护航': {'en': 'Baidu security escorts the Internet'},
+    'Redmi路由器服务许可协议': {'en': 'Redmi Router Service License Agreement'},
+    '欢迎使用Redmi路由器提供的软件及服务！': {
+        'en': 'Welcome to the software and services provided by the Redmi router!',
+        'ru': 'Добро пожаловать в программное обеспечение и услуги, предоставляемые роутером Redmi!'
+    },
+    '为了更好的为您提供新一代智能路由器所带来的美好智能生活，我们会根据需要对您在使用Redmi路由器相关功能的使用情况进行统计，进而通过这些统计数据更好的完善Redmi路由器产品的功能使用，给您以及其他用户带来更好的体验': {
+        'en': 'In order to better provide you better experience brought by the new generation of smart routers, we will collect statistics on your usage of Redmi router-related functions as needed, and then use these statistics will improve the performance of Redmi router products, bring you and other users a better experience'
+    },
+    '请放心，我们像您一样厌恶个人隐私的泄露，所有统计数据仅包括您在使用Redmi路由器中对各项功能的使用频率、使用方式等，这些数据以匿名的方式统计，仅用于我们更好的改进产品为用户服务，绝不涉及用户在手机上保存的短信、通话记录、联系人等各种个人隐私数据': {
+        'en': 'Please rest assured, we hate the disclosure of personal privacy like you. All statistics only include the frequency and method of using various functions when you use the Redmi router. These data is collected in an anonymous way and only used for the product improvement, and never involve various personal privacy data such as text messages, call records, contacts, etc. saved by users on their mobile phones'
+    },
+    '小米通讯技术有限公司': {'en': 'Xiaomi Communication Technology Co., Ltd.'},
+    '隐藏内容': {'en': 'Hidden content', 'ru': 'Скрытый контент'},
+    '使用即同意': {'en': 'Agree to use', 'ru': 'Согласен использовать'},
+    '隐私声明和用户协议': {
+        'en': 'Privacy Statement and User Agreement',
+        'ru': 'Заявление о конфиденциальности и Пользовательское соглашение'
+    },
+    '尝试连接超过3次，已被禁止连接': {
+        'en': 'Attempted to connect more than 3 times, connection has been closed',
+        'ru': 'Попытка подключения более 3 раз, соединение было закрыто'
+    },
+    '请等待30分钟后再试': {
+        'en': 'Please wait 30 minutes and try again',
+        'ru': 'Пожалуйста, подождите 30 минут и повторите попытку'
+    },
+    '关注公众号，获取20分钟高速网络': {'en': 'Follow the official account and get 20 minutes of high-speed internet'},
+    '网速太慢': {'en': 'Internet speed is too slow', 'ru': 'Скорость интернета слишком низкая'},
+    '定单无法支付': {'en': 'Order cannot be paid', 'ru': 'Заказ не может быть оплачен'},
+    '付款后无法上网': {'en': 'Can not get online after payment', 'ru': 'Невозможно выйти в интернет после оплаты'},
+    '其它问题': {'en': 'Other questions', 'ru': 'Другие вопросы'},
+    '详细描述': {'en': 'Detailed Description', 'ru': 'Подробное описание'},
+    '手机号（选填，方便有问题时与您联系）': {'en': 'Mobile phone number (optional, so that we can contact you in case of any questions)'},
+    '提交': {'en': 'Submit', 'ru': 'Отправить'},
+    '客服热线': {'en': 'Customer service hotline'},
+    '附近热门应用，免流量下载': {'en': 'Popular applications nearby, free data download'},
+    '立即下载': {'en': 'Download immediately'},
+    '上网申请已发送': {'en': 'Online application has been sent'},
+    '请等待管理员审核': {'en': 'Please wait for admin review'},
+    '请刷新网页重试': {'en': 'Please refresh the page and try again'},
+    '上网申请已通过': {'en': 'Online application has been approved'},
+    '你现在可以免费上网了': {'en': 'You can now surf the internet for free'},
+    '抱歉，管理员拒绝了你的上网申请': {'en': 'Sorry, the administrator has rejected your online application'},
+    '建议联系管理员好好沟通一下': {'en': 'It is recommended to contact the administrator for better communication'},
+    '已连上WiFi,免费试玩精彩游戏': {'en': 'Connected to WiFi, try exciting games for free'},
+    'WiFi管家': {'en': 'WiFi Butler'},
+    '节省流量，随地连接共享WiFi': {'en': 'Save data, connect to shared WiFi anywhere'},
+    '登录中': {'en': 'Logging in', 'ru': 'Вход в систему'},
+    '登录失败,请重新登录!': {'en': 'Login failed, please login again!', 'ru': 'Не удалось войти, пожалуйста, войдите снова!'},
+    '退出系统': {'en': 'Exit system', 'ru': 'Выйти из системы'},
+    '路由售后诊断系统': {'en': 'Router after-sales diagnostic system', 'ru': 'Система послепродажной диагностики роутера'},
+    '外网': {'en': 'External network', 'ru': 'Внешняя сеть'},
+    '无线/有线': {'en': 'Wireless/Wired', 'ru': 'Беспроводная/проводная'},
+    '测试': {'en': ' test', 'ru': ' тест'},
+    '硬盘': {'en': 'Hard drive ', 'ru': 'Жесткий диск '},
+    '下载日志': {'en': 'Download log', 'ru': 'Скачать лог'},
+    '测试参数配置': {'en': 'Test parameter configuration', 'ru': 'Конфигурация тестовых параметров'},
+    '请先登录': {'en': 'Please log in first', 'ru': 'Пожалуйста, войдите сначала'},
+    '无线/有线测速': {'en': 'Wireless/Wired Speed Test', 'ru': 'Тест скорости беспроводной/проводной сети'},
+    '提示: 测试终端上线并开启iperf server后再进行测试': {
+        'en': 'Tip: Test the terminal after it goes online and starts the iperf server',
+        'ru': 'Совет: протестируйте терминал после того, как он подключится к сети и запустит сервер iperf'
+    },
+    'SSID列表': {'en': 'SSID list', 'ru': 'Список SSID'},
+    '刷新': {'en': 'Refresh', 'ru': 'Обновить'},
+    '有线': {'en': 'wired', 'ru': 'проводной'},
+    '刷新中': {'en': 'Refreshing', 'ru': 'Обновление'},
+    '网络类型': {'en': 'Network Type', 'ru': 'Тип сети'},
+    '上行速率': {'en': 'Uplink rate', 'ru': 'Скорость передачи'},
+    '下行速率': {'en': 'Downlink rate', 'ru': 'Скорость приема'},
+    '测试结果': {'en': 'Test Results', 'ru': 'Результаты теста'},
+    '信号强度低': {'en': 'Low signal strength', 'ru': 'Низкая мощность сигнала'},
+    '测试中': {'en': 'Testing', 'ru': 'Тестирование'},
+    '信号强度不达标': {'en': 'Signal strength is not standard', 'ru': 'Мощность сигнала не стандартная'},
+    '未开启iperf server': {'en': 'Iperf server is not enabled', 'ru': 'Iperf-сервер не включен'},
+    '性能不达标': {'en': 'Non-standard performance', 'ru': 'Нестандартная производительность'},
+    '提示: 插入U盘后，请等待30秒再进行测试': {
+        'en': 'Tip: After inserting the USB flash drive, please wait 30 seconds before testing',
+        'ru': 'Совет. После вставки флэш-накопителя USB подождите 30 секунд перед тестированием'
+    },
+    'USB测速': {'en': 'USB speed test', 'ru': 'Тест скорости USB'},
+    'USB类型': {'en': 'USB type', 'ru': 'Тип USB'},
+    '协商速率': {'en': 'Exchange rate', 'ru': 'Скорость обмена'},
+    '还未插入U盘!': {'en': 'The USB drive has not been inserted yet!', 'ru': 'USB-накопитель еще не вставлен!'},
+    '外网测速': {'en': 'Internet speed test', 'ru': 'Тест скорости интернета'},
+    '正在测试': {'en': 'Testing', 'ru': 'Тестирование'},
+    '测速失败,您可以尝试重新测试': {
+        'en': 'Speed test failed, you can try again',
+        'ru': 'Тест скорости не пройден, попробуйте еще раз'
+    },
+    'S.M.A.R.T信息': {'en': 'Hard Drive S.M.A.R.T Information', 'ru': 'Информация S.M.A.R.T жесткого диска'},
+    '当前值': {'en': 'The current value', 'ru': 'Текущее значение'},
+    '最差值': {'en': 'Worst value', 'ru': 'Худшее значение'},
+    '阈值': {'en': 'Threshold', 'ru': 'Порог'},
+    '事件计数': {'en': 'Event count', 'ru': 'Число событий'},
+    '设备不带硬盘,不支持此项测试!': {
+        'en': 'The device does not have a hard disk and does not support this test!',
+        'ru': 'Устройство не имеет жесткого диска и не поддерживает этот тест!'
+    },
+    '设备硬盘有坏道,请备份数据换修': {
+        'en': 'The hard disk of the device has bad sectors, please back up the data and replace it',
+        'ru': 'На жестком диске устройства есть поврежденные сектора, сделайте резервную копию данных и замените его'
+    },
+    '异常': {'en': 'abnormal', 'ru': 'аномальный'},
+    '正常': {'en': 'normal', 'ru': 'нормальный'},
+    '有坏道': {'en': 'Bad sectors', 'ru': 'плохих секторов'},
+    '读写测试失败': {'en': 'Read and write test failed', 'ru': 'Проверка чтения и записи не удалась'},
+    '参数描述': {'en': 'Parameter Description', 'ru': 'Описание параметра'},
+    '参数数值': {'en': 'Parameter value', 'ru': 'Значение параметра'},
+    '单位': {'en': 'Unit', 'ru': 'Ед. изм.'},
+    '无线用户信号强度告警阀值': {
+        'en': 'Wireless user signal strength alarm threshold',
+        'ru': 'Пороговое значение уровня сигнала беспроводной сети пользователя'
+    },
+    '无线/有线用户测试性能阀值': {
+        'en': 'Wireless/Wired User Test Performance Threshold',
+        'ru': 'Порог производительности пользовательского тестирования беспроводной/проводной сети'
+    },
+    '写测试阀值': {'en': ' write test threshold', 'ru': ' порог теста записи'},
+    '读测试阀值': {'en': ' read test threshold', 'ru': ' порог теста чтения'},
+    '输入值不符合取值范围要求!': {
+        'en': 'The input value is not in the allowed range!',
+        'ru': 'Введенное значение находится за пределами допустимого диапазона!'
+    },
+    '提交成功': {'en': 'Submitted successfully', 'ru': 'Отправлено успешно'},
+    '提交失败，请稍候再试!': {
+        'en': 'Submit failed, please try again later!',
+        'ru': 'Отправить не удалось, повторите попытку позже!'
+    },
+    '抱歉': {'en': 'Sorry', 'ru': 'Извините'},
+    '你无法连接到互联网！': {'en': 'You can not connect to the internet!', 'ru': 'Вы не можете подключиться к Интернету!'},
+    '可能是因为如下原因': {
+        'en': 'It may be because of the following reasons',
+        'ru': 'Это может быть из-за следующих причин'
+    },
+    'wan 口未连接': {'en': 'WAN port is not connected', 'ru': 'WAN-порт не подключен'},
+    '账号密码失效（欠费、密码被更改）': {
+        'en': 'The account password is invalid (password is changed)',
+        'ru': 'Неверный пароль учетной записи (пароль изменен)'
+    },
+    '你的上网速度较慢！': {'en': 'Your internet speed is slow!', 'ru': 'У вас низкая скорость интернета!'},
+    '路由器响应过多，过热': {'en': 'The router is overloaded, overheating', 'ru': 'Роутер перегружен, перегревается'},
+    '宽带被其他任务占用过多': {'en': 'Internet line is overloaded', 'ru': 'Интернет-линия перегружена'},
+    '你访问的网关超时无响应！': {
+        'en': 'The gateway timed out and not responding!',
+        'ru': 'Время ожидания шлюза истекло, нет ответа!'
+    },
+    '网关或代理已经失效，不响应访问所需网址的请求': {
+        'en': 'The gateway or proxy has failed and is not responding to requests',
+        'ru': 'Шлюз или прокси-сервер вышли из строя и не отвечают на запросы'
+    },
+    '建议更换网关/代理重试': {
+        'en': 'It is recommended to change the gateway/proxy and try again',
+        'ru': 'Рекомендуется изменить шлюз/прокси и повторить попытку'
+    },
+    '你你访问的网关超时无响应！': {
+        'en': 'The gateway timed out and not responding!',
+        'ru': 'Время ожидания шлюза истекло, нет ответа!'
+    },
+    '网站可能在维护，导致部分服务没有启动或是关闭': {
+        'en': 'The website may be under maintenance, and some services may not be available',
+        'ru': 'Веб-сайт может находиться на техническом обслуживании, и некоторые услуги могут быть недоступны'
+    },
+    '你访问的页面链接超时！': {
+        'en': 'The page you requested timed out!',
+        'ru': 'Время ожидания запрошенной вами страницы истекло!'
+    },
+    '服务器当前链接过多、配置失误或临时性的网络连接失败，导致服务器无法正常响应': {'en': '', 'ru': ''},
+    '请点击': {
+        'en': 'There are too many current connections to the server, configuration errors, or temporary network connection failures, causing the server failing to respond properly',
+        'ru': 'Слишком много текущих подключений к серверу, ошибки конфигурации или временные сбои сетевого подключения, из-за чего сервер не отвечает'
+    },
+    '按钮重新访问页面，或请点击': {
+        'en': 'Button to revisit the page, or click',
+        'ru': 'Кнопка для повторного посещения страницы или нажмите'
+    },
+    '按钮进行连接测试': {'en': 'button for connection test', 'ru': 'кнопка для проверки соединения'},
+    '如果问题依然存在，请与WEB服务器管理员联系': {
+        'en': 'If the problem persists, please contact the web server administrator',
+        'ru': 'Если проблема не устранена, обратитесь к администратору веб-сервера'
+    },
+    '你访问的网站不理解你的请求！': {
+        'en': 'The website does not understand your request!',
+        'ru': 'Веб-сайт не понимает ваш запрос!'
+    },
+    '你要访问的网站或许太陈旧，不支持实现你的请求所需的功能': {
+        'en': 'The website may be too old to support the functionality required for your request',
+        'ru': 'Веб-сайт может быть слишком старым для поддержки функций, необходимых для вашего запроса'
+    },
+    '你访问的页面不在地球上！': {
+        'en': 'The page you requested does not exist!',
+        'ru': 'Запрошенная вами страница не существует!'
+    },
+    '可能的原因是': {'en': 'Possible reasons are', 'ru': 'Возможные причины'},
+    'URL网址输入错误': {'en': 'URL entered incorrectly', 'ru': 'URL введен неправильно'},
+    '原页面链接过期': {
+        'en': 'The link to the original page has expired',
+        'ru': 'Срок действия ссылки на исходную страницу истек'
+    },
+    '你访问的服务器内部发生错误！': {
+        'en': 'An internal error occurred on the server!',
+        'ru': 'На сервере произошла внутренняя ошибка!'
+    },
+    '您正在访问的网站出现了服务器问题，如服务器正在维护或程序出错': {
+        'en': 'There is a server problem with the website, such as a server maintenance or a program error',
+        'ru': 'На веб-сайте возникла проблема с сервером, например, техническое обслуживание или ошибка программы'
+    },
+    '你连接的路由器还未初始化': {
+        'en': 'The router you are connected to has not been initialized',
+        'ru': 'Маршрутизатор, к которому вы подключены, не был инициализирован'
+    },
+    '请稍候，会自动为你跳转到引导页面': {
+        'en': 'Please wait, you will be automatically redirected to the guide page',
+        'ru': 'Пожалуйста, подождите, Вы будете автоматически направлены на страницу руководства'},
+    '如果未能跳转，请直接访问': {
+        'en': 'If it is failed to redirect, please go to it directly',
+        'ru': 'Если переадресация не удалось, перейдите напрямую'
+    },
+    '当前场景(必选)': {'en': 'Current scene (required)', 'ru': 'Текущая сцена (обязательно)'}
 }
 
-timezone_translation = {
-    '国际日期变更线西': {'en': ' Intern. Date Line West'},
-    '萨摩亚群岛': {'en': ' Samoa'},
-    '协调世界时': {'en': ' Coordinated Universal Time'},
-    '夏威夷': {'en': ' Hawaii'},
-    '马克萨斯群岛标准时间': {'en': ' Marquesas Standard Time'},
-    '阿拉斯加': {'en': ' Alaska'},
-    '太平洋时间(美国和加拿大)': {'en': ' Pacific Time (US and Canada)'},
-    '下加利福尼亚州': {'en': ' Baja California'},
-    '奇瓦瓦,拉巴斯,马萨特兰': {'en': ' Chihuahua, La Paz, Mazatlan'},
-    '山地时间(美国和加拿大)': {'en': ' Mountain Time (US and Canada)'},
-    '亚利桑那': {'en': ' Arizona'},
-    '瓜达拉哈拉,墨西哥城,蒙特雷': {'en': ' Guadalajara, Mexico City, Monterrey'},
-    '萨斯克彻温': {'en': ' Saskatchewan'},
-    '中部时间(美国和加拿大)': {'en': ' Central Time (US and Canada)'},
-    '中美洲': {'en': ' Central America'},
-    '波哥大,利马,基多': {'en': ' Bogota, Lima, Quito'},
-    '东部时间(美国和加拿大)': {'en': ' Eastern Time (US and Canada)'},
-    '印第安纳州(东部)': {'en': ' Indiana (East)'},
-    '加拉加斯': {'en': ' Caracas'},
-    '大西洋时间(加拿大)': {'en': ' Atlantic Time (Canada)'},
-    '库亚巴': {'en': ' Cuiaba'},
-    '乔治敦,拉巴斯,马瑙斯,圣湖安': {'en': ' Georgetown, La Paz, Manaus, Saint Lake Ann'},
-    '圣地亚哥': {'en': ' San Diego'},
-    '亚松森': {'en': ' Asuncion'},
-    '纽芬兰': {'en': ' Newfoundland'},
-    '巴西利亚': {'en': ' Brasilia'},
-    '布宜诺斯艾利斯': {'en': ' Buenos Aires'},
-    '格陵兰': {'en': ' Greenland'},
-    '卡宴,福塔雷萨': {'en': ' Cayenne, Fortaleza'},
-    '蒙得维的亚': {'en': ' Montevideo'},
-    '佛得角群岛': {'en': ' Cape Verde Islands'},
-    '中大西洋': {'en': ' Mid-Atlantic'},
-    '亚速尔群岛': {'en': ' Azores'},
-    '都柏林,爱丁堡,里斯本,伦敦': {'en': ' Dublin, Edinburgh, Lisbon, London'},
-    '卡萨布兰卡': {'en': ' Casablanca'},
-    '蒙罗维亚,雷克雅未克': {'en': ' Monrovia, Reykjavik'},
-    '阿姆斯特丹,柏林,伯尔尼,罗马,斯德歌尔摩,维也纳': {'en': ' Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna'},
-    '贝尔格莱德,布拉迪斯拉发,布达佩斯,卢布尔雅那': {'en': ' Belgrade, Bratislava, Budapest, Ljubljana'},
-    '布鲁塞尔,哥本哈根,马德里,巴黎': {'en': ' Brussels, Copenhagen, Madrid, Paris'},
-    '萨拉热窝,斯科普里,华沙,萨格勒布': {'en': ' Sarajevo, Skopje, Warsaw, Zagreb'},
-    '温得和克': {'en': ' Windhoek'},
-    '中非西部': {'en': ' West Central Africa'},
-    '安曼': {'en': ' Amman'},
-    '贝鲁特': {'en': ' Beirut'},
-    '大马士革': {'en': ' Damascus'},
-    '哈拉雷,比勒陀利亚': {'en': ' Harare, Pretoria'},
-    '赫尔辛基,基辅,里加,索非亚,塔林,维尔纽斯': {
-        'en': ' Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius',
-        'ru': ' Хельсинки, Киев, Рига, София, Таллинн, Вильнюс'
-    },
-    '开罗': {'en': ' Cairo'},
-    '明斯克': {'en': ' Minsk', 'ru': ' Минск'},
-    '雅典,布加勒斯特': {'en': ' Athens, Bucharest'},
-    '耶路撒冷': {'en': ' Jerusalem'},
-    '伊斯坦布尔': {'en': ' Istanbul'},
-    '巴格达': {'en': ' Baghdad'},
-    '加里宁格勒': {'en': ' Kaliningrad', 'ru': ' Калининград'},
-    '科威特,利雅得': {'en': ' Kuwait, Riyadh'},
-    '内罗毕': {'en': ' Nairobi'},
-    '德黑兰': {'en': ' Tehran'},
-    '阿布扎比,马斯喀特': {'en': ' Abu Dhabi, Muscat'},
-    '埃里温': {'en': ' Yerevan', 'ru': ' Ереван'},
-    '巴库': {'en': ' Baku', 'ru': ' Баку'},
-    '第比利斯': {'en': ' Tbilisi', 'ru': ' Тбилиси'},
-    '路易港': {'en': ' Port Louis'},
-    '莫斯科,圣彼得堡,伏尔加格勒': {'en': ' Moscow, St. Petersburg, Volgograd', 'ru': ' Москва, Санкт-Петербург, Волгоград'},
-    '喀布尔': {'en': ' Kabul'},
-    '塔什干': {'en': ' Tashkent', 'ru': ' Ташкент'},
-    '伊斯兰堡,卡拉奇': {'en': ' Islamabad, Karachi'},
-    '钦奈,加尔各答,孟买,新德里': {'en': ' Chennai, Kolkata, Mumbai, New Delhi'},
-    '斯里加亚渥登普拉': {'en': ' Sri Jaya Wodenpura'},
-    '加德满都': {'en': ' Kathmandu'},
-    '阿斯塔纳': {'en': ' Astana', 'ru': ' Астана'},
-    '达卡': {'en': ' Dhaka'},
-    '叶卡捷琳堡': {'en': ' Yekaterinburg', 'ru': ' Екатеринбург'},
-    '仰光': {'en': ' Yangon'},
-    '曼谷,河内,雅加达': {'en': ' Bangkok, Hanoi, Jakarta'},
-    '新西伯利亚': {'en': ' Novosibirsk', 'ru': ' Новосибирск'},
-    '北京,重庆,香港特别行政区,乌鲁木齐': {'en': ' Beijing, Chongqing, Hong Kong, Urumqi'},
-    '吉隆坡,新加坡': {'en': ' Kuala Lumpur, Singapore'},
-    '克拉斯诺亚尔斯克': {'en': ' Krasnoyarsk', 'ru': ' Красноярск'},
-    '珀斯': {'en': ' Perth'},
-    '台北': {'en': ' Taipei'},
-    '乌兰巴托': {'en': ' Ulaanbaatar'},
-    '朝鲜标准时间': {'en': ' North Korea Standard Time'},
-    '大阪,札幌,东': {'en': ' Osaka, Sapporo, East'},
-    '首尔': {'en': ' Seoul'},
-    '伊尔库茨克': {'en': ' Irkutsk', 'ru': ' Иркутск'},
-    '阿德莱德': {'en': ' Adelaide'},
-    '达尔文': {'en': ' Darwin'},
-    '布里斯班': {'en': ' Brisbane'},
-    '关岛,莫尔兹比港': {'en': ' Guam, Port Moresby'},
-    '霍巴特': {'en': ' Hobart'},
-    '堪培拉,墨尔本,悉尼': {'en': ' Canberra, Melbourne, Sydney'},
-    '雅库茨克': {'en': ' Yakutsk', 'ru': ' Якутск'},
-    '澳大利亚远东标准时间': {'en': ' Australian Far Eastern Standard Time'},
-    '符拉迪沃斯托克': {'en': ' Vladivostok', 'ru': ' Владивосток'},
-    '所罗门群岛,新喀里多尼亚': {'en': ' Solomon Islands, New Caledonia'},
-    '诺福克岛标准时间': {'en': ' Norfolk Island Standard Time'},
-    '奥克兰,惠灵顿': {'en': ' Auckland, Wellington'},
-    '斐济': {'en': ' Fiji'},
-    '马加丹': {'en': ' Magadan'},
-    '努库阿洛法': {'en': ' Nuku\\\'alofa'},
-    '查塔姆群岛标准时间': {'en': ' Chatham Islands Standard Time'},
-    '基里巴斯': {'en': ' Kiribati'}
-}
 
 translation_keys_sorted = sorted(translation, key=len, reverse=True)
-
-timezone_translation_keys_sorted = sorted(timezone_translation, key=len, reverse=True)
 
 available_langs = set().union(*(d.keys() for d in translation.values()))
