@@ -103,7 +103,8 @@ timezone_translation = {
     '马加丹': {'en': ' Magadan'},
     '努库阿洛法': {'en': ' Nuku\\\'alofa'},
     '查塔姆群岛标准时间': {'en': ' Chatham Islands Standard Time'},
-    '基里巴斯': {'en': ' Kiribati'}
+    '基里巴斯': {'en': ' Kiribati'},
+    '大阪,札幌,东京': {'en': ' Osaka, Sapporo, Tokyo'}
 }
 
 timezone_translation_keys_sorted = sorted(timezone_translation, key=len, reverse=True)

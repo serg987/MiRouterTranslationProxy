@@ -22,7 +22,7 @@ Current status of project:
 it is very glitchy and has limited functionality)
 * Most of the screens are checked, but still may be some HTML formatting and CSS issues as well as grammar, spelling, 
 syntax and not proper translations
-* Tested on Xiaomi Redmi AC2100 router (firmware v.2.0.23) and Chrome v.97 , Firefox v.96, Edge v.97; 
+* Tested on Xiaomi Redmi AC2100 router (firmware v.1.0.14 and v.2.0.23) and Chrome v.97 , Firefox v.96, Edge v.97; 
 Android Chrome and Firefox
 
 ## Warnings and disclaimer
@@ -111,8 +111,8 @@ to restore it, add `/resetlang` at the end of any URL
  крайне глючная и имеет ограниченный функционал - ей лучше не пользоваться, даже напрямую с роутера)
 * Большинство страниц проверены, но все еще могут быть проблемы с HTML форматированием и CSS, также могут быть 
 грамматические, синтаксические и смысловые ошибки
-* Проверялось на Xiaomi Redmi AC2100 роутер (ПО v.2.0.23) и Chrome v.97, Firefox v.96, Edge v.97; Android Chrome и 
-Firefox
+* Проверялось на Xiaomi Redmi AC2100 роутер (ПО v.1.0.14 и v.2.0.23) и Chrome v.97, Firefox v.96, Edge v.97; Android 
+Chrome и Firefox
 
 ## Предупреждения и отказ от обязательств
 

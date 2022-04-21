@@ -269,7 +269,7 @@ translation = {
         'ru': 'Байт (изменение не рекомендуется при нормальной работе сети)'
     },
     '服务名': {'en': 'Service Name', 'ru': 'Имя сервиса'},
-    '应用': {'en': 'Application', 'ru': 'Приложение'},
+    '应用': {'en': 'Save', 'ru': 'Сохранить'},
     '网关': {'en': 'Gateway', 'ru': 'Шлюз'},
     '选填': {'en': 'Optional', 'ru': 'Необязательно'},
     '请手工选择需要的工作模式': {
@@ -319,7 +319,7 @@ translation = {
         'en': 'The name and password of the wireless network are the same as the target router',
         'ru': 'Имя и пароль беспроводной сети такие же, как у основного роутера'
     },
-    '一键无线中继': {'en': 'Wireless repeater in one click', 'ru': 'Беспроводной повторитель в один клик'},
+    '一键无线中继': {'en': 'Wireless repeater in one click', 'ru': 'Беспроводной ретранслятор в один клик'},
     '上传日志': {'en': 'Upload Log', 'ru': 'Выгрузить журнал'},
     '请检查您输入的电话号码': {'en': 'Please check the phone number you entered'},
     '请检查您输入的姓名': {'en': 'Please check the name you entered'},
@@ -372,8 +372,6 @@ translation = {
     '没有运行中的任务': {'en': 'There are no running tasks'},
     '客户端': {'en': ' client', 'ru': ' клиент'},
     '手机客户端': {'en': 'Mobile client', 'ru': 'Мобильный клиент'},
-    'http://api.miwifi.com/res_stat': {'en': ''},   # Prevent tracking of user action, leave as it is for all langs
-    'http://broker.miwifi.com': {'en': ''},  # Prevent tracking of user action, leave as it is for all langs
     '正在测速': {'en': 'Measuring speed', 'ru': 'Измерение скорости'},
     '还没有进行测速': {'en': 'No speed test yet', 'ru': 'Скорость еще не измерялась'},
     '立即测速': {'en': 'Test your speed now', 'ru': 'Проверить скорость сейчас'},
@@ -439,7 +437,10 @@ translation = {
         'en': 'Turning off 2.4G Wi-Fi will also turn off guest Wi-Fi',
         'ru': 'Отключение 2.4G Wi-Fi также отключит гостевой Wi-Fi'
     },
-    '关闭WiFi会同时关闭访客WiFi': {'en': 'Turning off Wi-Fi also turns off guest Wi-Fi', 'ru': ''},
+    '关闭WiFi会同时关闭访客WiFi': {
+        'en': 'Turning off Wi-Fi also turns off guest Wi-Fi',
+        'ru': 'Отключение Wi-Fi также отключит гостевой Wi-Fi'
+    },
     '少数设备可能不支持中文或特殊字符': {'en': 'A few devices may not support Chinese or special characters'},
     'WiFi双频合一关闭，5G会默认使用2.4G相同的网络名称（加后缀_5G）和密码，如需设成不一样，请进行修改': {
         'en': 'Wi-Fi dual-band integration is turned off, and 5G will use the same network name (with the suffix _5G) and password as 2.4G by default. If you need to set it differently, please modify it',
@@ -542,7 +543,7 @@ translation = {
     '拨号状态异常': {'en': 'PPPoE status is abnormal', 'ru': 'Состояние PPPoE ненормальное'},
     '办法1:尝试关闭调制解调器(猫)和路由器，几分钟后重新通电再次尝试拨号': {'en': 'Method 1: Try to turn off the modem (cat) and router, then power on again after a few minutes and try to connect again'},
     '办法2:使用电脑或者旧路由器完成拨号，然后手工选择“结束连接”或“关闭连接”，再尝试使用Redmi路由器拨号': {'en': 'Method 2: Use a computer or an old router to complete the connect, then manually select "End Connection" or "Close Connection", and then try to use the Redmi router to connect'},
-    '办法3:尝试在路由器上网设置中进行mac地址克隆，然后重新拨号': {'en': "Method 3: Try to clone the mac address in the router's Internet settings, and then connect again"},
+    '办法3:尝试在路由器上网设置中进行mac地址克隆，然后重新拨号': {'en': "Method 3: Try to clone the mac address in the router\\\'s Internet settings, and then connect again"},
     '地址克隆设置': {'en': ' address cloning settings', 'ru': ' настрокйи клонирования адреса'},
     '口协商速率设置': {'en': ' port negotiation rate setting', 'ru': ' настройка скорости согласования портов'},
     '办法4:尝试调整WAN口协商速率，然后重新拨号': {'en': 'Method 4: Try to adjust the negotiation rate of the WAN port, and then connect again'},
@@ -577,7 +578,7 @@ translation = {
     },
     '如果您已开启访客WiFi，切换为无线中继模式后，访客WiFi将会关闭': {
         'en': 'If you have turned on the guest Wi-Fi, after switching to wireless repeater mode, the guest Wi-Fi will be turned off',
-        'ru': 'Если вы включили гостевой Wi-Fi, то после переключения в режим повторителя гостевой Wi-Fi будет выключен'
+        'ru': 'Если вы включили гостевой Wi-Fi, то после переключения в режим ретранслятора гостевой Wi-Fi будет выключен'
     },
     '如果您已开启访客WiFi，切换为有线中继模式后，访客WiFi将会关闭': {
         'en': 'If you have turned on the guest Wi-Fi, after switching to wired relay mode, the guest Wi-Fi will be turned off',
@@ -860,12 +861,12 @@ translation = {
     },
     '什么是DDNS？': {'en': 'What is DDNS?'},
     '是动态域名服务的缩写': {'en': 'Abbreviation for Dynamic Domain Name Service'},
-    '目前路由器拨号上网获得的多半都是动态IP，DDNS可以将路由器变化的外网IP和固定的域名绑定，从而用户可以在外网通过该固定域名来访问路由器': {'en': 'At present, most of the ISP provides access with dynamic IP. DDNS can bind the router\'s changed external network IP to a fixed domain name, so users can access the router on the external network through the fixed domain name'},
+    '目前路由器拨号上网获得的多半都是动态IP，DDNS可以将路由器变化的外网IP和固定的域名绑定，从而用户可以在外网通过该固定域名来访问路由器': {'en': 'At present, most of the ISP provides access with dynamic IP. DDNS can bind the router\\\'s changed external network IP to a fixed domain name, so users can access the router on the external network through the fixed domain name'},
     '如何设置DDNS？': {'en': 'How to set up DDNS?'},
     '通过DDNS服务商获得域名及账号密码信息；': {'en': 'Obtain domain name and account password information through DDNS service provider;'},
     '开启DDNS服务，添加服务，输入前一步获取的信息，保存并启用该服务': {'en': 'Enable the DDNS service, add the service, enter the information obtained in the previous step, save and enable the service'},
     '注意事项': {'en': 'Instructions'},
-    '可以通过内置的DDNS运营商去该运营商官网去注册账号及申请域名；': {'en': 'You can go to the service\'s official website to register an account and apply for a domain name through the built-in DDNS service;'},
+    '可以通过内置的DDNS运营商去该运营商官网去注册账号及申请域名；': {'en': 'You can go to the service\\\'s official website to register an account and apply for a domain name through the built-in DDNS service;'},
     '用户名和密码为注册该运营商的用户名与密码；': {'en': 'The user name and password are the user name and password for the DDNS service;'},
     '主机名称为从运营商申请的域名；': {'en': 'The host name is the domain name applied for from the DDNS service;'},
     '强制检查为WAN口IP的检查时间，如无特殊需求，建议使用默认配置；': {'en': 'The mandatory check is the check time of the WAN port IP. If there is no special requirement, it is recommended to use the default configuration;'},
@@ -1032,9 +1033,9 @@ translation = {
     '前往电脑版': {'en': 'Go to desktop version'},
     '网络出现问题': {'en': 'Network issue'},
     '路由器稳定运行中': {'en': 'The router is in stable operation'},
-    '外网不通的原因可能是': {'en': 'The reason for the out-of-network connection may be'},
-    'WAN或Internet口网络连接异常/宽带账号密码错误': {'en': 'WAN or Internet port network connection is abnormal / ISP account password is incorrect'},
-    'IP未获取/DNS解析异常': {'en': 'IP not obtained / DNS resolution exception'},
+    '外网不通的原因可能是': {'en': 'The reason for the no network connection may be'},
+    'WAN口网络连接异常/宽带账号密码错误': {'en': 'WAN or Internet port network connection is abnormal / ISP account password is incorrect'},
+    'IP未获取/DNS解析异常': {'en': 'IP not obtained / DNS service exception'},
     '运行状态详情': {'en': 'Router status'},
     '访问电脑版': {'en': 'Go to desktop version'},
     '使用更多高级功能': {'en': 'To get advanced features'},
@@ -1093,7 +1094,7 @@ translation = {
     '宽带账号': {'en': 'ISP login'},
     '宽带密码': {'en': 'ISP password'},
     '请输入账号或者密码': {'en': 'Please enter login or password'},
-    '跳过': {'en': 'Continue'},
+    '跳过': {'en': 'Continue', 'ru': 'Продолжить'},
     '正在拨号，请耐心等待': {'en': 'Connecting, please be patient'},
     'PPPOE设置成功': {'en': 'PPPOE set successfully'},
     '错误码': {'en': 'Error code '},
@@ -1323,7 +1324,7 @@ translation = {
     '用户体验改善计划': {'en': 'User Experience Improvement Program', 'ru': 'Программа улучшения пользовательского опыта'},
     '帮助页': {'en': 'Help page', 'ru': 'Страница помощи'},
     '可中继Wi-Fi列表': {'en': 'Relayable Wi-Fi List', 'ru': 'Список ретранслируемых Wi-Fi'},
-    '无线中继模式': {'en': 'Wireless repeater mode', 'ru': 'Режим беспроводного повторителя'},
+    '无线中继模式': {'en': 'Wireless repeater mode', 'ru': 'Режим беспроводного ретранслятора'},
     '请输入需中继Wi-Fi的密码': {
         'en': 'Please enter the password of the Wi-Fi to relay',
         'ru': 'Пожалуйста, введите пароль Wi-Fi для ретрансляции'
@@ -1418,17 +1419,17 @@ translation = {
     },
     '请点击下一步': {'en': 'Please click next', 'ru': 'Пожалуйста, нажмите \\\'Далее\\\''},
     '从旧路由器获取': {'en': 'Get it from an old router', 'ru': 'Получите от старого маршрутизатора'},
-    '请将旧路由器连接电源,并等待系统启动完毕': {'en': 'Please connect the old router to the power supply and wait for the system to start up', 'ru': ''},
-    '请将网线的一头插入旧路由器的WAN或Internet口，另一头插入新路由器的LAN口': {'en': 'Please connect the WAN or Internet port of the old router and LAN port of the new router with an network cable', 'ru': ''},
-    '如果您缺少网线，可以先将路由器WAN或Internet口的网线拔下来使用': {'en': 'If you do not have another network cable, you can use the network cable from the router\\\'s WAN or Internet port', 'ru': ''},
+    '请将旧路由器连接电源,并等待系统启动完毕': {'en': 'Please connect the old router to the power supply and wait for the system to start up'},
+    '请将网线的一头插入旧路由器的WAN或Internet口，另一头插入新路由器的LAN口': {'en': 'Please connect the WAN or Internet port of the old router and LAN port of the new router with an network cable'},
+    '如果您缺少网线，可以先将路由器WAN或Internet口的网线拔下来使用': {'en': 'If you do not have another network cable, you can use the network cable from the router\\\'s WAN or Internet port'},
     '开始获取': {'en': 'Get started', 'ru': 'Начать'},
     '正在获取，请稍候': {'en': 'Detecting, please wait', 'ru': 'Обнаружение. Пожалуйста, подождите'},
-    '已从旧路由器成功获取到网络配置': {'en': 'The network configuration has been successfully obtained from the old router', 'ru': ''},
+    '已从旧路由器成功获取到网络配置': {'en': 'The network configuration has been successfully obtained from the old router'},
     '请拔出上图所示的网线两端，并用网线连接新路由器的WAN或Internet口和光猫/上级网络设备': {
         'en': 'Please unplug the network cable as shown in the picture above, and use the network cable to connect the WAN or Internet port of the new router and the optical modem/superior network device'
     },
-    '先不从旧路由器获取，继续配置': {'en': 'Do not get it from the old router, continue to configure', 'ru': ''},
-    '从旧路由器获取宽带账号和密码失败': {'en': 'Failed to obtain Internet account and password from old router', 'ru': ''},
+    '先不从旧路由器获取，继续配置': {'en': 'Do not get it from the old router, continue to configure'},
+    '从旧路由器获取宽带账号和密码失败': {'en': 'Failed to obtain Internet account and password from old router'},
     '确认两个路由器的网线连接正确（按照上图所示）': {
         'en': 'Make sure the network cables of the two routers are connected correctly (as shown in the picture above)'
     },
@@ -1698,8 +1699,8 @@ translation = {
         'en': 'The page you requested timed out!',
         'ru': 'Время ожидания запрошенной вами страницы истекло!'
     },
-    '服务器当前链接过多、配置失误或临时性的网络连接失败，导致服务器无法正常响应': {'en': '', 'ru': ''},
-    '请点击': {
+    '请点击': {'en': 'Please click', 'ru': 'Пожалуйста нажмите'},
+    '服务器当前链接过多、配置失误或临时性的网络连接失败，导致服务器无法正常响应': {
         'en': 'There are too many current connections to the server, configuration errors, or temporary network connection failures, causing the server failing to respond properly',
         'ru': 'Слишком много текущих подключений к серверу, ошибки конфигурации или временные сбои сетевого подключения, из-за чего сервер не отвечает'
     },
@@ -1749,9 +1750,183 @@ translation = {
         'en': 'If it is failed to redirect, please go to it directly',
         'ru': 'Если переадресация не удалось, перейдите напрямую'
     },
-    '当前场景(必选)': {'en': 'Current scene (required)', 'ru': 'Текущая сцена (обязательно)'}
+    '当前场景(必选)': {'en': 'Current scene (required)', 'ru': 'Текущая сцена (обязательно)'},
+    '我已安装，现在打开': {'en': ' is installed, now open ', 'ru': ' установлен, теперь откройте '},
+    '确定重启路由器，重启将断开和小米路由器的连接': {
+        'en': 'Are you sure to restart the router, it will disconnect the Xiaomi router',
+        'ru': 'Вы уверены, что хотите перезагрузить роутер, это отключит соединение с роутером Xiaomi'
+    },
+    '是否确定关闭路由器，操作将断开和小米路由器的连接': {
+        'en': 'Are you sure to turn off the router, it will disconnect the Xiaomi router',
+        'ru': 'Вы уверены, что хотите выключить роутер, это отключит соединение с роутером Xiaomi'
+    },
+    '路由器回到初始状态？': {'en': 'router back to its original state?', 'ru': 'в его начальное состояние?'},
+    '小米': {'en': 'Xiaomi '},
+    '确定要恢复出厂设置让': {'en': 'Are you sure you want to make ', 'ru': 'Вы уверены, что хотите вернуть роутер '},
+    '新加信号强度': {'en': 'Added signal strength', 'ru': 'Добавлена мощность сигнала'},
+    '启用与智能网关的无线配置同步': {'en': 'Enable Wireless Configuration Synchronization with Smart Gateway'},
+    '启用此功能后': {'en': 'After enabling this feature'},
+    'i路由器将自动从运营商家庭网关同步': {'en': ' router will automatically sync from provider home gateway'},
+    '办法2:使用电脑或者旧路由器完成拨号，然后手工选择“结束连接”或“关闭连接”，再尝试使用小米路由器拨号': {
+        'en': 'Method 2: Use a computer or an old router to complete the dial-up, then manually select "End Connection" or "Close Connection", and then try to use the Xiaomi router to dial'
+    },
+    '旧路由器与Redmi路由处于同一局域网中，可以互访': {
+        'en': 'The old router and the Redmi router are under the same local area network and can access each other'
+    },
+    '请稍等': {'en': 'Please wait', 'ru': 'Пожалуйста, подождите'},
+    '服务器': {'en': ' Server', 'ru': ' Сервер'},
+    '无线访问黑白名单': {'en': 'Wireless black and white list', 'ru': 'Беспроводные черный и белые списки'},
+    '由于': {'en': 'because', 'ru': 'потому что'},
+    '路由器正在下载升级包': {'en': ' the router is downloading the upgrade package', 'ru': ' роутер загружает пакет обновления'},
+    '取消升级': {'en': 'Cancel upgrade', 'ru': 'Отменить обновление'},
+    '正在升级中': {'en': 'is being upgraded', 'ru': 'обновляется'},
+    '升级过程中请勿断开路由器电源，避免对路由器造成永久性损坏': {
+        'en': 'Do not disconnect the power of the router during the upgrade process to avoid the permanent malfunction of the router',
+        'ru': 'Не отключайте питание роутера во время процесса обновления во избежании полной неработоспособности роутера'
+    },
+    '升级过程大约需要5-8分钟，路由器指示灯重新变蓝后，可以通过miwifi.com进入管理后台': {
+        'en': 'The upgrade process takes about 5-8 minutes. After the router indicator turns blue again, you can enter the Web UI at miwifi.com',
+        'ru': 'Процесс обновления занимает около 5-8 минут. После того, как индикатор маршрутизатора снова станет синим, вы сможете войти в веб-интерфейс на miwifi.com'
+    },
+    '升级注意': {'en': 'Upgrade note'},
+    '当刷回较低版本时，建议您同时清除掉用户配置，以防止版本兼容性引起的异常故障': {
+        'en': 'When downgrading to a lower version, it is recommended to clear the user configuration to prevent failures caused by version compatibility',
+        'ru': 'При переходе на более раннюю версию рекомендуется сбросить конфигурацию пользователя, чтобы предотвратить сбои, вызванные несовместимостью версий'
+    },
+    '清除当前所有用户配置': {'en': 'Clear current user configuration', 'ru': 'Cброс текущей конфигурации пользователя'},
+    '升级失败': {'en': 'Upgrade failed', 'ru': 'Ошибка обновления'},
+    '下载失败': {'en': 'Download failed', 'ru': 'Ошибка загрузки'},
+    '没有磁盘空间': {'en': 'No free disk space', 'ru': 'Не свободного места на диске'},
+    '升级包校验失败': {'en': 'Upgrade package verification failed', 'ru': 'Ошибка проверки пакета обновления'},
+    '刷写失败': {'en': 'Failed to flash', 'ru': 'Ошибка прошивки'},
+    '正在进行系统升级，请不要离开页面': {
+        'en': 'System upgrade is in progress, please do not leave the page',
+        'ru': 'Идет обновление системы, пожалуйста, не покидайте страницу'
+    },
+    'MAC地址白名单': {'en': 'MAC address whitelist', 'ru': 'Белый список MAC адресов'},
+    '配置中，请稍候': {'en': 'Configuring, please wait', 'ru': 'Идет настройка, подождите'},
+    '5G Wi-Fi是运行在5GHz以上的高频段的独立Wi-Fi比较2.4G Wi-Fi速度更快更稳定，适合电视、盒子包括距离路由器较近的设备': {
+        'en': '5G Wi-Fi is an independent Wi-Fi operating in a high frequency band above 5GHz. Compared with 2.4G Wi-Fi, the speed is faster and more stable. It is suitable for TVs and boxes, including devices that are closer to the router',
+        'ru': '5G Wi-Fi — это отдельный Wi-Fi, работающий в диапазоне выше 5 ГГц. По сравнению с 2,4G, скорость Wi-Fi выше и стабильнее. Этот диапазон подходит для телевизоров и ТВ боксов, особенно для устройств, находящихся ближе к роутеру'
+    },
+    '正在进行网络诊断，请稍候': {
+        'en': 'Network diagnostics is in progress, please wait',
+        'ru': 'Выполняется диагностика сети, пожалуйста, подождите'
+    },
+    '恭喜！网络连接正常': {
+        'en': 'Congratulations! Network connection is normal',
+        'ru': 'Поздравляем! Сетевое соединение нормальное'
+    },
+    '重新诊断': {'en': 'Rediagnose', 'ru': 'Передиагностировать'},
+    '返回首页': {'en': 'Back to Home', 'ru': 'Домой'},
+    'Redmi路由器后台': {'en': ' Redmi router Web Interface', 'ru': ' Веб Интерфейс роутера Redmi'},
+    '诊断问题': {'en': 'Diagnose the problem', 'ru': 'Диагностика проблемы'},
+    '可能原因': {'en': 'Possible reason', 'ru': 'Возможная причина'},
+    '解决办法': {'en': 'Solution', 'ru': 'Решение'},
+    '立即修复': {'en': 'Fix it now', 'ru': 'Исправить сейчас'},
+    '路由器没有检测到WAN口网线接入': {'en': 'The router does not detect the WAN port network cable connection'},
+    '路由器WAN口没有网线接入': {'en': 'The WAN port has no network cable'},
+    '接入路由器的网线损坏了': {'en': 'The network cable connected to the router is damaged'},
+    '路由器网络接口损坏了': {'en': 'Router network interface is broken'},
+    '请检查路由器是否已经插好网线': {'en': 'Please check whether the network cable is plugged in to the router'},
+    '更换一根网线再尝试连': {'en': 'Change a network cable and try again'},
+    '联系客服检修': {'en': 'Contact customer service for maintenance'},
+    'DHCP服务没有响应': {'en': 'DHCP service not responding'},
+    '当前接入的网络可能不支持DHCP连接模式': {'en': 'The currently connected network may not support DHCP connection mode'},
+    'DHCP服务异常': {'en': 'DHCP service error'},
+    '请检查是否需要修改外网连接方式': {'en': 'Please check if you need to modify the external network connection method'},
+    '请联系运营商解决': {'en': 'Please contact the provider to resolve'},
+    '宽带拨号服务无响应': {'en': 'Broadband connection is not responding'},
+    '调制解调器（猫）拨号异常': {'en': 'Modem dialing error'},
+    '尝试重启一下调制解调器（猫）再拨号': {'en': 'Try restarting the modem and dial'},
+    '上级网络IP与路由器局域网IP有冲突': {'en': 'The upper-level network IP conflicts with the router LAN IP'},
+    '请检查路由器局域网IP地址设置': {'en': 'Please check the router LAN IP address settings'},
+    '请检查路由器上级网络的连接和相关设置是否有误': {
+        'en': 'Please check if the connection and settings of the upper-level network and the router are correct'
+    }, # TODO up to here
+    'DNS服务器无响应': {'en': 'DNS server not responding', 'ru': 'DNS-сервер не отвечает'},
+    '可能是DNS服务器设置错误': {
+        'en': 'Maybe the DNS server settings are wrong',
+        'ru': 'Возможно, настройки DNS-сервера неверны'
+    },
+    '请检查DNS设置是否有误，若无特殊需求建议使用默认推荐设置': {
+        'en': 'Please check whether the DNS settings are correct. If there are no special requirements, it is recommended to use the default recommended settings.'
+    },
+    '请修改DNS设置，若无特殊需求建议使用默认推荐设置': {
+        'en': 'Please modify the DNS settings, if there are no special needs, it is recommended to use the default recommended settings'
+    },
+    '中继连接出现异常': {'en': 'The relay connection is abnormal', 'ru': 'Соединение повторителя ненормально'},
+    '中继服务出现异常': {'en': 'The relay service is abnormal', 'ru': 'Служба ретрансляции ненормальна'},
+    '请检查中继设置是否有误': {
+        'en': 'Please check if the relay settings are correct',
+        'ru': 'Пожалуйста, проверьте правильность настроек ретранслятора'
+    },
+    '并重新尝试中继': {'en': 'and retry the relay', 'ru': 'и переподключите ретранслятор'},
+    '网络访问出现异常': {'en': 'abnormal network access', 'ru': 'ненормальные доступ к сети'},
+    '请检查静态IP等设置是否有误': {
+        'en': 'Please check if the static IP or other settings are correct',
+        'ru': 'Пожалуйста, проверьте правильность статического IP-адреса или других настроек'
+    },
+    '宽带拨号出现多播异常': {
+        'en': 'Multicast error occurs in broadband connection',
+        'ru': 'Ошибка многоадресной рассылки при широкополосном соединении'
+    },
+    '可能是出现了宽带同帐号多播问题': {
+        'en': 'There may be a problem of broadband same-account multicast',
+        'ru': 'Может быть проблема широкополосной многоадресной рассылки с одной и той же учетной записью'
+    },
+    '建议重启调制解调器（猫）和路由器重新尝试拨号': {
+        'en': 'It is recommended to restart the modem and router to try again',
+        'ru': 'Рекомендуется перезагрузить модем и маршрутизатор, чтобы повторить попытку'
+    },
+    '联系运营商解决': {'en': 'Contact the provider to resolve', 'ru': 'Обратитесь к провайдеру для решения'},
+    '更换一根网线再尝试连接': {
+        'en': 'Change a network cable and try to connect again',
+        'ru': 'Замените сетевой кабель и повторите попытку подключения'
+    },
+    '自定义的DNS服务无响应': {
+        'en': 'Custom DNS service is not responding',
+        'ru': 'Пользовательская служба DNS не отвечает'
+    },
+    '拨号被关闭': {'en': ' dial is turned off ', 'ru': ' связь выключена '},
+    '办法:访问路由器管理后台miwifi.com手工点击重接；或重启路由器自动重连': {
+        'en': 'Method: Go to the router management interface at miwifi.com and manually click to reconnect; or restart the router to automatically reconnect'
+    },
+    '网络诊断完成': {'en': 'Network diagnostics is completed', 'ru': 'Диагностика сети выполнена'},
+    '未发现错误': {'en': 'No errors found', 'ru': 'Ошибок не найдено'},
+    '发现错误': {'en': 'Found error', 'ru': 'Найдена ошибка'},
+    '系统异常': {'en': 'System error', 'ru': 'Ошибка системы'},
+    '请刷新重试': {'en': 'Please refresh and try again', 'ru': 'Пожалуйста обновите страницу и попробуйте снова'},
+    '此操作需要重启才能生效，是否继续?': {
+        'en': 'This operation requires a restart to take effect. Continue?',
+        'ru': 'Эта операция требует перезапуск роутера. Продолжить?'
+    },
+    '启用此功能后，Redmi路由器将自动从运营商家庭网关同步Wi-Fi设置': {
+        'en': 'When this feature is enabled, the Redmi router will automatically sync Wi-Fi settings from the ISP home gateway'
+    },
+    'WAN口状态检测中': {'en': 'WAN port status detection', 'ru': 'Определение статуса порта WAN'},
+    '请检查路由器WAN口已用网线连接到光猫/上级设备的LAN口，或已接入入户网线': {
+        'en': 'Please check that the WAN port of the router has been connected to the LAN port of the optical modem/superior device with a network cable, or has been connected to the home network cable'
+    },
+    'WiFi设置': {'en': 'WiFi settings', 'ru': 'Настройки WiFi'},
+    'WiFi名称': {'en': 'WiFi name', 'ru': 'Имя WiFi'},
+    'WiFi密码': {'en': 'WiFi password', 'ru': 'Пароль WiFi'},
+    '密码不能包含中文': {'en': 'Password cannot contain non-English symbols'},
+    'Redmi路由器技术支持': {'en': 'Redmi router technical support', 'ru': 'Техническая поддержка роутера Redmi'},
+    '中继状态': {'en': 'Relay status', 'ru': 'Состояние ретранслятора'},
+    '中继设置': {'en': 'Relay settings', 'ru': 'Настройки ретранслятора'},
+    '主路由器': {'en': 'Main router', 'ru': 'Главный роутер'},
+    '当前为无线中继模式，中继质量为': {
+        'en': 'Currently in wireless relay mode, the relay quality is',
+        'ru': 'Находится в состоянии ретранслятора, качество трансляции'
+    },
+    '当前工作模式只能切换到普通路由器模式': {
+        'en': 'The current working mode can be only switched to ordinary router mode',
+        'ru': 'Текущий режим работы может быть переключен только в режим обычного роутера'
+    }
 }
 
+anti_tracking = ['http://api.miwifi.com/res_stat', 'http://broker.miwifi.com']
 
 translation_keys_sorted = sorted(translation, key=len, reverse=True)
 

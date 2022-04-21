@@ -1,3 +1,8 @@
+v.0.3.2
+- add more translations based on Redmi AC2100 ROM v.1.0.14 and wireless relay mode
+- fix some translations
+- fixed bug introduced in v.0.3.1 - malformed tracking linked (antitracking replacement is separated now)
+
 v.0.3.1
 - due to high number of lines, timezones translations moved to a separate file
 - add more translations based on web ui sources

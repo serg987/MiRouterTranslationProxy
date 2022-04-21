@@ -3,7 +3,7 @@ import os
 
 from flask import Flask, request, Response
 
-from translation import translation, translation_keys_sorted, available_langs
+from translation import translation, translation_keys_sorted, available_langs, anti_tracking
 from translation_tz import timezone_translation, timezone_translation_keys_sorted
 from css_to_modify import css_to_modify, css_to_modify_keys
 
@@ -104,6 +104,17 @@ def translate(text_list, url):
     return [out]
 
 
+def remove_anti_tracker(text_list):
+    text_lines = [s.decode('UTF8') for s in text_list.splitlines()]
+    for ind, row in enumerate(text_lines):
+        for anti_tr in anti_tracking:
+            if anti_tr in text_lines[ind]:
+                row = text_lines[ind].replace(anti_tr, '')
+                text_lines[ind] = row
+    out = '\n'.join(text_lines).encode('UTF-8')
+    return [out]
+
+
 # some CSS properties do not allow showing long texts. Trying to fix it
 def modify_css(css_list, url):
     css_file_to_modify = None
@@ -136,13 +147,13 @@ def consume_request(path):
         response_from_router: Response = make_get_request(request, url)
     if 'image' in request.headers['Accept'] and 'text' not in request.headers['Accept']:
         return response_from_router
+    response_from_router.response = remove_anti_tracker(response_from_router.response[0])
     response_payload = response_from_router.response[0]
     if not response_payload.isascii() \
             and ('text/html' in response_from_router.content_type
-                 or ('application/javascript' in response_from_router.content_type and 'static/js' in path)):
+                 or ('application/javascript' in response_from_router.content_type and 'js' in path)):
         response_from_router.response = translate(response_payload, url)
-        response_from_router.content_length = sum(len(s) for s in response_from_router.response)
     if 'text/css' in response_from_router.content_type:
         response_from_router.response = modify_css(response_payload, url)
-        response_from_router.content_length = sum(len(s) for s in response_from_router.response)
+    response_from_router.content_length = sum(len(s) for s in response_from_router.response)
     return response_from_router
