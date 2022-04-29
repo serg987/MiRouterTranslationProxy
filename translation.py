@@ -335,7 +335,7 @@ translation = {
     '请': {'en': 'Please', 'ru': 'Пожалуйста'},
     '点击此处立即升级': {'en': 'Click here to upgrade now', 'ru': 'Нажмите, чтобы обновить сейчас'},
     '请联系小米客服解决': {'en': 'please contact Xiaomi customer service to solve'},
-    '有线中继模式': {'en': 'wired repeater mode', 'ru': 'режим проводного ретранслятора'},
+    '有线中继模式': {'en': 'Wired repeater mode', 'ru': 'Режим проводного ретранслятора'},
     '或者': {'en': ' or ', 'ru': ' или '},
     '中国大陆': {'en': 'China Mainland', 'ru': 'Китай'},
     '香港地区': {'en': 'Hong Kong', 'ru': 'Гонконг'},
@@ -504,7 +504,7 @@ translation = {
     '中继模式下部分功能和插件将被屏蔽': {'en': 'Some functions and plug-ins will be blocked in relay mode'},
     '恭喜，Redmi路由器一键有线中继模式设置成功！': {'en': 'Congratulations, the one-key wired relay mode of the Redmi router has been successfully set!'},
     '新建的有线中继无线网络名称为': {'en': 'The new wired relay wireless network name is'},
-    'Redmi路由器的管理后台IP为': {'en': 'The management background IP of the Redmi router is'},
+    'Redmi路由器的管理后台IP为': {'en': 'The management console IP of the Redmi router is'},
     '系统检测你的路由器未接入网线，请接好网线并继续': {'en': 'The system detects that your router is not connected to the network cable, please connect the network cable and continue'},
     '我已接好网线，继续': {'en': 'I have connected the network cable, continue'},
     '放弃': {'en': 'Quit', 'ru': 'Выход'},
@@ -610,10 +610,10 @@ translation = {
     '原密码': {'en': 'Old password', 'ru': 'Старый пароль'},
     '新密码': {'en': 'New password', 'ru': 'Новый пароль'},
     '确认密码': {'en': 'Confirm Password', 'ru': 'Подтвердите пароль'},
-    '管理后台访问控制': {'en': 'Admin background access control', 'ru': 'Доступа администратора в фоне'},
+    '管理后台访问控制': {'en': 'Management console access control', 'ru': 'Управление доступом к панели управления'},
     '开启白名单功能后，将只允许名单中的设备访问管理后台，每次开启会将本机自动添加至白名单': {
-        'en': 'After the whitelist function is enabled, only the devices in the list will be allowed to access the management background, and the device will be automatically added to the whitelist each time it is enabled',
-        'ru': 'После включения функции белого списка только устройствам в списке будет разрешен доступ к фоновому управлению, и устройство будет автоматически добавляться в белый список каждый раз при его включении'
+        'en': 'After the whitelist function is enabled, only the devices in the list will be allowed to access the management console, and the device will be automatically added to the whitelist each time it is enabled',
+        'ru': 'После включения функции белого списка только устройствам в списке будет разрешен доступ к панели управления, и устройство будет автоматически добавляться в белый список каждый раз при его включении'
     },
     '地址白名单': {'en': ' address whitelist', 'ru': ' белый список адресов'},
     '通过MAC地址添加设备': {'en': 'Add device by MAC address', 'ru': 'Добавить устройство по MAC адресу'},
@@ -1512,8 +1512,8 @@ translation = {
     '若还是不行': {'en': 'If it still does not work'},
     '请确认此配置没问题': {'en': 'Please make sure this configuration is proper'},
     '、': {'en': ', '},
-    '《': {'en': '"'},
-    '》': {'en': '"'},
+    '《': {'en': '\"'},
+    '》': {'en': '\"'},
     '：': {'en': ': '},
     '（': {'en': '('},
     '）': {'en': ')'},
@@ -1843,14 +1843,14 @@ translation = {
     '请检查路由器局域网IP地址设置': {'en': 'Please check the router LAN IP address settings'},
     '请检查路由器上级网络的连接和相关设置是否有误': {
         'en': 'Please check if the connection and settings of the upper-level network and the router are correct'
-    }, # TODO up to here
+    },
     'DNS服务器无响应': {'en': 'DNS server not responding', 'ru': 'DNS-сервер не отвечает'},
     '可能是DNS服务器设置错误': {
         'en': 'Maybe the DNS server settings are wrong',
         'ru': 'Возможно, настройки DNS-сервера неверны'
     },
     '请检查DNS设置是否有误，若无特殊需求建议使用默认推荐设置': {
-        'en': 'Please check whether the DNS settings are correct. If there are no special requirements, it is recommended to use the default recommended settings.'
+        'en': 'Please check whether the DNS settings are correct. If there are no special requirements, it is recommended to use the default recommended settings'
     },
     '请修改DNS设置，若无特殊需求建议使用默认推荐设置': {
         'en': 'Please modify the DNS settings, if there are no special needs, it is recommended to use the default recommended settings'
@@ -1923,7 +1923,577 @@ translation = {
     '当前工作模式只能切换到普通路由器模式': {
         'en': 'The current working mode can be only switched to ordinary router mode',
         'ru': 'Текущий режим работы может быть переключен только в режим обычного роутера'
-    }
+    },
+    '优': {'en': 'excellent', 'ru': 'превосходно'},
+    '良': {'en': 'good', 'ru': 'хорошо'},
+    '差': {'en': 'Difference', 'ru': 'Разница'},
+    'Mesh组网': {'en': 'Mesh network', 'ru': 'Сеть Mesh'},
+    '上级路由器': {'en': 'upper router', 'ru': 'вышестоящий маршрутизатор'},
+    '当前CPU状态': {'en': 'Current CPU state', 'ru': 'Текущее состояние CPU'},
+    '当前CPU负载': {'en': 'Current CPU load', 'ru': 'Текущая загрузка процессора'},
+    'CPU核心数': {'en': 'CPU core', 'ru': 'CPU ядер'},
+    '核心频率': {'en': 'Core frequency', 'ru': 'Частота ядра'},
+    '当前内存状态': {'en': 'Current memory status', 'ru': 'Текущее состояние памяти'},
+    '当前内存占用': {'en': 'Current memory usage', 'ru': 'Текущее использование памяти'},
+    '内存容量': {'en': 'Memory Capacity', 'ru': 'Емкость памяти'},
+    '内存类型': {'en': 'Memory type', 'ru': 'Тип памяти'},
+    '内存频率': {'en': 'Memory frequency', 'ru': 'Частота памяти'},
+    '中继路由器切换': {'en': 'Switch to relay mode', 'ru': 'Переключить в режим ретранслятора'},
+    '切换其他路由器为中继目标': {
+        'en': 'Switch other routers as relay targets',
+        'ru': 'Переключить другие маршрутизаторы как цели ретранслятора'
+    },
+    '中继目标切换': {'en': 'Relay target switching', 'ru': 'Переключение целей ретранслятора'},
+    '只差一步,通过小米WiFi APP绑定路由器': {
+        'en': 'Just one step, bind router through Xiaomi WiFi APP',
+        'ru': 'Прикрепите маршрутизатор через приложение Xiaomi WiFi всего за один шаг'
+    },
+    '推荐连接到新的无线服务后继续': {
+        'en': 'It is recommended to connect to the new wireless service and continue',
+        'ru': 'Рекомендуется подключиться к новому беспроводному сервису и продолжать'},
+    '继续': {'en': 'Continue', 'ru': 'Продолжить'},
+    'DHCP的静态IP分配': {'en': 'DHCP static IP allocation', 'ru': 'Статическое распределение IP DHCP'},
+    '配置成功，请稍候': {'en': 'Configuration successful, please wait', 'ru': 'Настройка прошла удачно, пожалуйста, подождите'},
+    '关机': {'en': 'Shut down', 'ru': 'Выключить'},
+    'mesh主设备': {'en': 'Mesh master device', 'ru': 'Головное устройство Mesh'},
+    'mesh从设备': {'en': 'Mesh slave device', 'ru': 'Подчиненное устройство Mesh'},
+    '存储状态': {'en': 'Storage status', 'ru': 'Состояние хранилища'},
+    '子Mesh状态': {'en': 'Mesh status', 'ru': 'Состояние сети Mesh'},
+    '子Mesh设置': {'en': 'Sub Mesh setting', 'ru': 'Настройка подсети Mesh'},
+    '查看网络拓扑图': {'en': 'View network topology map', 'ru': 'Посмотреть карту топологии сети'},
+    '查看完整网络': {'en': 'View the full network', 'ru': 'Просмотр полной сети'},
+    '路由器存储状态': {'en': 'Router storage status', 'ru': 'Статус хранилища маршрутизатора'},
+    '路由器固件升级': {'en': 'Router firmware upgrade', 'ru': 'Обновление прошивки маршрутизатора'},
+    '硬件快转': {'en': ' hardware fast forwarding', 'ru': ' аппаратная быстрая переадресация'},
+    '当您的接入网络带宽达到80Mbps或更高时，开启硬件快转功能可以提升您的实时速度，但是同时智能限速、设备速度显示等大部分功能将无法使用。如非必须，建议您关闭此功能': {
+        'en': 'When your internet bandwidth reaches 80Mbps or higher, enabling the fast forward can improve your real-time speed, but at the same time, most functions such as intelligent speed limit and device speed display will not be available. If it is not needed, it is recommended to turn it off',
+        'ru': 'Когда пропускная способность интернета достигает 80 Мбит/с или выше, включение функции аппаратной быстрой переадресации может улучшить вашу скорость в реальном времени, но в то же время большинство функций, таких как интеллектуальное ограничение скорости и отображение скорости устройства, будут недоступны. Если нет необходимости, рекомендуется отключить эту функцию'
+    },
+    '路由器中继安全中心': {'en': 'Router relay security center', 'ru': 'Центр безопасности ретранслятора маршрутизатора'},
+    '选择上网方式': {'en': 'Select Internet access', 'ru': 'Выберите тип доступа в Интернет'},
+    '微信好友': {'en': 'WeChat friends', 'ru': 'Друзья Wechat'},
+    '申请上网': {'en': 'Apply online', 'ru': 'Подать заявку онлайн'},
+    '反馈': {'en': 'Feedback', 'ru': 'Обратная связь'},
+    '路由器中继系统信息': {
+        'en': 'Router relay system information',
+        'ru': 'Информация о системе ретранслятора маршрутизатора'
+    },
+    '重新连接vpn后该设置将生效，同时"小米服务走vpn功能"将关闭': {
+        'en': 'The settings will apply after reconnecting to the VPN, and the \"Xiaomi VPN Service\" will be turned off',
+        'ru': 'Настройки вступят в силу после подключения VPN, а \"Xiaomi VPN Service\" будет выключен'
+    },
+    '新加弹框': {'en': 'New popup', 'ru': 'Всплывающее окно'},
+    '添加服务地址': {'en': 'Add service address', 'ru': 'Добавить адрес сервиса'},
+    '路由器固件手动升级': {
+        'en': 'Router firmware manual upgrade',
+        'ru': 'Ручное обновление прошивки маршрутизатора'
+    },
+    '如因故无法进行系统OTA升级，或者您需要将路由器软件降级到前一版本时，您可以使用手工方式上传并安装固件': {
+        'en': 'If the system OTA upgrade cannot be performed for some reason, or you need to downgrade the router software to the previous version, you can upload and install the firmware manually',
+        'ru': 'Если обновление системы не может быть выполнено автоматически по какой-то причине, или вам необходимо вернуть предыдущую версию программного обеспечения маршрутизатора, вы можете загрузить и установить прошивку вручную'
+    },
+    '注意：升级过程中请勿断开路由器电源，否则将导致路由器损坏而无法使用；升级完成后，路由器将会自动重新启动': {
+        'en': 'Note: Do not break the router power supply during the upgrade process, otherwise the router will be damaged and cannot be used; after the upgrade is completed, the router will automatically restart',
+        'ru': 'Примечание. Не отключайте питание маршрутизатора во время процесса обновления, в противном случае маршрутизатор будет поврежден и не сможет быть использован; после завершения обновления маршрутизатор автоматически перезапустится'
+    },
+    '上传并安装固件': {'en': 'Upload and install firmware', 'ru': 'Загрузить и установить прошивку'},
+    '升级固件': {'en': 'Upgrade firmware', 'ru': 'Обновить прошивку'},
+    '路由器固件升级中，请耐心等待': {
+        'en': 'The router firmware is being upgraded, please be patient',
+        'ru': 'Прошивка роутера обновляется, пожалуйста, подождите'
+    },
+    '文件上传中': {'en': 'File uploading', 'ru': 'Файл загружается'},
+    '应用名称': {'en': 'Application Name', 'ru': 'Имя приложения'},
+    '拒绝阈值：路由器检测到移动设备信号强度小于此值时，拒绝设备接入路由器': {
+        'en': 'Rejection Threshold: When the router detects that the signal strength of the mobile device is lower than this value, it rejects the device from accessing the router',
+        'ru': 'Порог отклонения: когда маршрутизатор обнаруживает, что уровень сигнала мобильного устройства ниже этого значения, он отклоняет доступ устройства к маршрутизатору'
+    },
+    '踢除阈值：路由器检测到移动设备信号强度小于此值时，将强制已上线的设备下线': {
+        'en': 'Kick-off threshold: When the router detects that the signal strength of the mobile device is lower than this value, it will force the online device to go offline',
+        'ru': 'Порог отключения: когда маршрутизатор обнаруживает, что уровень сигнала мобильного устройства ниже этого значения, он принудительно отключает онлайн-устройство'
+    },
+    '设置”拒绝阈值”和”踢除阈值”，可引导弱信号设备漫游，”拒绝阈值”通常比”踢除阈值”高3-5dBm，适用于以下三种场景': {
+        'en': 'Set \"Rejection Threshold\" and \"Kick Threshold\" to guide weak signal devices to roam. The \"Rejection Threshold\" is usually 3-5 dBm higher than the \"Kick Threshold\", which is applicable to the following three scenarios',
+        'ru': 'Установите \"Порог отклонения\" и \"Порог отключения\", чтобы направить устройства со слабым сигналом в роуминг. \"Порог отклонения\" обычно на 3-5 дБм выше, чем \"Порог отключения\", что применимо к следующим трем сценариям'
+    },
+    '家中有多台路由器时，将弱信号接入设备引导到信号较好的路由器，达到良好上线体验': {
+        'en': 'If there are multiple routers in the home, redirect the weak signal device to the router with a better signal to achieve a better connection',
+        'ru': 'Если в доме есть несколько маршрутизаторов, направьте устройство со слабым сигналом к маршрутизатору с лучшим сигналом, чтобы добиться хорошего качества связи'
+    },
+    '家中有单台路由器时，接入设备在某些位置因为Wi-Fi信号太弱而上网体验差，引导设备切换到3G/4G以保证上网体验': {
+        'en': 'If there is a single router in the home, the mobile device may experience poor Internet access due to weak Wi-Fi signal in some locations. Redirect the device to switch to mobile to achueve better Internet connection',
+        'ru': 'Если в доме один маршрутизатор, мобильные устройствa могут иметь плохой доступ в Интернет из-за слабого сигнала Wi-Fi в некоторых местах. Направьте устройство на переключение на сотовую связь, чтобы обеспечить лучший доступ в Интернет'
+    },
+    '路由器上接入用户较多时，踢除弱信号接入设备，减轻路由器压力，让信号好的设备有更好上网体验': {
+        'en': 'If there are many users connected to the router, devices with weak signal are kicked out to reduce the the router\\\'s load and allow devices with better signal to have a better Internet connection',
+        'ru': 'Когда к маршрутизатору подключено много пользователей, устройства со слабым сигналом отключаются, чтобы уменьшить нагрузку на маршрутизатор и позволить устройствам с хорошим сигналом лучше работать в Интернете'
+    },
+    '警告：开启此功能后，可能会导致某些设备无法接入路由器，影响用户的正常上网体验，建议非专业人士请勿开启': {
+        'en': 'WARNING: After enabling this function, some devices may not be able to connect to the router, affecting the user\\\'s normal Internet experience. It is recommended to not enable it if you do not know for sure',
+        'ru': 'ПРЕДУПРЕЖДЕНИЕ: После включения этой функции некоторые устройства могут не иметь доступ к маршрутизатору,  что повлияет на доступ в Интернет, рекомендуется не включать ее, если вы не уверены в том, что делаете'
+    },
+    '需在-95~-65范围内取值': {
+        'en': 'The value must be in the range of -95 / -65',
+        'ru': 'Значение должно быть в диапазоне -95 / -65'
+    },
+    '需在-100~-70范围内取值': {
+        'en': 'The value must be in the range of  -100 / -70',
+        'ru': 'Значение должно быть в диапазоне -100 / -70'
+    },
+    '需在-85~-55范围内取值': {
+        'en': 'The value must to be in the range of  -85 / -55',
+        'ru': 'Значение должно быть в диапазоне -85 / -55'
+    },
+    '需在-90~-60范围内取值': {
+        'en': 'The value must be in the range of -90 / -60',
+        'ru': 'Значение должно быть ценность в -90 / -60'
+    },
+    '为两种互联网隧道协议，都属于VPN（Virtual Private Network）虚拟专用网络的不同协议分类方式': {
+        'en': ' are two Internet tunneling protocols, belonging to different protocol classification methods of VPN (Virtual Private Network)',
+        'ru': ' - два протокола интернет-туннелирования, принадлежащие к разным методам классификации протоколов виртуальной частной сети VPN (Virtual Private Network)'
+    },
+    '协议类型等信息需要向VPN服务商获取': {
+        'en': 'and protocol type should be provided by VPN service provider',
+        'ru': 'а также тип протокола должны быть предоставлены поставщиком услуг VPN'
+    },
+    '添加服务': {'en': 'Add service', 'ru': 'Добавить сервис'},
+    '请输入地址': {'en': 'Please enter the address', 'ru': 'Пожалуйста, введите адрес'},
+    '路由器外网设置': {'en': 'Router external network settings', 'ru': 'Настройки внешней сети маршрутизатора'},
+    '静态': {'en': 'Static', 'ru': 'Статический'},
+    '原先开着，才关闭': {'en': 'Originally open, then closed', 'ru': 'Изначально открыто, затем закрыто'},
+    '网络方式设置中，请稍等': {
+        'en': 'Network mode is being set up, please wait',
+        'ru': 'Pежим сети устанавливается, пожалуйста, подождите'
+    },
+    '路由器Wi-Fi设置': {'en': 'Router Wi-Fi settings', 'ru': 'Настройки Wi-Fi маршрутизатора'},
+    '无线网络所在区域': {'en': 'Wireless network location', 'ru': 'Расположение беспроводной сети'},
+    '请选择Redmi路由器当前工作的国家/地区': {
+        'en': 'Please select the country where the Redmi router is currently working',
+        'ru': 'Пожалуйста, выберите страну, где работает маршрутизатор Redmi'
+    },
+    '信息': {'en': 'Information', 'ru': 'Информация'},
+    '频段带宽': {'en': 'Band bandwidth', 'ru': 'Полоса пропускания канала'},
+    '信号强度设置': {'en': 'Signal strength setting', 'ru': 'Настройка мощности сигнала'},
+    '开启802.11k/v/r技术后可实现与周边无线路由器设备以及不同频段之间的负载均衡，支持客户端设备在无线路由器设备以及不同频段之间的无缝漫游': {
+        'en': 'After enabling 802.11k/v/r technology you may achieve load balancing with other routers and different frequency bands, creating seamless roaming of client devices between routers',
+        'ru': 'После включения технологии 802.11k/v/r можно добиться распределения нагрузки с другими маршрутизаторами и различными частотными диапазонами, тем самым создать бесшовный роуминг клиентских устройств между роутерами'},
+    '模式': {'en': 'model', 'ru': 'модель'},
+    '访客SSID和2.4G SSID不能相同': {'en': 'SSIDs of Guest and 2.4G WiFi cannot be the same', 'ru': 'SSID гостевой и 2,4ГГц WiFi не могут быть одинаковыми'},
+    '访客SSID和5G SSID不能相同': {'en': 'SSIDs of Guest and 5G WiFi cannot be the same', 'ru': 'SSID гостевой и 5ГГц WiFi не могут быть одинаковыми'},
+    '打开访客Wi-Fi会同时打开': {'en': 'Turning on guest Wi-Fi will also turn on', 'ru': 'Включение гостевого Wifi также включит'},
+    '更多': {'en': 'More', 'ru': 'Более'},
+    '免费上网': {'en': 'Free internet', 'ru': 'Бесплатный интернет'},
+    # bad translation, context is not clear, probably something like money prizes
+    '红包上网': {'en': 'Red envelopes online', 'ru': 'Красные конверты онлайн'},
+    '小米路由器服务许可协议': {
+        'en': 'Xiaomi router service license agreement',
+        'ru': 'Лицензионное соглашение маршрутизатора Xiaomi'
+    },
+    '欢迎使用小米路由器提供的软件及服务！': {
+        'en': 'Welcome the software and services provided by Xiaomi routers!',
+        'ru': 'Добро пожаловать в программное обеспечение и сервисы, предоставленные маршрутизаторами Xiaomi!'},
+    '为了更好的为您提供新一代智能路由器所带来的美好智能生活，我们会根据需要对您在使用小米路由器相关功能的使用情况进行统计，进而通过这些统计数据更好的完善小米路由器产品的功能使用，给您以及其他用户带来更好的体验': {
+        'en': 'In order to provide you a better experience brought by the new generation of smart routers, we will collect statistics of your usage of Xiaomi router-related functions as needed, and then use these statists to improve the performance of Xiaomi router products. We use it to bring you and other users a better experience',
+        'ru': 'Для того, чтобы сделать жизнь лучше благодаря новому поколению интеллектуальных маршрутизаторов, мы будем собирать статистику об использовании вами функций, связанных с маршрутизатором Xiaomi, по мере необходимости, а затем использовать эти статистические данные для повышения производительности маршрутизаторов Xiaomi. Мы используем это для повышения удобства работы для Вас и других пользователей'
+    },
+    '请放心，我们像您一样厌恶个人隐私的泄露，所有统计数据仅包括您在使用小米路由器中对各项功能的使用频率、使用方式等，这些数据以匿名的方式统计，仅用于我们更好的改进产品为用户服务，绝不涉及用户在手机上保存的短信、通话记录、联系人等各种个人隐私数据': {
+        'en': 'Please be rest assured, we hate the disclosure of personal privacy like you. All statistical data only include the frequency and usage of various functions in Xiaomi routers. These data are collected in an anonymous way and are only used for improvment of products, and never involve various personal privacy data such as text messages, call records, contacts and other personal data saved by users on their mobile phones',
+        'ru': 'Пожалуйста, будьте уверены, мы ненавидим разглашение личной конфиденциальности, как и Вы. Все статистические данные включают только частоту использования различных функций маршрутизаторов Xiaomi. Эти данные собираются анонимно и используются только для улучшения продуктов и никогда не включают различные личные данные, такие как: текстовые сообщения, записи звонков, контакты и другие конфиденциальные данные, сохраненные пользователями на их мобильных устройствах'
+    },
+    '年10月': {'en': 'October', 'ru': 'октября'},
+    '《隐私声明和用户协议》': {
+        'en': '\"Privacy Statement and User Agreement\"',
+        'ru': '\"Заявление о конфиденциальности и пользовательское соглашение\"'
+    },
+    '推荐您使用有线中继工作模式': {
+        'en': 'It is recommended to use wired relay mode',
+        'ru': 'Рекомендуется использовать режим проводного ретранслятора'
+    },
+    '该模式可以确保您的Redmi路由器与上': {
+        'en': 'This mode can ensure that your Redmi router is compatible with the',
+        'ru': 'Этот режим может гарантировать, что ваш маршрутизатор Redmi совместим с'
+    },
+    '级路由器处于同一局域网内可以互访': {'en': 'Routers in the same local network can access each other', 'ru': 'Маршрутизаторы в одной локальной сети могут получить доступ друг к другу'},
+    '有线中继工作模式': {'en': 'Wired relay mode', 'ru': 'Режим проводного ретранслятора'},
+    '普通路由器模式': {'en': 'Normal router mode', 'ru': 'Режим обычного маршрутизатора'},
+    '局域网IP将变更为': {'en': 'LAN IP will be changed to', 'ru': 'LAN IP будет изменен на'},
+    '你似乎没有连接网线': {
+        'en': 'Seems you didn\\\'t connect the network cable',
+        'ru': 'Кажется, Вы не подключили сетевой кабель'
+    },
+    '你可以选择所需的路由器工作模式继续设置': {
+        'en': 'You can choose the desired router working mode to continue setting',
+        'ru': 'Вы можете выбрать желаемый режим работы маршрутизатора для продолжения настройки'
+    },
+    '路由器工作模式(创建一个无线网络': {
+        'en': 'Router working mode (create a wireless network',
+        'ru': 'Режим маршрутизатора (создание беспроводной сети'
+    },
+    '中继工作模式(扩展现有的无线网络': {
+        'en': 'Relay mode (extend existing wireless network',
+        'ru': 'Режим ретранслятора (расширение существующей беспроводной сети'
+    },
+    '旧路由器宽带设置已经导入': {
+        'en': 'Internet settings have been imported from the old router',
+        'ru': 'Настройки Интернета были импортированы из старого роутера'
+    },
+    '请输入网络运营商提供的用户名与密码': {
+        'en': 'Please enter the username and password provided by the Internet provider',
+        'ru': 'Пожалуйста, введите имя пользователя и пароль, предоставленные провайдером Интернета'
+    },
+    '返回': {'en': 'Return', 'ru': 'Назад'},
+    '无需拨号(DHCP方式': {'en': 'Automatic settings (DHCP server', 'ru': 'Автоматическая настройка (сервер DHCP'},
+    '可通过以下方式以找回宽带密码': {
+        'en': 'Internet password can be retrieved by the following ways',
+        'ru': 'Пароль Интернета может быть получен следующими способами'
+    },
+    '联系宽带服务商找回密码': {
+        'en': 'Contact Internet service provider to retrieve password',
+        'ru': 'Свяжитесь с провайдером Интернета для получения пароля'},
+    '中国电信宽带客服': {'en': 'China Telecom Broadband Customer Service'},
+    '中国联通电信客服': {'en': 'China Unicom Telecom Customer Service'},
+    '中国移动宽带客服': {'en': 'China Mobile Broadband Customer Service'},
+    '歌华有线客服': {'en': 'Songhua wired customer service'},
+    '艾普宽带客服': {'en': 'Epp Broadband Customer Service'},
+    '长城宽带客服': {'en': 'Great Wall Broadband Customer Service'},
+    '有线通客服': {'en': 'Cable access customer service'},
+    '宽带通客服': {'en': 'Broadband Customer Service'},
+    '铁通宽带客服': {'en': 'Tietong broadband customer service'},
+    '方正宽带': {'en': 'Founded broadband'},
+    '正在拨号，请稍候': {'en': 'Connecting, please wait', 'ru': 'Подключение, пожалуйста, подождите'},
+    '拨号失败（错误码': {'en': 'Connection failure (error code', 'ru': 'Ошибка подключения (код ошибки'},
+    '请检查用户名密码输入是否有误，或联系运营商确认是否欠费': {
+        'en': 'Please check whether the username and password are entered correctly, or contact the provider to confirm whether the account is not suspended',
+        'ru': 'Пожалуйста, проверьте, верно ли введены пароль и имя пользователя или свяжитесь с провайдером, чтобы подтвердить, что учетная запись не заблокирована'},
+    '重新输入': {'en': 'Re-enter', 'ru': 'Введите повторно'},
+    '联系运营商': {'en': 'Contact provider', 'ru': 'Свяжитесь с провайдером'},
+    '跳过此步骤': {'en': 'Skip the step', 'ru': 'Пропустить шаг'},
+    '联系运营商找回用户名与密码': {
+        'en': 'Contact provider to retrieve username and password',
+        'ru': 'Свяжитесь с провайдером, чтобы получить имя пользователя и пароль'},
+    '艾普宽带': {'en': 'Aipu Broadband'},
+    '鹏博士': {'en': 'Dr. Peng'},
+    '更多运营商联系方式': {'en': 'More providers', 'ru': 'Другие провайдеры'},
+    '从旧路由器导入宽带设置': {
+        'en': 'Import Internet settings from old router',
+        'ru': 'Импортировать параметры Интернета из старого роутера'
+    },
+    '请选择运营商': {'en': 'Please select the provider', 'ru': 'Пожалуйста, выберите провайдера'},
+    '省会': {'en': 'Province Capital', 'ru': 'Столица провинции'},
+    '城市': {'en': 'Сity', 'ru': 'Город'},
+    '运营商': {'en': 'Provider', 'ru': 'Провайдер'},
+    '安徽': {'en': 'Anhui', 'ru': 'Аньхой'},  # context is not clear
+    '安ee徽': {'en': 'An EE emblem'},  # context is not clear
+    '安ssssss徽': {'en': 'Ann SSSSSS emblem'},  # context is not clear
+    '运营商联系方式': {'en': 'Provider contacts', 'ru': 'Контакты провайдеры'},
+    '错误码：': {'en': 'error code:', 'ru': 'код ошибки:'},
+    '请设置Wi-Fi名称与密码': {
+        'en': 'Please set Wi-Fi name and password',
+        'ru': 'Пожалуйста, установите имя Wi-Fi и пароль'
+    },
+    '开启穿墙模式': {'en': 'Enable through wall mode', 'ru': 'Включить режим через стену'},
+    '需要拨号': {'en': 'Need to connect', 'ru': 'Требует подключения'},
+    '第一步：请将旧路由器接上电源并开启': {
+        'en': 'Step 1: Please plug in the old router and turn it on',
+        'ru': 'Шаг 1. Подключите старый маршрутизатор и включите его'
+    },
+    '旧路由器电源': {'en': 'old router power supply', 'ru': 'блок питания от старого роутера'},
+    '第二步：请将网线接到旧路由器WAN口': {
+        'en': 'Step 2: Please connect the network cable to the WAN port of the old router',
+        'ru': 'Шаг 2. Подключите сетевой кабель к порту WAN старого маршрутизатора'
+    },
+    '旧路由器WAN口': {'en': 'old router WAN port', 'ru': 'WAN-порт старого роутера'},
+    '第三步：请将网线的另一头接到Redmi路由器任一网口': {
+        'en': 'Step 3: Please connect the other end of the network cable to any network port of the Redmi router',
+        'ru': 'Шаг 3: Подключите другой конец сетевого кабеля к любому сетевому порту маршрутизатора Redmi'
+    },
+    '立即导入': {'en': 'Import now', 'ru': 'Импортировать сейчас'},
+    '请稍候...正在从旧路由器导入配置': {
+        'en': 'Please wait...Importing configuration from old router',
+        'ru': 'Пожалуйста, подождите... Импорт конфигурации со старого маршрутизатора'
+    },
+    '从旧路由器导入宽带设置失败': {
+        'en': 'Importing Internet settings from old router fails',
+        'ru': 'Не удается импортировать настройки интернета со старого маршрутизатора'
+    },
+    '从旧路由器导入宽带设置成功': {
+        'en': 'Successfully imported Internet settings from old router',
+        'ru': 'Настройки Интернета со старого маршрутизатора успешно импортированы'
+    },
+    '提示：请将Redmi路由器与旧路由器之间的网线断开 并确定网线已经接上蓝色WAN口': {
+        'en': 'Tip: Please disconnect the network cable between the Redmi router and the old router and make sure that the network cable is connected to the blue WAN port',
+        'ru': 'Совет: отсоедините сетевой кабель между маршрутизатором Redmi и старым маршрутизатором и убедитесь, что сетевой кабель подключен к синему порту WAN'
+    },
+    '路由器WAN口': {'en': 'Router WAN port', 'ru': 'Wan порт маршрутизатора'},
+    '请设置管理密码': {
+        'en': 'Please set an administrative password',
+        'ru': 'Пожалуйста, установите административный пароль'
+    },
+    '公司': {'en': 'Company', 'ru': 'Компания'},
+    '自定义': {'en': 'customize', 'ru': 'настроить'},
+    '与Wi-Fi 密码相同': {'en': 'The same as Wi-Fi password', 'ru': 'Такой же, как и пароль Wi-Fi'},
+    '配置完成': {'en': 'Configuration complete', 'ru': 'Конфигурация завершена'},
+    '正在创建双频': {'en': 'Creating dual frequency', 'ru': 'Создание двойной частоты'},
+    '正在创建': {'en': 'Сreating', 'ru': 'Создание'},
+    '信号穿透力强，覆盖范围广': {'en': 'Strong signal penetration and wide coverage', 'ru': 'Сильное проникновение сигнала и широкий охват'},
+    '速度快，适合距离路由器较近的设备': {
+        'en': 'Fast, suitable for equipment close to router',
+        'ru': 'Быстрый, подходит для оборудования рядом с маршрутизатором'
+    },
+    '路由器配置完成后，即可连接网络': {
+        'en': 'After the router is configured, you can connect to the network',
+        'ru': 'После настройки маршрутизатора можно подключаться к сети'
+    },
+    '请将电脑连接WiFi后再进行下一步': {
+        'en': 'Please connect your computer to WiFi before making the next step',
+        'ru': 'Прежде чем перейти к следующему шагу, подключите компьютер к сети Wi-Fi.'
+    },
+    '路由器配置完成，我们为你准备': {
+        'en': 'Router configuration is complete, it is ready for you',
+        'ru': 'Конфигурация маршрутизатора завершена, он готов для вас'
+    },
+    '提示：以上设置可以在APP的“路由设置”中调整': {
+        'en': 'Tip: The above settings can be adjusted in the \"Route Settings\" of the APP',
+        'ru': 'Совет: приведенные выше настройки могут быть отрегулированы в \"Настройках маршрутизатора\" приложения'
+    },
+    '下载小米': {'en': 'Download Xiaomi', 'ru': 'Скачать Xiaomi'}, # TODO up to here
+    '使用手机客户端，全面体验智能路由器功能': {
+        'en': 'Use the mobile app to fully use the functions of the router',
+        'ru': 'Используйте мобильное приложение, чтобы полностью использовать функции интеллектуального маршрутизатора.'
+    },
+    '重要提示：如果上级路由器不是Redmi路由器，它分配给中继路由器的管理后台地址可能会改变，因此会造成无法访问后台，建议安装小米路由手机客户端，绑定当前路由器，即可通过手机使用管理功能': {
+        'en': 'Important note: If the upper-level router is not a Redmi router, the address it assigns to the relay router may be changed, which will result in inability to access the management console. It is recommended to install the mobile client for Xiaomi router and bind the current router to use the management console via the mobile phone',
+        'ru': 'Важно: если маршрутизатор верхнего уровня не является маршрутизатором Redmi, то адрес, который он назначает маршрутизатору-ретранслятору, может измениться, что приведет к невозможности доступа к панели управления. Рекомендуется установить мобильный клиент маршрутизатора Xiaomi и привязать текущий маршрутизатор, чтобы использовать его через мобильный телефон'
+    },
+    '开始上网': {'en': 'Get online', 'ru': 'Выйти в интернет'},
+    '请选择或输入需要中继的无线网络和密码': {
+        'en': 'Please select or enter the wireless network and password to be relayed',
+        'ru': 'Пожалуйста, выберите или введите беспроводную сеть и пароль для ретрансляции'
+    },
+    '请设置新的WI-FI名称和密码': {
+        'en': 'Please set a new WI-FI name and password',
+        'ru': 'Пожалуйста, установите новое имя Wi-Fi и пароль'
+    },
+    '请设置有线中继模式的Wi-Fi名称和密码': {
+        'en': 'Please set the Wi-Fi name and password for wired repeater mode',
+        'ru': 'Пожалуйста, установите имя и пароль Wi-Fi для режима проводного ретранслятора'
+    },
+    '有线中继模式说明': {'en': 'Wired repeater mode description', 'ru': 'Описание режима проводного ретранслятора'},
+    '确保Redmi路由器的WAN口与旧路由器通过网线连接': {
+        'en': 'Make sure that the WAN port of the Redmi router is connected to the old router through a network cable',
+        'ru': 'Убедитесь, что WAN-порт роутера Redmi подключен к старому роутеру через сетевой кабель'
+    },
+    '路由器检测未连接到网线 请确认蓝色WAN口是否连接正常': {
+        'en': 'Router detection is not connected to the network cable, please confirm if the blue WAN port is connected properly',
+        'ru': 'Маршрутизатор не может обнаружить, подключение к сетевому кабелю, проверьте, нормально ли подключен синий порт WAN'
+    },
+    '出错了': {'en': 'error', 'ru': 'ошибка'},
+    '比价助手': {'en': 'Price comparison assistant', 'ru': 'Ассистент сравнения цен'},  # context is unclear
+    '创建成功，请手动连接': {
+        'en': 'Creation is successful, please connect manually',
+        'ru': 'Создано успешно, подключитесь вручную'
+    },
+    '有ip冲突': {'en': 'IP conflict', 'ru': 'IP конфликт'},
+    '去掉名字输入框，用ssid代替': {
+        'en': 'Remove the name input box and replace it with ssid',
+        'ru': 'Удалите поле ввода имени и замените его на ssid'
+    },
+    '小时安全防护 一键拉黑蹭网老王': {'en': 'Hourly security protection', 'ru': 'Почасовая защита'},
+    '暂不需要': {'en': 'Not needed yet', 'ru': 'Пока не нужно'},
+    '您需要使用小米WiFi APP对路由器进行初始化设置': {
+        'en': 'You need to use Xiaomi WiFi App to initialize the router',
+        'ru': 'Вам необходимо использовать приложение Xiaomi WiFi для инициализации маршрутизатора'
+    },
+    '请扫描上方二维码，下载安装小米': {
+        'en': 'Please scan the QR code above to download and install Xiaomi App',
+        'ru': 'Пожалуйста, отсканируйте QR-код, чтобы загрузить и установить приложение Xiaomi'
+    },
+    '只需简单设置，立即开启全新智能路由器新体验！': {
+        'en': 'Just set it simply and immediately turn on the new router for the new experience!',
+        'ru': 'Просто установите его и сразу же включите новый маршрутизатор для новых впечатлений!'
+    },
+    '请先阅读': {'en': 'Please read first', 'ru': 'Пожалуйста, прочитайте'},
+    '和': {'en': 'and', 'ru': 'и'},
+    '隐私协议': {'en': 'Privacy Agreement', 'ru': 'Соглашение о конфиденциальности'},
+    '后选择是否同意': {'en': 'Choose whether you agree', 'ru': 'Выберите, согласны ли вы'},
+    '同意，继续': {'en': 'Agree, continue', 'ru': 'Согласен, продолжить'},
+    '加入': {'en': 'join in', 'ru': 'Присоединяйтесь'},
+    '用户体验改进计划': {'en': '"User Experience Improvement Plan"', 'ru': 'Программа улучшения пользовательского опыта'},
+    '数字输入格式为': {'en': 'The input format of digits is', 'ru': 'Формат ввода числа'},
+    '数字前面好像有多余的': {'en': 'There are extra numbers', 'ru': 'Есть лишние цифры'},
+    '日期输入格式为': {'en': 'Date input format', 'ru': 'Формат ввода даты'},
+    '对不起，Redmi路由器目前不支持 IE 6 内核的浏览器': {
+        'en': 'Sorry, Redmi routers do not currently support browsers with IE 6 core',
+        'ru': 'Извините, но маршрутизатор Redmi в настоящее время не поддерживает браузеры с ядром IE 6'},
+    '请将浏览器': {'en': 'Please update your browser ', 'ru': 'Пожалуйста, обновите свой браузер '},
+    '升级至最新版本': {'en': 'to the latest version', 'ru': 'до последней версии'},
+    '或使用其他浏览器如': {'en': 'Or use other browsers such as ', 'ru': 'Или используйте другие браузеры, такие как '},
+    '路由器端口转发': {'en': 'Router port forwarding', 'ru': 'Переадресация портов маршрутизатора'},
+    '编辑时增加参数': {'en': 'Add parameters when editing', 'ru': 'Добавить параметры при редактировании'},
+    '设置cookie方法': {'en': 'Set the cookie method', 'ru': 'Установить метод cookie'},
+    '将date设置为n天以后的时间': {'en': 'Set the date to N days later', 'ru': 'Установите дату на N дней позже'},
+    '获取cookie方法': {'en': 'Get the cookie method', 'ru': 'Получить метод cookie'},
+    '设备限速状态': {'en': 'Device speed limit', 'ru': 'Ограничение скорости оборудования'},
+    '是一种智能带宽分配功能，可以帮助你自动为各设备设置限速，让在线视频与网络游戏同时享有畅快体验！': {
+        'en': 'It is an intelligent bandwidth allocation function that can help to automatically set speed limits for each device, so online videos and online games can work smoothly simultaneously!',
+        'ru': 'Это интеллектуальная функция распределения пропускной способности, которая может помочь автоматически установить ограничения скорости для каждого устройства, чтобы онлайн-видео и онлайн-игры могли работать одновременно без задержек!'
+    },
+    '路由器已启动安全恢复模式': {
+        'en': 'Router has started the safe recovery mode',
+        'ru': 'Маршрутизатор начал безопасный режим восстановления'
+    },
+    '系统启动失败，可一键恢复': {
+        'en': 'The system failed to start, you can recover with one click',
+        'ru': 'Запуск системы не удался, вы можете восстановить в один клик'
+    },
+    '系统启动失败，无内置硬盘': {
+        'en': 'The system failed to start, no built-in hard disk',
+        'ru': 'Запуск системы не удался, нет встроенного жесткого диска'
+    },
+    '哎呀，竟然启动失败了……': {'en': 'Oops, it failed to start ...', 'ru': 'Ой, не удалось запустить ...'},
+    '别担心，Redmi路由器很坚强，当前的安全恢复模式也可以一样正常上网！': {
+        'en': 'Don\\\'t worry, the Redmi router is very powerful, and the current security recovery mode allows also be on the Internet as usual!',
+        'ru': 'Не волнуйтесь, маршрутизатор Redmi очень мощный, и текущей режим безопасного восстановления позволит быть в Интернете, как обычно!'
+    },
+    '但是，Redmi路由器在没有硬盘的情况下无法支持更多功能': {
+        'en': 'However, the Redmi router cannot support more functions without a hard drive',
+        'ru': 'Однако маршрутизатор Redmi не может поддерживать большинство функций без жесткого диска'
+    },
+    '建议您安全断开电源，重新连接硬盘之后再次进入安全恢复模式，可以一键恢复系统': {
+        'en': 'It is recommended To safely disconnect the power supply, reconnect the hard disk and enter the safe recovery mode again, so you can restore the system in one click',
+        'ru': 'Рекомендуется безопасно отключить питание, снова подключить жесткий диск и войти в безопасный режим восстановления заново, тогда восстановить систему можно одним щелчком мыши'
+    },
+    '您还可以一键恢复系统，和升级一样简单': {
+        'en': 'You can also restore your system in one click, as simple as upgrading',
+        'ru': 'Вы можете восстановить свою систему одним щелчком мыши - это также просто, как и обновить'
+    },
+    '通过OTA恢复系统': {'en': 'Recovery system through OTA', 'ru': 'Восстановление системы с помощью OTA'},
+    '开启后，路由器USB接口将工作在3.0模式下。（USB3.0使用时会对2.4G Wi-Fi有些影响）': {
+        'en': 'After turning on, the USB interface will work in 3.0 mode. (USB3.0 will have some impact on 2.4G Wi-Fi)',
+        'ru': 'После включения, USB-интерфейс роутера будет работать в режиме 3.0. (USB3.0 окажет некоторое влияние на 2,4G Wi-Fi)'
+    },
+    '立即下载客户端': {'en': 'Download the app now', 'ru': 'Скачайте приложение прямо сейчас'},
+    '如何玩转小米路由存储': {
+        'en': 'How to play with Xiaomi router storage',
+        'ru': 'Как использовать хранилище роутера Xiaomi'
+    },
+    '文件共享与访问': {'en': 'File sharing and access', 'ru': 'Обмен файлами и общий доступ'},
+    '安装PC和Mac客户端，可以轻松访问Redmi路由器硬盘': {
+        'en': 'Install PC and Mac clients for easy access to the Redmi router hard drive',
+        'ru': 'Установите клиенты для PC и Mac, и вы сможете легко получить доступ к жесткому диску маршрутизатору Redmi'
+    },
+    '安装手机APP，你可以用更酷的方式浏览照片和影片': {
+        'en': 'Install the mobile APP, you can browse photos and videos more easily',
+        'ru': 'Установите мобильное приложение, и вы сможете просматривать фотографии и видео более удобным способом'
+    },
+    '文件下载': {'en': 'document dowload', 'ru': 'загрузка документа'},
+    '通过手机、电脑客户端，你可以随时随地添加下载任务': {
+        'en': 'Through the mobile phone and computer client, you can add download tasks anytime, anywhere',
+        'ru': 'Через клиент для мобильного телефона и компьютера вы можете добавлять задачи загрузки в любое время и в любом месте'
+    },
+    '文件备份': {'en': 'File backup', 'ru': 'Резервное копирование файлов'},
+    '开启相册备份后，回家手机上的照片将自动备份到Redmi路由器上，无需担心手机空间存储不足或数据丢失': {
+        'en': 'If the album backup is turned on, the photos on the phone will be automatically backed up to the Redmi router when you come home, so there is no need to worry about insufficient storage space on the phone or data loss',
+        'ru': 'Если резервное копирование альбома включено, фотографии на телефоне, будут автоматически резервироваться на маршрутизаторе Redmi когда вы приходите домой. Поэтому вам не нужно беспокоиться о нехватке места на телефоне или потере данных'
+    },
+    '文件类型存储统计': {'en': 'File type storage statistics', 'ru': 'Статистика хранения по типам файлов'},
+    '总容量': {'en': 'total capacity', 'ru': 'Общая емкость'},
+    '已用': {'en': 'used', 'ru': 'использовано'},
+    '正在索引中': {'en': 'Indexing', 'ru': 'Индексация'},
+    '未检测到存储设备，请将USB存储设备连接到你的Redmi路由器': {
+        'en': 'Storage device is not detected, please connect a USB storage device to your Redmi router',
+        'ru': 'Запоминающее устройство не обнаружено. Подключите USB-накопитель к маршрутизатору Redmi'
+    },
+    '存储': {'en': 'storage', 'ru': 'хранилище'},
+    '文件系统': {'en': 'File system', 'ru': 'Файловая система'},
+    '硬盘接口': {'en': 'Hard disk interface', 'ru': 'Интерфейс жесткого диска'},
+    '构造一个含有目标参数的正则表达式对象': {
+        'en': 'Constructs a regular expression object with target parameters',
+        'ru': 'Создает объект регулярного выражения с целевыми параметрами'
+    },
+    '匹配目标参数': {'en': 'Match target parameter', 'ru': 'Соответствует целевому параметру'},
+    '返回参数值': {'en': 'Return parameter value', 'ru': 'Возвращает значение параметра'},
+    '本地管理Redmi路由器': {'en': 'Redmi router local management', 'ru': 'Локальное управление маршрутизатором Redmi'},
+    '设置系统语言': {'en': 'Set system language', 'ru': 'Установить язык системы'},
+    '系统语言': {'en': 'System language', 'ru': 'Язык системы'},
+    '当前系统时间': {'en': 'Current system time', 'ru': 'Текущее системное время'},
+    '当前系统时区': {'en': 'Current system time zone', 'ru': 'Текущий часовой пояс системы'},
+    '如需修改时区，请切换到主Mesh路由进行修改，会自动同步到子Mesh路由': {
+        'en': 'If you need to modify the time zone, please switch to the main mesh router, and it will automatically synchronize the sub mesh router',
+        'ru': 'Если вам нужно изменить часовой пояс, переключитесь на основной маршрутизотор MESH сети, и он автоматически синхронизирует зависимый маршрутизатор'},
+    '系统信息': {'en': 'system message', 'ru': 'Системное сообщение'},
+    '恢复出厂设置操作会抹掉当前路由器的所有设置，建议您先进行配置备份再恢复出厂设置': {
+        'en': 'Restoring the factory settings will erase all the current settings of the router. It is recommended to make a backup before restoring the factory settings',
+        'ru': 'Восстановление заводских настроек приведет к удалению всех текущих настроек маршрутизатора. Рекомендуется выполнить резервное копирование конфигурации перед восстановлением заводских настроек'},
+    '网络拓扑图': {'en': 'Network topology', 'ru': 'Топология сети'},
+    '路由器网络拓扑图': {'en': 'Router network topology', 'ru': 'Топология сети роутера'},
+    '成为该为各位各位': {'en': 'The right one for all', 'ru': 'Правильный для всех'},
+    '放大器': {'en': ' Amplifier', 'ru': ' Усилитель'},
+    '黑色': {'en': 'Black', 'ru': 'черный'},
+    '白色': {'en': 'White', 'ru': 'белый'},
+    '橘色': {'en': 'Orange', 'ru': 'оранжевый'},
+    '绿色': {'en': 'Green', 'ru': 'зеленый'},
+    '蓝色': {'en': 'Blue', 'ru': 'синий'},
+    '粉色': {'en': 'Pink', 'ru': 'розовый'},
+    '调整位置': {'en': 'Adjust position', 'ru': 'Отрегулируйте положение'},
+    '请使用小米路由器App进行管理': {
+        'en': 'Please use Xiaomi Router App to manage',
+        'ru': 'Пожалуйста, используйте приложение Xiaomi Router для управления'
+    },
+    '由接口数据创建路由器节点': {
+        'en': 'Create router nodes from interface data',
+        'ru': 'Создать узлы маршрутизаторов из данных интерфейса'
+    },
+    '正在安装固件': {'en': 'Installing firmware', 'ru': 'Установка прошивки'},
+    '请不要切断路由器电源': {
+        'en': 'Please do not turn off the power of the router',
+        'ru': 'Пожалуйста, не отключайте питание роутера'
+    },
+    '固件安装失败,请刷新重试': {
+        'en': 'Firmware installation failed, please refresh and try again',
+        'ru': 'Не удалось установить прошивку, обновите и повторите попытку'
+    },
+    '升级失败，请重试': {
+        'en': 'Upgrade failed, please try again',
+        'ru': 'Обновление не удалось, пожалуйста, попробуйте еще раз'
+    },
+    '升级路由器固件': {'en': 'Upgrade router firmware', 'ru': 'Обновление прошивки маршрутизатора'},
+    '路由器中继模式切换': {'en': 'Router relay mode switch', 'ru': 'Переключатель режима ретранслятор - маршрутизатор'},
+    '中继模式下不允许关闭': {
+        'en': 'Shutdown is not allowed in relay mode',
+        'ru': 'Выключение не разрешено в режиме ретранслятора'
+    },
+    '中继': {'en': 'Relay', 'ru': 'Ретранслятор'},
+    '关闭2.4 Wi-Fi会同时关闭访客': {
+        'en': 'Turning off 2.4 Wi-Fi will also turn off the guest',
+        'ru': 'Отключение 2.4 Wi-Fi также отключит гостевой'
+    },
+    '此SSID会导致某些设备支持不佳': {
+        'en': 'Some equipment may not support this SSID',
+        'ru': 'Некоторое оборудование может не поддерживать этот SSID'
+    },
+    '新改版': {'en': 'New revision', 'ru': 'Новая версия'},
+    '主mesh': {'en': 'Mesh master', 'ru': 'Главное устройство Mesh'},
+    '子mesh': {'en': 'Mesh slave', 'ru': 'Зависимое устройство Mesh'},
+    '输入值太大，最大允许': {
+        'en': 'The value is too large, the maximum allowed',
+        'ru': 'Значение слишком велико, максимально допустимое'
+    },
+    '最多允许': {'en': 'Allowed at most', 'ru': 'Разрешено не более'},
+    '请至少输入': {'en': 'Please enter at least', 'ru': 'Пожалуйста, введите по крайней мере'},
+    '个字': {'en': 'words', 'ru': 'слов'},
+    '个字节': {'en': 'bytes', 'ru': 'байт'},
+    '拨号中': {'en': 'Connecting', 'ru': 'Подключение'},
+    '拨号出错': {'en': 'Connection error', 'ru': 'Ошибка подключения'},
+    '从旧路由器取回pppoe信息': {
+        'en': 'Retrieve PPPoE info from old router',
+        'ru': 'Получить информацию PPPoE из старого роутера'
+    },
+    '正在导入旧路由器配置': {'en': 'Importing old router configuration', 'ru': 'Импортирование конфигурации старого роутера'},
+    '口未连接': {'en': 'Port is not connected', 'ru': 'Порт не подключен'},
+    '操作失败': {'en': 'operation failed'},
+    '国家码有误，请重新选择': {'en': 'Incorrect country code, please select again'},
+    '用户协议': {'en': 'User Agreement', 'ru': 'Пользовательское Соглашение'}
 }
 
 anti_tracking = ['http://api.miwifi.com/res_stat', 'http://broker.miwifi.com']

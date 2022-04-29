@@ -10,8 +10,8 @@ Main features:
 
 * translation to any language by just adding translated strings (currently only English and Russian are implemented)
 * prevents tracking of user actions in WebUI (does not prevent from sending telemetry to Xiaomi)
-* small footprint - Docker image is less than 75 Mb, idle RAM usage - ~54Mb, may probably run on Raspberry or other 
-small computers as a separate service (not tested yet)
+* small footprint - Docker image is less than 75 Mb, idle RAM usage - ~54Mb, may run on Raspberry, Orange Pi or other 
+small computers as a separate service. 
 * ability to check the main language of browser and automatically provide proper translation; the user can change the 
 language 'on the fly' by adding language code to URL
 
@@ -22,8 +22,9 @@ Current status of project:
 it is very glitchy and has limited functionality)
 * Most of the screens are checked, but still may be some HTML formatting and CSS issues as well as grammar, spelling, 
 syntax and not proper translations
-* Tested on Xiaomi Redmi AC2100 router (firmware v.1.0.14 and v.2.0.23) and Chrome v.97 , Firefox v.96, Edge v.97; 
+* Tested on Xiaomi Redmi AC2100 router (firmware v.1.0.14 and v.2.0.23) and Chrome v.97 , Firefox v.99, Edge v.97; 
 Android Chrome and Firefox
+* Tested on Orange Pi R1 plus LTS (arm64) as a Docker container - average translation speed for main web pages ~215 ms.
 
 ## Warnings and disclaimer
 
@@ -50,7 +51,17 @@ flask run
 ```
 Open http://localhost:5000/ in browser 
 
-### Run as a Docker container
+### Run as a Docker container from registry
+
+Docker images for linux/amd64, linux/arm64, and linux/arm/v7 are in Docker public registry
+
+```commandline
+docker container run -d --restart unless-stopped -e MI_ROUTER_IP=192.168.XXX.YYY -p 5000:5000 skser/miproxytranslator:latest 
+```
+`-e MI_ROUTER_IP=192.168.XXX.YYY` is needed if router is in AP mode or its address miwifi.com is not working somehow.
+Change the address to your actual one
+
+### Run as a Docker container built locally
 ```commandline
 docker build -t miproxytranslator .
 docker container run -d -p 5000:5000 miproxytranslator
@@ -63,8 +74,8 @@ Open http://localhost:5000/ (or connect to the server where this container is ru
 
 ### Setting up router's IP
 Usually, Xiaomi router responds to miwifi.com address. Check if it works in your local network. This address is set up 
-by default. If for any reason this does not work for you, the IP address of the router should be set up as an 
-environment variable `MI_ROUTER_IP` before starting the server.
+by default. If for any reason (router in AP mode for example) this does not work for you, the IP address of the router 
+should be set up as an environment variable `MI_ROUTER_IP` before starting the server.
 
 Locally in Windows you can do it by
 ```commandline
@@ -99,8 +110,8 @@ to restore it, add `/resetlang` at the end of any URL
 * перевод на любой язык посредством добавления переведенных строк (на текущий момент сделаны только английский и русский)
 * предотвражает отслеживание действий пользователя в веб-интерфейсе роутера (но не предотвращает от отсылки телеметрии 
  в Xiaomi)
-* небольшой размер - образ Docker занимает менее 75 Мб, потребление памяти в простое - ~54Мб. Вероятно, может быть 
-запущен на Raspberry или других небольших компьютерах как отдельный сервис (не проверялось)
+* небольшой размер - образ Docker занимает менее 75 Мб, потребление памяти в простое - ~54Мб. Может быть запущен на 
+Raspberry, Orange Pi или других небольших компьютерах как отдельный сервис
 * возможность проверки основного языка браузера и автоматически выдавать нужный язык перевода из имеющихся; пользователь
 может изменить язык перевода "на лету" добавлением кода в адресную строку
 
@@ -111,8 +122,10 @@ to restore it, add `/resetlang` at the end of any URL
  крайне глючная и имеет ограниченный функционал - ей лучше не пользоваться, даже напрямую с роутера)
 * Большинство страниц проверены, но все еще могут быть проблемы с HTML форматированием и CSS, также могут быть 
 грамматические, синтаксические и смысловые ошибки
-* Проверялось на Xiaomi Redmi AC2100 роутер (ПО v.1.0.14 и v.2.0.23) и Chrome v.97, Firefox v.96, Edge v.97; Android 
+* Проверялось на Xiaomi Redmi AC2100 роутер (ПО v.1.0.14 и v.2.0.23) и Chrome v.97, Firefox v.99, Edge v.97; Android 
 Chrome и Firefox
+* Проверена работа на Orange Pi R1 plus LTS (arm64) как Docker контейнер. Среднее время перевода для основных веб-страниц
+составило ~215 мс.
 
 ## Предупреждения и отказ от обязательств
 
@@ -130,6 +143,16 @@ Chrome и Firefox
 
 Программа всего лишь играет роль прокси-сервера и заменяет строки на китайском языке в ответах роутера. Прокси не делает
 никаких вызовов, кроме как на адрес роутера, поэтому никаких утечек данных не должно происходить.
+
+### Запуск как Docker контейнер из Docker registry
+
+Docker образы для платформ linux/amd64, linux/arm64, и linux/arm/v7 находятся в публичном Docker registry
+
+```commandline
+docker container run -d --restart unless-stopped -e MI_ROUTER_IP=192.168.XXX.YYY -p 5000:5000 skser/miproxytranslator:latest 
+```
+`-e MI_ROUTER_IP=192.168.XXX.YYY` требуется, если роутер работает в режиме точки доступа или не откликается на адрес 
+miwifi.com по какой-либо причине. Измените этот адрес на адрес роутера в Вашей сети
 
 ### Запуск локально в venv
 ```commandline
@@ -153,8 +176,9 @@ docker container run --cpus="1" --memory="64m" -d -p 5000:5000 miproxytranslator
 
 ### Настройка IP адреса роутера
 Обычно, роутеры Xiaomi откликаются на адрес miwifi.com в локальной сети. Проверьте, работает ли это в Вашей сети.
-Это адрес забит по умолчанию в прокси. Если по каким-то причинам он не работает, необходимо принудительно задать
-IP адрес роутера как переменную окружения `MI_ROUTER_IP` до запуска прокси
+Это адрес забит по умолчанию в прокси. Если по каким-то причинам он не работает (например, если роутер работает в режиме
+точки доступа), необходимо принудительно задать IP адрес роутера как переменную окружения `MI_ROUTER_IP` до запуска 
+прокси
 
 Локально в Windows это можно сделать как
 ```commandline

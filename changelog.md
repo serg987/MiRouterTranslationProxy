@@ -1,7 +1,13 @@
+v.0.3.3
+- add more translations
+- add support for cross-platform docker building and pushing to registry
+- translation utility for source filed is changed to make translation semi automated
+- tested on Orange Pi R1 plus RTS (arm64)
+
 v.0.3.2
 - add more translations based on Redmi AC2100 ROM v.1.0.14 and wireless relay mode
 - fix some translations
-- fixed bug introduced in v.0.3.1 - malformed tracking linked (antitracking replacement is separated now)
+- fixed bug introduced in v.0.3.1 - malformed tracking links (antitracking replacement is separated now)
 
 v.0.3.1
 - due to high number of lines, timezones translations moved to a separate file
